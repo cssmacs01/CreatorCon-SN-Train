@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="The ServiceNow Express">ad969b0987a24110a34aecad3fbb359e</macroponent>
+        <name>Train Stop 1</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    // var instance = 'https://stevemccluskeydemoq.service-now.com/';
+    // var api = '/api/x_snc_creatorcon_0/train_api_calls/train';
+    api.data.train_api.execute({
+        train: "1"
+    });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-28 22:22:21</sys_created_on>
+        <sys_id>5dffef4187664110a34aecad3fbb356b</sys_id>
+        <sys_mod_count>48</sys_mod_count>
+        <sys_name>Train Stop 1</sys_name>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_update_name>sys_ux_client_script_5dffef4187664110a34aecad3fbb356b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-29 15:33:29</sys_updated_on>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</application>
+        <file_path/>
+        <instance_id>6dbf685adbfe681007072f17d4961976</instance_id>
+        <instance_name>stevemccluskeydemoq</instance_name>
+        <name>sys_ux_client_script_5dffef4187664110a34aecad3fbb356b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="The ServiceNow Express"&gt;ad969b0987a24110a34aecad3fbb359e&lt;/macroponent&gt;&lt;name&gt;Train Stop 1&lt;/name&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    // var instance = 'https://stevemccluskeydemoq.service-now.com/';
+    // var api = '/api/x_snc_creatorcon_0/train_api_calls/train';
+    api.data.train_api.execute({
+        train: "1"
+    });
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-03-28 22:22:21&lt;/sys_created_on&gt;&lt;sys_id&gt;5dffef4187664110a34aecad3fbb356b&lt;/sys_id&gt;&lt;sys_mod_count&gt;48&lt;/sys_mod_count&gt;&lt;sys_name&gt;Train Stop 1&lt;/sys_name&gt;&lt;sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0"&gt;3570fa5587ca0110a34aecad3fbb35e0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CreatorCon 22 - SN Train"&gt;3570fa5587ca0110a34aecad3fbb35e0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_5dffef4187664110a34aecad3fbb356b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-29 15:33:29&lt;/sys_updated_on&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-213789850</payload_hash>
+        <record_name>Train Stop 1</record_name>
+        <reverted_from/>
+        <source>b170fa5587ca0110a34aecad3fbb35e5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-29 15:33:29</sys_created_on>
+        <sys_id>35fb135d1b6e811093c1a685624bcb47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17fd64f82f50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-29 15:33:29</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>f9fb135dc86e81107a37eab9f766f246</update_guid>
+        <update_guid_history>f9fb135dc86e81107a37eab9f766f246:-213789850,675bdfd9b26e81100ca642bf4304a861:552305684,cb651f11456e8110aeaaaf6741afce19:1960516435,12b497dd092e811053cbe63fb8e9f7ee:-2034150083,3a049f5de72e81105ea807d738218aa7:-2024087714,c2f6f45deb2e41107a1d90305a56ca5f:-643653541,9a843c19742e411052d4d8d46efa5dd0:-2024087714,15243819482e41102cd55125230ffae3:1082996057,76692455d4ea4110909794563d2a518d:-643653541,8a1d50dd2d6a4110186f287192096459:209717504,227adc99526a4110703b6ad609ae7752:2019812655,e7c91c59f36a411024df084712c95288:-1044138485,e7058c15eee641100059ed617e2c5173:-1860923584,d6440055b6e64110424befb58088feca:126701038,0832cc11cbe64110cde865d2e62c90c6:2015717433,03128451ace64110602465cb104e6d1e:-7083848,2fd1001153e6411041a45ff1ec5791f5:-156284283,d98184113fe641100a5017501a0921a8:126701038,d05144dd25a641101b0fcf03f518bdd3:2007441938,6fe0c0dd02a641100865d2e5ed9dee35:990904287,52d080dd5ba6411055dede8cec4700bf:110763862,d6b0cc9df4a64110309d216946b51a0e:-1260861401,3b70089d8ea64110fadc391796b37757:2112525718,9320cc5d9ca6411068f9d69bb9485a81:1370888837,4cff3b4d37a641104cfcff2b072d2d34:1093183321,5e8f3bc9e5a64110146e203d348d09fe:1333278191,b35f33c95ba64110e30234307b877a59:124584552,ff4f37c9ada6411077124e21e38986a1:-1876558537,c37e37c91fa641105a18b1460c26628f:92382014,a94eff89d7a6411012541d7d2c490f11:2129776932,d81ebb097aa64110a8c441fc75221043:426779040,516d7fc54ba6411062dc0e0b5ef2c2ea:526226976,93babf0571a641106636e51b44266863:-136658968,94aafb05a1a641100728254f7606f89b:1183271637,20d9b7c187a6411078d039c15e8d68c4:-748934185,eef8734d4966411076d7030d1a38391b:-733093800,05b8bb41fba6411084f7a784fa00babc:1977276687,81b53b0dd7664110600172e4d17f0e21:-574485616,7a753b0d8c664110acd92552d4d41122:-2089817716,4e55f30da76641109200f1d4c90145e9:-1623264559,181573c9ac664110b9d0278c9ed348ad:522126141,c8a4ff096c664110cc644be1473eabb7:-754646241,e3f3bf49cd66411078162dde3f521db6:854239876,4d533709c76641106e9a7fd782ecb687:229256839,354233c51d6641100d4fac02f71f4d69:1994851622,b2517745c1664110a592aba42f44764c:820207391,d401b3c1a46641104eb6ce4d6e57c4ea:-1866933972,a250bbc1756641105f992114f8730470:-717220623,51ffef41f96641107c3ec3714a240570:1561350202</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-05 01:00:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>16023ebd66134d5c84988d4c65b6dfa4</sys_id>
+        <sys_metadata>5dffef4187664110a34aecad3fbb356b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Train Stop 1</sys_name>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_scope_delete display_value="">7a3de565527e4f7e88b00d50362e19e9</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_5dffef4187664110a34aecad3fbb356b</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_5dffef4187664110a34aecad3fbb356b">35fb135d1b6e811093c1a685624bcb47</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-05 01:00:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

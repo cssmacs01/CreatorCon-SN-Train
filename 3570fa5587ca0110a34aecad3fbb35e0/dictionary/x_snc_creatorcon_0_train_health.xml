@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Train Health" max_length="40" name="x_snc_creatorcon_0_train_health" sizeclass="4" type="collection">
+        <element label="battery" max_length="40" name="battery" type="integer"/>
+        <element label="ip" max_length="40" name="ip" type="string"/>
+        <element label="last direction" max_length="40" name="last_direction" type="string"/>
+        <element label="speed" max_length="40" name="speed" type="string"/>
+        <element choice="1" display="true" label="Train" max_length="40" name="train" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Train 1" sequence="10" value="Train 1"/>
+                <element inactive_on_update="false" label="Train 2" sequence="20" value="Train 2"/>
+                <element inactive_on_update="false" label="Train 3" sequence="30" value="Train 3"/>
+                <element inactive_on_update="false" label="Train 4" sequence="40" value="Train 4"/>
+            </choice>
+        </element>
+    </element>
+</database>

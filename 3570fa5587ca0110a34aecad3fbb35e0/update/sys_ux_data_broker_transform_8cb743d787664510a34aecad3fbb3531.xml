@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_snc_creatorcon_0.Train Setup API</api_name>
+        <description>This is the transform function to call the REST API's from UIB.</description>
+        <mutates_server_data>true</mutates_server_data>
+        <name>Train Setup API</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+  {&#13;
+    "name": "train",&#13;
+    "label": "Train for Setup",&#13;
+    "fieldType": "string",&#13;
+    "readOnly": false,&#13;
+    "mandatory": true,&#13;
+    "description": "This is the inputs for the train"&#13;
+  },&#13;
+{&#13;
+    "name": "mid",&#13;
+    "label": "MidServer for Setup",&#13;
+    "fieldType": "string",&#13;
+    "readOnly": false,&#13;
+    "mandatory": true,&#13;
+    "description": "This is the inputs for the mid"&#13;
+  },&#13;
+{&#13;
+    "name": "ip",&#13;
+    "label": "IP for Train",&#13;
+    "fieldType": "string",&#13;
+    "readOnly": false,&#13;
+    "mandatory": true,&#13;
+    "description": "This is the inputs for the train IP"&#13;
+  },&#13;
+{&#13;
+    "name": "email",&#13;
+    "label": "Input for Email",&#13;
+    "fieldType": "string",&#13;
+    "readOnly": false,&#13;
+    "mandatory": true,&#13;
+    "description": "This is the inputs for the Email"&#13;
+  },{&#13;
+    "name": "phone",&#13;
+    "label": "Input for Phone",&#13;
+    "fieldType": "string",&#13;
+    "readOnly": false,&#13;
+    "mandatory": true,&#13;
+    "description": "This is the inputs for the phone"&#13;
+  }&#13;
+]</props>
+        <required_translations>[ {
+  "message" : "IP for Train",
+  "comment" : ""
+}, {
+  "message" : "Input for Email",
+  "comment" : ""
+}, {
+  "message" : "Input for Phone",
+  "comment" : ""
+}, {
+  "message" : "MidServer for Setup",
+  "comment" : ""
+}, {
+  "message" : "This is the inputs for the Email",
+  "comment" : ""
+}, {
+  "message" : "This is the inputs for the mid",
+  "comment" : ""
+}, {
+  "message" : "This is the inputs for the phone",
+  "comment" : ""
+}, {
+  "message" : "This is the inputs for the train",
+  "comment" : ""
+}, {
+  "message" : "This is the inputs for the train IP",
+  "comment" : ""
+}, {
+  "message" : "Train for Setup",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+	var trainSetup = {};
+    trainSetup['train_number'] = input.train;
+	trainSetup['mid_server'] = input.mid;
+	trainSetup['email'] = input.email;
+	trainSetup['phone'] = input.phone;
+	trainSetup['train_ip_address'] = input.ip;
+    var response = sn_fd.FlowAPI.startSubflow('x_snc_creatorcon_0.train_setup_subflow', trainSetup);
+    return response;
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-04 19:12:45</sys_created_on>
+        <sys_id>8cb743d787664510a34aecad3fbb3531</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Train Setup API</sys_name>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_8cb743d787664510a34aecad3fbb3531</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-05 00:11:40</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=8cb743d787664510a34aecad3fbb3531"/>
+</record_update>

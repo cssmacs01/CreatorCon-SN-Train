@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD857017bdd7f28550ae53a19003755e3c</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>3570fa5587ca0110a34aecad3fbb35e0</scope_name>
+        <serialized_content>{"FlowDesigner:FD857017bdd7f28550ae53a19003755e3c":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD857017bdd7f28550ae53a19003755e3c.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"75e34a03-b318-4b4a-8d9b-2b65e0263d43\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD857017bdd7f28550ae53a19003755e3c\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>swati</sys_created_by>
+        <sys_created_on>2022-04-12 14:15:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>497017bd87f28550a34aecad3fbb353c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD857017bdd7f28550ae53a19003755e3c</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_update_name>sys_complex_object_497017bd87f28550a34aecad3fbb353c</sys_update_name>
+        <sys_updated_by>swati</sys_updated_by>
+        <sys_updated_on>2022-04-12 14:15:52</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

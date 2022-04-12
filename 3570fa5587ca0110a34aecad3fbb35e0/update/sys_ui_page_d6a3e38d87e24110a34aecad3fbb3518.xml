@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[function nextPage(){
+	fetch('https://stevemccluskeydemoq.service-now.com/api/x_snc_creatorcon_0/train_api_calls/train');
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_snc_creatorcon_0_SN Train.do</endpoint>
+        <html><![CDATA[<html>
+<body>
+<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum nisl et turpis aliquam euismod et ac lectus. Fusce sagittis finibus metus. Nulla egestas turpis id cursus dapibus. Duis blandit, magna ut aliquet viverra, tortor lacus gravida neque, eget malesuada mi ante et elit. Nunc consequat justo ac dui lacinia suscipit.<img src="SN Train.png" onclick="nextPage()" width="50" height="40"></img></p><br></br>
+<p>Proin non gravida enim. In velit ex, volutpat consequat odio id, interdum commodo dolor. Mauris quam quam, sodales vitae ultricies vitae, volutpat et magna. Nulla porttitor quam tincidunt bibendum porta. Phasellus eu feugiat leo, eu bibendum tortor. Cras sed nunc et mauris malesuada gravida. Aliquam luctus finibus ante, sagittis pellentesque justo rutrum ac. Sed quis ex maximus, interdum orci eu, condimentum metus. Nullam luctus porttitor odio, eu tempor sapien gravida nec. Nunc posuere turpis risus, vitae efficitur diam scelerisque nec. Proin feugiat odio sit amet suscipit eleifend. Curabitur sodales non nibh in tempus. Fusce eu aliquet odio, porttitor consectetur felis. Sed viverra tempus lorem sit amet luctus. In efficitur volutpat nunc et mollis. Cras eget imperdiet nunc.</p><br></br>
+<p>Morbi mattis diam nec sem fringilla, vel porta risus fringilla. Vivamus et fringilla erat, et pharetra dui. Vestibulum eget enim sit amet ligula bibendum efficitur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum eleifend iaculis diam. Donec rutrum, metus eu gravida molestie, eros justo tincidunt tellus, eget ultrices nulla turpis ut ex. Pellentesque pellentesque est non gravida dictum. Morbi dignissim dolor sit amet ultricies scelerisque. Maecenas porta, nulla vel pharetra congue, purus erat dignissim orci, a ullamcorper arcu lacus nec justo. Proin et pulvinar massa. Etiam suscipit sodales ornare. Cras tristique molestie interdum. Aenean eleifend justo ut mi euismod dictum id vel quam.</p><br></br>
+<p>Duis odio erat, blandit ultrices lacus eget, cursus porta sapien. Curabitur sodales eros metus, vel malesuada enim efficitur et. Donec porttitor elementum purus lacinia porttitor. Suspendisse potenti. Nullam tortor orci, semper eget auctor in, tempus eget ligula. Etiam pharetra vehicula quam in dignissim. Cras in risus enim. Maecenas eget sem vel nisl varius vestibulum a nec purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas interdum mi metus, non semper nisi vulputate quis. Sed vel lacinia magna, nec pellentesque nisi. Ut sollicitudin sem eu blandit blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat non diam tristique sollicitudin.</p>
+</body>
+</html>
+]]></html>
+        <name>SN Train</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-28 21:29:07</sys_created_on>
+        <sys_id>d6a3e38d87e24110a34aecad3fbb3518</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>SN Train</sys_name>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_update_name>sys_ui_page_d6a3e38d87e24110a34aecad3fbb3518</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-28 22:19:45</sys_updated_on>
+    </sys_ui_page>
+</record_update>

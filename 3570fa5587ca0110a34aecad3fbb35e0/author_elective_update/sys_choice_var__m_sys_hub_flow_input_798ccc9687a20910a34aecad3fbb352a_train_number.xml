@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="train_number" table="var__m_sys_hub_flow_input_798ccc9687a20910a34aecad3fbb352a" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>train_number</element>
+            <name>var__m_sys_hub_flow_input_798ccc9687a20910a34aecad3fbb352a</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 03:01:06</sys_created_on>
+            <sys_id>828ccc9687a20910a34aecad3fbb3547</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 03:01:06</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>train_number</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_798ccc9687a20910a34aecad3fbb352a</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 03:01:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>468ccc9687a20910a34aecad3fbb3546</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 03:01:06</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>train_number</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Train 1</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_798ccc9687a20910a34aecad3fbb352a</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 03:01:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a8ccc9687a20910a34aecad3fbb3548</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 03:01:06</sys_updated_on>
+            <value>Train 1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>train_number</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Train 2</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_798ccc9687a20910a34aecad3fbb352a</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 03:01:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>868ccc9687a20910a34aecad3fbb3556</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 03:01:06</sys_updated_on>
+            <value>Train 2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>train_number</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Train 3</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_798ccc9687a20910a34aecad3fbb352a</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 03:01:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0e8ccc9687a20910a34aecad3fbb3557</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 03:01:06</sys_updated_on>
+            <value>Train 3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>train_number</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Train 4</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_798ccc9687a20910a34aecad3fbb352a</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 03:01:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>828ccc9687a20910a34aecad3fbb3559</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 03:01:06</sys_updated_on>
+            <value>Train 4</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

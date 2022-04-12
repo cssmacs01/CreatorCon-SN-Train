@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="walk_up_current" label="walk-up current" language="en" table="x_snc_creatorcon_0_registration">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>walk_up_current</element>
+            <help/>
+            <hint/>
+            <label>walk-up current</label>
+            <language>en</language>
+            <name>x_snc_creatorcon_0_registration</name>
+            <plural>walk-up currents</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-11 19:07:44</sys_created_on>
+            <sys_id>f2a94fe187b60550a34aecad3fbb3567</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>walk-up current</sys_name>
+            <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_creatorcon_0_registration_walk_up_current_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-11 19:07:44</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

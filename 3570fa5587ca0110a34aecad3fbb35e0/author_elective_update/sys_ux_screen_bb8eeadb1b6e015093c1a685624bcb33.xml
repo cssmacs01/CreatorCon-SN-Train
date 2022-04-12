@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="ServiceNow Express Config">57a0729587ca0110a34aecad3fbb3576</app_config>
+        <description/>
+        <event_mappings/>
+        <macroponent display_value="Register">338eeadb1b6e015093c1a685624bcb30</macroponent>
+        <macroponent_config/>
+        <name>Register</name>
+        <order>100</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <screen_condition/>
+        <screen_type display_value="Landing Page">23a07295deca0110d6e1d9b37c523b96</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>swati.agarwal</sys_created_by>
+        <sys_created_on>2022-04-04 17:22:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bb8eeadb1b6e015093c1a685624bcb33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Register</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_update_name>sys_ux_screen_bb8eeadb1b6e015093c1a685624bcb33</sys_update_name>
+        <sys_updated_by>swati.agarwal</sys_updated_by>
+        <sys_updated_on>2022-04-04 17:22:57</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=bb8eeadb1b6e015093c1a685624bcb33"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</application>
+        <file_path/>
+        <instance_id>6dbf685adbfe681007072f17d4961976</instance_id>
+        <instance_name>stevemccluskeydemoq</instance_name>
+        <name>sys_ux_screen_bb8eeadb1b6e015093c1a685624bcb33</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="ServiceNow Express Config">57a0729587ca0110a34aecad3fbb3576</app_config><description/><event_mappings/><macroponent display_value="Register">338eeadb1b6e015093c1a685624bcb30</macroponent><macroponent_config/><name>Register</name><order>100</order><parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent><required_translations>[ ]</required_translations><screen_condition/><screen_type display_value="Landing Page">23a07295deca0110d6e1d9b37c523b96</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>swati.agarwal</sys_created_by><sys_created_on>2022-04-04 17:22:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bb8eeadb1b6e015093c1a685624bcb33</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Register</sys_name><sys_overrides/><sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package><sys_policy/><sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope><sys_update_name>sys_ux_screen_bb8eeadb1b6e015093c1a685624bcb33</sys_update_name><sys_updated_by>swati.agarwal</sys_updated_by><sys_updated_on>2022-04-04 17:22:57</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=bb8eeadb1b6e015093c1a685624bcb33"/></record_update>]]></payload>
+        <payload_hash>-1608601952</payload_hash>
+        <record_name>Register</record_name>
+        <reverted_from/>
+        <source>b170fa5587ca0110a34aecad3fbb35e5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>swati.agarwal</sys_created_by>
+        <sys_created_on>2022-04-04 17:22:57</sys_created_on>
+        <sys_id>338e6edb1b6e015093c1a685624bcb8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ff599e3450000001</sys_recorded_at>
+        <sys_updated_by>swati.agarwal</sys_updated_by>
+        <sys_updated_on>2022-04-04 17:22:57</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>3b8e6edb9d6e01507afa24d803449c8b</update_guid>
+        <update_guid_history>3b8e6edb9d6e01507afa24d803449c8b:-1608601952</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>swati.agarwal</sys_created_by>
+        <sys_created_on>2022-04-04 17:24:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>9240e2f215f841e89f5e522f677bac40</sys_id>
+        <sys_metadata>bb8eeadb1b6e015093c1a685624bcb33</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Register</sys_name>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_scope_delete display_value="">7a3de565527e4f7e88b00d50362e19e9</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_bb8eeadb1b6e015093c1a685624bcb33</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_bb8eeadb1b6e015093c1a685624bcb33">338e6edb1b6e015093c1a685624bcb8c</sys_update_version>
+        <sys_updated_by>swati.agarwal</sys_updated_by>
+        <sys_updated_on>2022-04-04 17:24:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="ServiceNow Express Registration">3d7c603987ee0510a34aecad3fbb35f8</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-30 16:03:41</sys_created_on>
+        <sys_id>c27ca03987ee0510a34aecad3fbb3504</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ServiceNow Express Registration.Registration form available for Public</sys_name>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_c27ca03987ee0510a34aecad3fbb3504</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-30 16:03:41</sys_updated_on>
+        <user_criteria display_value="Registration form available for Public">2d1bf05373320010fdbd04fbc4f6a783</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>

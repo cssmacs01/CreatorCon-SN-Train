@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="The ServiceNow Express">ad969b0987a24110a34aecad3fbb359e</macroponent>
+        <name>Train Stop 4</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    api.data.train_api.execute({
+        train: "4"
+    });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-28 22:22:45</sys_created_on>
+        <sys_id>1300b78187664110a34aecad3fbb3583</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Train Stop 4</sys_name>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_update_name>sys_ux_client_script_1300b78187664110a34aecad3fbb3583</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-29 15:34:07</sys_updated_on>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</application>
+        <file_path/>
+        <instance_id>6dbf685adbfe681007072f17d4961976</instance_id>
+        <instance_name>stevemccluskeydemoq</instance_name>
+        <name>sys_ux_client_script_1300b78187664110a34aecad3fbb3583</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="The ServiceNow Express"&gt;ad969b0987a24110a34aecad3fbb359e&lt;/macroponent&gt;&lt;name&gt;Train Stop 4&lt;/name&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    api.data.train_api.execute({
+        train: "4"
+    });
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-03-28 22:22:45&lt;/sys_created_on&gt;&lt;sys_id&gt;1300b78187664110a34aecad3fbb3583&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Train Stop 4&lt;/sys_name&gt;&lt;sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0"&gt;3570fa5587ca0110a34aecad3fbb35e0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CreatorCon 22 - SN Train"&gt;3570fa5587ca0110a34aecad3fbb35e0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_1300b78187664110a34aecad3fbb3583&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-29 15:34:07&lt;/sys_updated_on&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2042168244</payload_hash>
+        <record_name>Train Stop 4</record_name>
+        <reverted_from/>
+        <source>b170fa5587ca0110a34aecad3fbb35e5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-29 15:34:07</sys_created_on>
+        <sys_id>831c1fd91b6e811093c1a685624bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17fd65017460000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-29 15:34:07</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>4b1c1fd99c6e81103b3fd31c01d61470</update_guid>
+        <update_guid_history>4b1c1fd99c6e81103b3fd31c01d61470:2042168244,a250bbc1066641106a31a2d430f7dc54:-1942731654,5f00b78116664110cbdea5e9fe6fa985:1561350202</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-05 01:10:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>1c9c215f3b3845d7a2b0879181415a61</sys_id>
+        <sys_metadata>1300b78187664110a34aecad3fbb3583</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Train Stop 4</sys_name>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_scope_delete display_value="">7a3de565527e4f7e88b00d50362e19e9</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_1300b78187664110a34aecad3fbb3583</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_1300b78187664110a34aecad3fbb3583">831c1fd91b6e811093c1a685624bcb71</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-05 01:10:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

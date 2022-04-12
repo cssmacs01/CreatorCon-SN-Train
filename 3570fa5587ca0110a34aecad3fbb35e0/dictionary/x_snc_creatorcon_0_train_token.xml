@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Train Token" max_length="40" name="x_snc_creatorcon_0_train_token" sizeclass="40" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Stop" max_length="40" name="stop" type="integer"/>
+        <element label="Token" max_length="40" name="token" type="string"/>
+        <element choice="1" label="Train" max_length="40" name="train" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Train 1" sequence="10" value="Train 1"/>
+                <element inactive_on_update="false" label="Train 2" sequence="20" value="Train 2"/>
+                <element inactive_on_update="false" label="Train 3" sequence="30" value="Train 3"/>
+                <element inactive_on_update="false" label="Train 4" sequence="40" value="Train 4"/>
+            </choice>
+        </element>
+    </element>
+</database>

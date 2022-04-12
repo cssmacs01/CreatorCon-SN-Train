@@ -1,0 +1,1950 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>cf1c6c7187724550a34aecad3fbb35dc</copied_from>
+        <copied_from_name>Approve Registration &amp; Add to Wa</copied_from_name>
+        <description/>
+        <internal_name>copy_of_approve_registration__add_to_walkup</internal_name>
+        <label_cache>[{"name":"6fe0d41d-a77c-46bd-bf8f-2f8c90b97dbd.__dont_treat_as_error__","label":"13➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6fe0d41d-a77c-46bd-bf8f-2f8c90b97dbd.__action_status__","label":"13➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6fe0d41d-a77c-46bd-bf8f-2f8c90b97dbd.email","label":"13➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4dd8c811-c3f8-4299-83e4-4d33e1d158e1.__dont_treat_as_error__","label":"11➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4dd8c811-c3f8-4299-83e4-4d33e1d158e1.__action_status__","label":"11➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4dd8c811-c3f8-4299-83e4-4d33e1d158e1.email","label":"11➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bb5cea69-35a9-4ee4-a102-62c75beca4a6.__dont_treat_as_error__","label":"9➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bb5cea69-35a9-4ee4-a102-62c75beca4a6.__action_status__","label":"9➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bb5cea69-35a9-4ee4-a102-62c75beca4a6.email","label":"9➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8ad6173e-6707-47fc-bc5c-39882785fd1e.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8ad6173e-6707-47fc-bc5c-39882785fd1e.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8ad6173e-6707-47fc-bc5c-39882785fd1e.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8ad6173e-6707-47fc-bc5c-39882785fd1e.Table","label":"1➛User Table","reference":"sys_user","reference_display":"User","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8ad6173e-6707-47fc-bc5c-39882785fd1e.Records","label":"1➛User Records","reference":"sys_user","reference_display":"User","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f8ca1f6e-659f-4e59-8af7-c8d95abb5cd3.__dont_treat_as_error__","label":"15➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f8ca1f6e-659f-4e59-8af7-c8d95abb5cd3.__action_status__","label":"15➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f8ca1f6e-659f-4e59-8af7-c8d95abb5cd3.error_message","label":"15➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f8ca1f6e-659f-4e59-8af7-c8d95abb5cd3.status","label":"15➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f8ca1f6e-659f-4e59-8af7-c8d95abb5cd3.table_name","label":"15➛User Role Table","reference":"sys_user_has_role","reference_display":"User Role","type":"table_name","base_type":"table_name","attributes":{"uiType":"table_name","uiTypeLabel":"Table Name","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f8ca1f6e-659f-4e59-8af7-c8d95abb5cd3.record","label":"15➛User Role Record","reference":"sys_user_has_role","reference_display":"User Role","type":"reference","base_type":"reference","attributes":{"uiType":"document_id","uiTypeLabel":"Record","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9e2371ff-db11-41f6-85f3-4b985b37a0ea.__dont_treat_as_error__","label":"11➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9e2371ff-db11-41f6-85f3-4b985b37a0ea.__action_status__","label":"11➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9e2371ff-db11-41f6-85f3-4b985b37a0ea.table_name","label":"11➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9e2371ff-db11-41f6-85f3-4b985b37a0ea.record","label":"11➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.organization","label":"Trigger➛Registration Record➛Organization","reference":"","reference_display":"Organization","type":"string","base_type":"string","parent_table_name":"x_snc_creatorcon_0_registration","column_name":"organization"},{"name":"Created_1.current.last_name","label":"Trigger➛Registration Record➛Last Name","reference":"","reference_display":"Last Name","type":"string","base_type":"string","parent_table_name":"x_snc_creatorcon_0_registration","column_name":"last_name"},{"name":"d2756343-0561-418a-8fdd-b83e864ac22a.__dont_treat_as_error__","label":"10➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d2756343-0561-418a-8fdd-b83e864ac22a.__action_status__","label":"10➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d2756343-0561-418a-8fdd-b83e864ac22a.table_name","label":"10➛User Table","reference":"sys_user","reference_display":"User","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d2756343-0561-418a-8fdd-b83e864ac22a.record","label":"10➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eb205975-7500-49be-ac25-10a84db13326.__dont_treat_as_error__","label":"11➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eb205975-7500-49be-ac25-10a84db13326.__action_status__","label":"11➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eb205975-7500-49be-ac25-10a84db13326.email","label":"11➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.first_name","label":"Trigger➛Registration Record➛First Name","reference":"","reference_display":"First Name","type":"string","base_type":"string","parent_table_name":"x_snc_creatorcon_0_registration","column_name":"first_name"},{"name":"Created_1.current.email","label":"Trigger➛Registration Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_snc_creatorcon_0_registration","column_name":"email"},{"name":"b04f24fd-181a-4673-9491-46cfddbfd1ef.__dont_treat_as_error__","label":"7➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b04f24fd-181a-4673-9491-46cfddbfd1ef.__action_status__","label":"7➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b04f24fd-181a-4673-9491-46cfddbfd1ef.email","label":"7➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.location","label":"Trigger➛Registration Record➛Location","reference":"","reference_display":"Location","type":"string","base_type":"string","parent_table_name":"x_snc_creatorcon_0_registration","column_name":"location"},{"name":"76ae4706-54c3-4ce4-9d21-e724d1109af4.record","label":"5➛Registration Record","reference":"x_snc_creatorcon_0_registration","reference_display":"Registration","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"76ae4706-54c3-4ce4-9d21-e724d1109af4.table_name","label":"5➛Registration Table","reference":"x_snc_creatorcon_0_registration","reference_display":"Registration","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"76ae4706-54c3-4ce4-9d21-e724d1109af4.__action_status__","label":"5➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"76ae4706-54c3-4ce4-9d21-e724d1109af4.__dont_treat_as_error__","label":"5➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger➛Registration Record","reference":"x_snc_creatorcon_0_registration","reference_display":"Registration","type":"reference","base_type":"reference","attributes":{}},{"name":"2ff5756a-3ff8-4767-af5e-11d261adcec6.email","label":"9➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2ff5756a-3ff8-4767-af5e-11d261adcec6.__action_status__","label":"9➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2ff5756a-3ff8-4767-af5e-11d261adcec6.__dont_treat_as_error__","label":"9➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fde6c549-864a-462c-9f25-e3aa0aa03107.email","label":"10➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fde6c549-864a-462c-9f25-e3aa0aa03107.__action_status__","label":"10➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fde6c549-864a-462c-9f25-e3aa0aa03107.__dont_treat_as_error__","label":"10➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9cb174db-3829-47b5-8010-907c103f3132.Record","label":"11➛User Role Record","reference":"sys_user_has_role","reference_display":"User Role","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9cb174db-3829-47b5-8010-907c103f3132.Table","label":"11➛User Role Table","reference":"sys_user_has_role","reference_display":"User Role","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9cb174db-3829-47b5-8010-907c103f3132.status","label":"11➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"9cb174db-3829-47b5-8010-907c103f3132.error_message","label":"11➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"9cb174db-3829-47b5-8010-907c103f3132.__action_status__","label":"11➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9cb174db-3829-47b5-8010-907c103f3132.__dont_treat_as_error__","label":"11➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"63f58ccb-8951-4216-8d8a-a4c0cc15dd0b.record","label":"12➛User Role Record","reference":"sys_user_has_role","reference_display":"User Role","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"63f58ccb-8951-4216-8d8a-a4c0cc15dd0b.table_name","label":"12➛User Role Table","reference":"sys_user_has_role","reference_display":"User Role","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"63f58ccb-8951-4216-8d8a-a4c0cc15dd0b.__action_status__","label":"12➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"63f58ccb-8951-4216-8d8a-a4c0cc15dd0b.__dont_treat_as_error__","label":"12➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"559c42ac-ecb2-4fbb-b323-e6d3ea2bad92.record","label":"14➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"uiType":"document_id","uiTypeLabel":"Record","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"559c42ac-ecb2-4fbb-b323-e6d3ea2bad92.table_name","label":"14➛User Table","reference":"sys_user","reference_display":"User","type":"table_name","base_type":"table_name","attributes":{"uiType":"table_name","uiTypeLabel":"Table Name","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"559c42ac-ecb2-4fbb-b323-e6d3ea2bad92.status","label":"14➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"559c42ac-ecb2-4fbb-b323-e6d3ea2bad92.error_message","label":"14➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"559c42ac-ecb2-4fbb-b323-e6d3ea2bad92.__action_status__","label":"14➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"559c42ac-ecb2-4fbb-b323-e6d3ea2bad92.__dont_treat_as_error__","label":"14➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8a3d5255-2f89-4b6e-8d9b-1acc3bcc7cef.email","label":"3➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8a3d5255-2f89-4b6e-8d9b-1acc3bcc7cef.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8a3d5255-2f89-4b6e-8d9b-1acc3bcc7cef.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Copy of Approve Registration &amp; Add to Walk-up</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6eb4c7b11bfa819093c1a685624bcb07</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Copy of Approve Registration &amp; Add to Walk-up</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_update_name>sys_hub_flow_6eb4c7b11bfa819093c1a685624bcb07</sys_update_name>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:40</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=6eb4c7b11bfa819093c1a685624bcb07"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6eb4c7b11bfa819093c1a685624bcb07"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=6eb4c7b11bfa819093c1a685624bcb07^sys_idNOT INd3b4c7b11bfa819093c1a685624bcbfc"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Copy of Approve Registration &amp; Add to Walk-up">6eb4c7b11bfa819093c1a685624bcb07</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:40</sys_created_on>
+        <sys_id>d3b4c7b11bfa819093c1a685624bcbfc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:40</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d3b4c7b11bfa819093c1a685624bcbfc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>d3b4c7b11bfa819093c1a685624bcbfc</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:40</sys_created_on>
+        <sys_id>1bb4c7b11bfa819093c1a685624bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:40</sys_updated_on>
+        <value>x_snc_creatorcon_0_registration</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>d3b4c7b11bfa819093c1a685624bcbfc</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:40</sys_created_on>
+        <sys_id>57b4c7b11bfa819093c1a685624bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:40</sys_updated_on>
+        <value>first_nameISNOTEMPTY^last_nameISNOTEMPTY^emailISNOTEMPTY^locationISNOTEMPTY^organizationISNOTEMPTY</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=6eb4c7b11bfa819093c1a685624bcb07^sys_idNOT INeab4c7b11bfa819093c1a685624bcb09"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>6eb4c7b11bfa819093c1a685624bcb07</id>
+        <name>Copy of Approve Registration &amp; Add to Walk-up</name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:37</sys_created_on>
+        <sys_id>eab4c7b11bfa819093c1a685624bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:37</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=6eb4c7b11bfa819093c1a685624bcb07^sys_idNOT INaeb4c7b11bfa819093c1a685624bcb0f,bab4c7b11bfa819093c1a685624bcb24"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Copy of Approve Registration &amp; Add to Walk-up">6eb4c7b11bfa819093c1a685624bcb07</model>
+        <model_id>6eb4c7b11bfa819093c1a685624bcb07</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_6eb4c7b11bfa819093c1a685624bcb07</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:37</sys_created_on>
+        <sys_id>aeb4c7b11bfa819093c1a685624bcb0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Copy of Approve Registration &amp; Add to Walk-up">6eb4c7b11bfa819093c1a685624bcb07</model>
+        <model_id>6eb4c7b11bfa819093c1a685624bcb07</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_6eb4c7b11bfa819093c1a685624bcb07</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:37</sys_created_on>
+        <sys_id>bab4c7b11bfa819093c1a685624bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=6eb4c7b11bfa819093c1a685624bcb07^sys_idNOT IN0bb4c7b11bfa819093c1a685624bcbbf,4bb4c7b11bfa819093c1a685624bcb9f,4fb4c7b11bfa819093c1a685624bcbcf,7eb4c7b11bfa819093c1a685624bcb6b,8fb4c7b11bfa819093c1a685624bcb7d,93b4c7b11bfa819093c1a685624bcbe0,c3b4c7b11bfa819093c1a685624bcbaf,d7b4c7b11bfa819093c1a685624bcbee,dbb4c7b11bfa819093c1a685624bcbfa"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>98c181d20b100300d97d8bf637673ab5</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Approve Registration &amp; Add to Walk-up">6eb4c7b11bfa819093c1a685624bcb07</flow>
+        <order>9</order>
+        <parent_ui_id>9347b850-6437-47d9-9e8d-3947b412ea8f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>0bb4c7b11bfa819093c1a685624bcbbf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <ui_id>bb5cea69-35a9-4ee4-a102-62c75beca4a6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0bb4c7b11bfa819093c1a685624bcbbf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0bb4c7b11bfa819093c1a685624bcbbf</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>07b4c7b11bfa819093c1a685624bcbc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <value>x_snc_creatorcon_0_registration</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0bb4c7b11bfa819093c1a685624bcbbf</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>43b4c7b11bfa819093c1a685624bcbc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0bb4c7b11bfa819093c1a685624bcbbf</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>c7b4c7b11bfa819093c1a685624bcbc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <value>Creator Workflows Train Confirmation</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0bb4c7b11bfa819093c1a685624bcbbf"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>0bb4c7b11bfa819093c1a685624bcbbf</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>87b4c7b11bfa819093c1a685624bcbc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:07b79806-8b42-4a85-b2ff-cad526ccc0e7}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:07b79806-8b42-4a85-b2ff-cad526ccc0e7}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Registration Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;First Name&lt;button id="transform_function_facade_07b79806-8b42-4a85-b2ff-cad526ccc0e7" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Thank you for registering for the Creator Workflows Train Experience in Sydney. Please keep this email as it will serve as instructions for the experience.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Credentials:&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;username:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:25dd01d2-3ba2-40a8-b933-4bb3aeda27a1}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:25dd01d2-3ba2-40a8-b933-4bb3aeda27a1}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Registration Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;First Name&lt;button id="transform_function_facade_25dd01d2-3ba2-40a8-b933-4bb3aeda27a1" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;.&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:0a73b69a-aef5-45eb-867e-ce7bbf41663b}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:0a73b69a-aef5-45eb-867e-ce7bbf41663b}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Registration Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Last Name&lt;button id="transform_function_facade_0a73b69a-aef5-45eb-867e-ce7bbf41663b" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;password (temp): ServiceNow2022&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Step 1: Login to the ServiceNow Walk-up experience and check-in for your Creator Workflows Train Experience.&amp;nbsp; https://stevemccluskeydemoq.service-now.com/now/servicenow-express/walk-up&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Step 2. Pick your CreatorCon Location&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Step 3: Click Check-in&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Step 4: Visit the booth see the queue or check out the queue from your mobile device:&amp;nbsp;https://stevemccluskeydemoq.service-now.com/now/servicenow-express/walk-up&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;***Alternative message***&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;You have been checked in for the experience and will get an email when your spot is approaching in the queue. In the meantime you can click on the link to see the queue: https://stevemccluskeydemoq.service-now.com/now/servicenow-express/walk-up , you'll just need to filter by The Hague.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>0bb4c7b11bfa819093c1a685624bcbbf</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>cfb4c7b11bfa819093c1a685624bcbc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>0bb4c7b11bfa819093c1a685624bcbbf</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>c3b4c7b11bfa819093c1a685624bcbc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>0bb4c7b11bfa819093c1a685624bcbbf</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>4bb4c7b11bfa819093c1a685624bcbc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>0bb4c7b11bfa819093c1a685624bcbbf</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>0fb4c7b11bfa819093c1a685624bcbc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type>
+        <action_type_parent/>
+        <comment>turn active flag to true</comment>
+        <compiled_snapshot>baf174c8c3c232002841b63b12d3aee4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Approve Registration &amp; Add to Walk-up">6eb4c7b11bfa819093c1a685624bcb07</flow>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>4bb4c7b11bfa819093c1a685624bcb9f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <ui_id>76ae4706-54c3-4ce4-9d21-e724d1109af4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4bb4c7b11bfa819093c1a685624bcb9f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4bb4c7b11bfa819093c1a685624bcb9f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>0bb4c7b11bfa819093c1a685624bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <value>active=true^=</value>
+        <variable display_value="Fields">e7d270ccc3c632002841b63b12d3ae8b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4bb4c7b11bfa819093c1a685624bcb9f</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>cbb4c7b11bfa819093c1a685624bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <value>x_snc_creatorcon_0_registration</value>
+        <variable display_value="Table">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4bb4c7b11bfa819093c1a685624bcb9f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>4bb4c7b11bfa819093c1a685624bcb9f</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>c3b4c7b11bfa819093c1a685624bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>4bb4c7b11bfa819093c1a685624bcb9f</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>03b4c7b11bfa819093c1a685624bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>4bb4c7b11bfa819093c1a685624bcb9f</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>87b4c7b11bfa819093c1a685624bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>98c181d20b100300d97d8bf637673ab5</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Approve Registration &amp; Add to Walk-up">6eb4c7b11bfa819093c1a685624bcb07</flow>
+        <order>11</order>
+        <parent_ui_id>c66c64f1-bba5-433d-b9b6-67027babda0e</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>4fb4c7b11bfa819093c1a685624bcbcf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <ui_id>4dd8c811-c3f8-4299-83e4-4d33e1d158e1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4fb4c7b11bfa819093c1a685624bcbcf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4fb4c7b11bfa819093c1a685624bcbcf</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>0fb4c7b11bfa819093c1a685624bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <value>Creator Workflows Train Confirmation</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4fb4c7b11bfa819093c1a685624bcbcf</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>4bb4c7b11bfa819093c1a685624bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <value>x_snc_creatorcon_0_registration</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4fb4c7b11bfa819093c1a685624bcbcf</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>87b4c7b11bfa819093c1a685624bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4fb4c7b11bfa819093c1a685624bcbcf"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>4fb4c7b11bfa819093c1a685624bcbcf</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>cbb4c7b11bfa819093c1a685624bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:b96c3c8e-8e80-4977-bb35-3744cc4e049e}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:b96c3c8e-8e80-4977-bb35-3744cc4e049e}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Registration Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;First Name&lt;button id="transform_function_facade_b96c3c8e-8e80-4977-bb35-3744cc4e049e" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Thank you for registering for the Creator Workflows Train Experience in Las Vegas. Please keep this email as it will serve as instructions for the experience.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Credentials:&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;username:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:0996109c-ea5c-4b19-b14f-89a0d6f0b1be}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:0996109c-ea5c-4b19-b14f-89a0d6f0b1be}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Registration Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;First Name&lt;button id="transform_function_facade_0996109c-ea5c-4b19-b14f-89a0d6f0b1be" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;.&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:27826edf-fe9d-4e8c-9526-d7fdfa5bc7c0}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:27826edf-fe9d-4e8c-9526-d7fdfa5bc7c0}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Registration Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Last Name&lt;button id="transform_function_facade_27826edf-fe9d-4e8c-9526-d7fdfa5bc7c0" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;password (temp): ServiceNow2022&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Step 1: Login to the ServiceNow Walk-up experience and check-in for your Creator Workflows Train Experience.&amp;nbsp; https://stevemccluskeydemoq.service-now.com/now/servicenow-express/walk-up&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Step 2. Pick your CreatorCon Location&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Step 3: Click Check-in&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Step 4: Visit the booth see the queue or check out the queue from your mobile device:&amp;nbsp;https://stevemccluskeydemoq.service-now.com/now/servicenow-express/walk-up&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;***Alternative message***&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;You have been checked in for the experience and will get an email when your spot is approaching in the queue. In the meantime you can click on the link to see the queue: https://stevemccluskeydemoq.service-now.com/now/servicenow-express/walk-up , you'll just need to filter by The Hague.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>4fb4c7b11bfa819093c1a685624bcbcf</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>07b4c7b11bfa819093c1a685624bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>4fb4c7b11bfa819093c1a685624bcbcf</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>0bb4c7b11bfa819093c1a685624bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>4fb4c7b11bfa819093c1a685624bcbcf</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>8fb4c7b11bfa819093c1a685624bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>4fb4c7b11bfa819093c1a685624bcbcf</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>43b4c7b11bfa819093c1a685624bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>d1c56ec50b30030085c083eb37673a50</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Approve Registration &amp; Add to Walk-up">6eb4c7b11bfa819093c1a685624bcb07</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>7eb4c7b11bfa819093c1a685624bcb6b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <ui_id>8ad6173e-6707-47fc-bc5c-39882785fd1e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7eb4c7b11bfa819093c1a685624bcb6b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7eb4c7b11bfa819093c1a685624bcb6b</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>fab4c7b11bfa819093c1a685624bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7eb4c7b11bfa819093c1a685624bcb6b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>7eb4c7b11bfa819093c1a685624bcb6b</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>b6b4c7b11bfa819093c1a685624bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>email={{Created_1.current.email}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>7eb4c7b11bfa819093c1a685624bcb6b</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>7ab4c7b11bfa819093c1a685624bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>98c181d20b100300d97d8bf637673ab5</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Approve Registration &amp; Add to Walk-up">6eb4c7b11bfa819093c1a685624bcb07</flow>
+        <order>3</order>
+        <parent_ui_id>c8fb79ae-e103-4fb3-9792-c9ef12b6fa8d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>8fb4c7b11bfa819093c1a685624bcb7d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <ui_id>8a3d5255-2f89-4b6e-8d9b-1acc3bcc7cef</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8fb4c7b11bfa819093c1a685624bcb7d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8fb4c7b11bfa819093c1a685624bcb7d</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>07b4c7b11bfa819093c1a685624bcb81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <value>Creator Workflows Train Confirmation - duplicate</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8fb4c7b11bfa819093c1a685624bcb7d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>43b4c7b11bfa819093c1a685624bcb81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <value>x_snc_creatorcon_0_registration</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8fb4c7b11bfa819093c1a685624bcb7d</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>8fb4c7b11bfa819093c1a685624bcb80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8fb4c7b11bfa819093c1a685624bcb7d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>8fb4c7b11bfa819093c1a685624bcb7d</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>c3b4c7b11bfa819093c1a685624bcb80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:38da0fe1-85da-4e38-8c6d-7fe9969e767c}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:38da0fe1-85da-4e38-8c6d-7fe9969e767c}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Registration Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;First Name&lt;button id="transform_function_facade_38da0fe1-85da-4e38-8c6d-7fe9969e767c" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Duplicate registration attempt detected. Please keep this email as it will serve as instructions for the experience.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;You have been checked in for the experience and will get an email when your spot is approaching in the queue. In the meantime you can click on the link to see the queue: https://stevemccluskeydemoq.service-now.com/now/servicenow-express/walk-up , you'll just need to filter by The Hague.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>8fb4c7b11bfa819093c1a685624bcb7d</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>0fb4c7b11bfa819093c1a685624bcb80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>8fb4c7b11bfa819093c1a685624bcb7d</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>03b4c7b11bfa819093c1a685624bcb80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>8fb4c7b11bfa819093c1a685624bcb7d</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>87b4c7b11bfa819093c1a685624bcb80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>8fb4c7b11bfa819093c1a685624bcb7d</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>4bb4c7b11bfa819093c1a685624bcb80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>98c181d20b100300d97d8bf637673ab5</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Approve Registration &amp; Add to Walk-up">6eb4c7b11bfa819093c1a685624bcb07</flow>
+        <order>13</order>
+        <parent_ui_id>0520e3af-65d7-4133-afd3-3755e7e62144</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>93b4c7b11bfa819093c1a685624bcbe0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <ui_id>6fe0d41d-a77c-46bd-bf8f-2f8c90b97dbd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=93b4c7b11bfa819093c1a685624bcbe0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>93b4c7b11bfa819093c1a685624bcbe0</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>53b4c7b11bfa819093c1a685624bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <value>Creator Workflows Train Confirmation</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>93b4c7b11bfa819093c1a685624bcbe0</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>9fb4c7b11bfa819093c1a685624bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <value>x_snc_creatorcon_0_registration</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>93b4c7b11bfa819093c1a685624bcbe0</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>dbb4c7b11bfa819093c1a685624bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=93b4c7b11bfa819093c1a685624bcbe0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>93b4c7b11bfa819093c1a685624bcbe0</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>13b4c7b11bfa819093c1a685624bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:fad91e32-bf81-438a-b05b-8fe1f8eb2f9a}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:fad91e32-bf81-438a-b05b-8fe1f8eb2f9a}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Registration Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;First Name&lt;button id="transform_function_facade_fad91e32-bf81-438a-b05b-8fe1f8eb2f9a" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Thank you for registering for the Creator Workflows Train Experience in New York. Please keep this email as it will serve as instructions for the experience.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Credentials:&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;username:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:d4d7461f-cbfe-4911-b7f6-26736be426d2}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:d4d7461f-cbfe-4911-b7f6-26736be426d2}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Registration Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;First Name&lt;button id="transform_function_facade_d4d7461f-cbfe-4911-b7f6-26736be426d2" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;.&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:9ec0fcee-0410-472b-b61b-c2f6709c70b0}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:9ec0fcee-0410-472b-b61b-c2f6709c70b0}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Registration Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Last Name&lt;button id="transform_function_facade_9ec0fcee-0410-472b-b61b-c2f6709c70b0" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;password (temp): ServiceNow2022&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Step 1: Login to the ServiceNow Walk-up experience and check-in for your Creator Workflows Train Experience.&amp;nbsp; https://stevemccluskeydemoq.service-now.com/now/servicenow-express/walk-up&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Step 2. Pick your CreatorCon Location&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Step 3: Click Check-in&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Step 4: Visit the booth see the queue or check out the queue from your mobile device:&amp;nbsp;https://stevemccluskeydemoq.service-now.com/now/servicenow-express/walk-up&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;***Alternative message***&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;You have been checked in for the experience and will get an email when your spot is approaching in the queue. In the meantime you can click on the link to see the queue: https://stevemccluskeydemoq.service-now.com/now/servicenow-express/walk-up , you'll just need to filter by The Hague.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>93b4c7b11bfa819093c1a685624bcbe0</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>5bb4c7b11bfa819093c1a685624bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>93b4c7b11bfa819093c1a685624bcbe0</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>5fb4c7b11bfa819093c1a685624bcbe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>93b4c7b11bfa819093c1a685624bcbe0</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>d3b4c7b11bfa819093c1a685624bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>93b4c7b11bfa819093c1a685624bcbe0</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>97b4c7b11bfa819093c1a685624bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>98c181d20b100300d97d8bf637673ab5</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Approve Registration &amp; Add to Walk-up">6eb4c7b11bfa819093c1a685624bcb07</flow>
+        <order>7</order>
+        <parent_ui_id>e53d259c-3257-465e-ac0b-ed324ce7edbe</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>c3b4c7b11bfa819093c1a685624bcbaf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <ui_id>b04f24fd-181a-4673-9491-46cfddbfd1ef</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c3b4c7b11bfa819093c1a685624bcbaf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c3b4c7b11bfa819093c1a685624bcbaf</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>0fb4c7b11bfa819093c1a685624bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c3b4c7b11bfa819093c1a685624bcbaf</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>83b4c7b11bfa819093c1a685624bcbb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <value>Creator Workflows Train Confirmation</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c3b4c7b11bfa819093c1a685624bcbaf</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>cfb4c7b11bfa819093c1a685624bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <value>x_snc_creatorcon_0_registration</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c3b4c7b11bfa819093c1a685624bcbaf"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>c3b4c7b11bfa819093c1a685624bcbaf</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>43b4c7b11bfa819093c1a685624bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:b8548fe7-8e6b-46fa-97c1-3f98aa54a932}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:b8548fe7-8e6b-46fa-97c1-3f98aa54a932}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Registration Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;First Name&lt;button id="transform_function_facade_b8548fe7-8e6b-46fa-97c1-3f98aa54a932" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Thank you for registering for the Creator Workflows Train Experience at The Hague. Please keep this email as it will serve as instructions for the experience.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Credentials:&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;username:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:f0f7d655-4c18-4217-95d6-a7a8ea2e9ea7}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:f0f7d655-4c18-4217-95d6-a7a8ea2e9ea7}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Registration Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;First Name&lt;button id="transform_function_facade_f0f7d655-4c18-4217-95d6-a7a8ea2e9ea7" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;.&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:11f888e7-7061-4363-b5c6-3444b88b375b}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:11f888e7-7061-4363-b5c6-3444b88b375b}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Registration Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Last Name&lt;button id="transform_function_facade_11f888e7-7061-4363-b5c6-3444b88b375b" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;password (temp): ServiceNow2022&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Step 1: Login to the ServiceNow Walk-up experience and check-in for your Creator Workflows Train Experience.&amp;nbsp; https://stevemccluskeydemoq.service-now.com/now/servicenow-express/walk-up&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Step 2. Pick your CreatorCon Location&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Step 3: Click Check-in&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Step 4: Visit the booth see the queue or check out the queue from your mobile device:&amp;nbsp;https://stevemccluskeydemoq.service-now.com/now/servicenow-express/walk-up&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;***Alternative message***&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;You have been checked in for the experience and will get an email when your spot is approaching in the queue. In the meantime you can click on the link to see the queue: https://stevemccluskeydemoq.service-now.com/now/servicenow-express/walk-up , you'll just need to filter by The Hague.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>c3b4c7b11bfa819093c1a685624bcbaf</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>8bb4c7b11bfa819093c1a685624bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>c3b4c7b11bfa819093c1a685624bcbaf</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>8fb4c7b11bfa819093c1a685624bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>c3b4c7b11bfa819093c1a685624bcbaf</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>07b4c7b11bfa819093c1a685624bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>c3b4c7b11bfa819093c1a685624bcbaf</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>c7b4c7b11bfa819093c1a685624bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
+        <action_type_parent/>
+        <comment>create a copy of registration in sys_user table</comment>
+        <compiled_snapshot>e057d2e253b3230034c6ddeeff7b1261</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Approve Registration &amp; Add to Walk-up">6eb4c7b11bfa819093c1a685624bcb07</flow>
+        <order>14</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>d7b4c7b11bfa819093c1a685624bcbee</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+        <ui_id>559c42ac-ecb2-4fbb-b323-e6d3ea2bad92</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d7b4c7b11bfa819093c1a685624bcbee"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d7b4c7b11bfa819093c1a685624bcbee</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:40</sys_created_on>
+        <sys_id>5bb4c7b11bfa819093c1a685624bcbf0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:40</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="Table Name">27575ae253b3230034c6ddeeff7b12f4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d7b4c7b11bfa819093c1a685624bcbee"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>fields</field>
+        <id>d7b4c7b11bfa819093c1a685624bcbee</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:40</sys_created_on>
+        <sys_id>17b4c7b11bfa819093c1a685624bcbf0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value>first_name={{Created_1.current.first_name}}^last_name={{Created_1.current.last_name}}^email={{Created_1.current.email}}^u_notes={{Created_1.current.organization}}, and location: {{Created_1.current.location}}^password_needs_reset=true^user_password=ServiceNow202@^user_name={{Created_1.current.first_name}}.{{Created_1.current.last_name}}^company={"display":"CreatorCon Registration","value":"459a303d87b24550a34aecad3fbb35c8"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d7b4c7b11bfa819093c1a685624bcbee</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:40</sys_created_on>
+        <sys_id>d7b4c7b11bfa819093c1a685624bcbf0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d7b4c7b11bfa819093c1a685624bcbee^sys_idNOT IN97b4c7b11bfa819093c1a685624bcbef"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>fields</input_name>
+        <instance>d7b4c7b11bfa819093c1a685624bcbee</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"user_password":{"scriptActive":false,"savedValue":"ServiceNow2022"}}</script>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:39</sys_created_on>
+        <sys_id>97b4c7b11bfa819093c1a685624bcbef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:39</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
+        <action_type_parent/>
+        <comment>add sn_walkup_login role to user</comment>
+        <compiled_snapshot>e057d2e253b3230034c6ddeeff7b1261</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Approve Registration &amp; Add to Walk-up">6eb4c7b11bfa819093c1a685624bcb07</flow>
+        <order>15</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:40</sys_created_on>
+        <sys_id>dbb4c7b11bfa819093c1a685624bcbfa</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:40</sys_updated_on>
+        <ui_id>f8ca1f6e-659f-4e59-8af7-c8d95abb5cd3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dbb4c7b11bfa819093c1a685624bcbfa"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dbb4c7b11bfa819093c1a685624bcbfa</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:40</sys_created_on>
+        <sys_id>dfb4c7b11bfa819093c1a685624bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:40</sys_updated_on>
+        <value>sys_user_has_role</value>
+        <variable display_value="Table Name">27575ae253b3230034c6ddeeff7b12f4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=dbb4c7b11bfa819093c1a685624bcbfa"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>fields</field>
+        <id>dbb4c7b11bfa819093c1a685624bcbfa</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:40</sys_created_on>
+        <sys_id>9bb4c7b11bfa819093c1a685624bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value>user={{559c42ac-ecb2-4fbb-b323-e6d3ea2bad92.record}}^role={"display":"sn_walkup.walkup_login","value":"433529783b1013001d132c2b54efc4e6"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>dbb4c7b11bfa819093c1a685624bcbfa</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:40</sys_created_on>
+        <sys_id>5fb4c7b11bfa819093c1a685624bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=6eb4c7b11bfa819093c1a685624bcb07^sys_idNOT IN36b4c7b11bfa819093c1a685624bcb33,3ab4c7b11bfa819093c1a685624bcb3d,72b4c7b11bfa819093c1a685624bcb41,beb4c7b11bfa819093c1a685624bcb35,f6b4c7b11bfa819093c1a685624bcb39,fab4c7b11bfa819093c1a685624bcb2d"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">5a27c17587364550a34aecad3fbb35cf</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy of Approve Registration &amp; Add to Walk-up">6eb4c7b11bfa819093c1a685624bcb07</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>c8fb79ae-e103-4fb3-9792-c9ef12b6fa8d</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:37</sys_created_on>
+        <sys_id>36b4c7b11bfa819093c1a685624bcb33</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <ui_id>87d5b131-5244-4d2f-8ce3-5bd8d1218306</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=36b4c7b11bfa819093c1a685624bcb33"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b528f4f587b24550a34aecad3fbb3538</block>
+        <comment/>
+        <connected_to>e53d259c-3257-465e-ac0b-ed324ce7edbe</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy of Approve Registration &amp; Add to Walk-up">6eb4c7b11bfa819093c1a685624bcb07</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>10</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>3ab4c7b11bfa819093c1a685624bcb3d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <ui_id>c66c64f1-bba5-433d-b9b6-67027babda0e</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=3ab4c7b11bfa819093c1a685624bcb3d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>3ab4c7b11bfa819093c1a685624bcb3d</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>b6b4c7b11bfa819093c1a685624bcb40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <value>Las Vegas registered</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3ab4c7b11bfa819093c1a685624bcb3d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>3ab4c7b11bfa819093c1a685624bcb3d</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>36b4c7b11bfa819093c1a685624bcb40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value>{{Created_1.current.location}}=Las Vegas</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>3ab4c7b11bfa819093c1a685624bcb3d</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>72b4c7b11bfa819093c1a685624bcb40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">f128f4f587b24550a34aecad3fbb3545</block>
+        <comment/>
+        <connected_to>e53d259c-3257-465e-ac0b-ed324ce7edbe</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy of Approve Registration &amp; Add to Walk-up">6eb4c7b11bfa819093c1a685624bcb07</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>12</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>72b4c7b11bfa819093c1a685624bcb41</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <ui_id>0520e3af-65d7-4133-afd3-3755e7e62144</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=72b4c7b11bfa819093c1a685624bcb41"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>72b4c7b11bfa819093c1a685624bcb41</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>feb4c7b11bfa819093c1a685624bcb43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <value>New York registered</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=72b4c7b11bfa819093c1a685624bcb41"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>72b4c7b11bfa819093c1a685624bcb41</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>7eb4c7b11bfa819093c1a685624bcb43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value>{{Created_1.current.location}}=New York</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>72b4c7b11bfa819093c1a685624bcb41</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>bab4c7b11bfa819093c1a685624bcb43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">deb5b8b187b24550a34aecad3fbb3540</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy of Approve Registration &amp; Add to Walk-up">6eb4c7b11bfa819093c1a685624bcb07</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>beb4c7b11bfa819093c1a685624bcb35</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <ui_id>e53d259c-3257-465e-ac0b-ed324ce7edbe</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=beb4c7b11bfa819093c1a685624bcb35"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>beb4c7b11bfa819093c1a685624bcb35</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>3eb4c7b11bfa819093c1a685624bcb38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <value>The Hague registered</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=beb4c7b11bfa819093c1a685624bcb35"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>beb4c7b11bfa819093c1a685624bcb35</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>bab4c7b11bfa819093c1a685624bcb38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Created_1.current.location}}=The Hague</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>beb4c7b11bfa819093c1a685624bcb35</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>f6b4c7b11bfa819093c1a685624bcb38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">3d28f4f587b24550a34aecad3fbb3529</block>
+        <comment/>
+        <connected_to>e53d259c-3257-465e-ac0b-ed324ce7edbe</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy of Approve Registration &amp; Add to Walk-up">6eb4c7b11bfa819093c1a685624bcb07</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>f6b4c7b11bfa819093c1a685624bcb39</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <ui_id>9347b850-6437-47d9-9e8d-3947b412ea8f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f6b4c7b11bfa819093c1a685624bcb39"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>f6b4c7b11bfa819093c1a685624bcb39</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>fab4c7b11bfa819093c1a685624bcb3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <value>Sydney registered</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f6b4c7b11bfa819093c1a685624bcb39"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>f6b4c7b11bfa819093c1a685624bcb39</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>7ab4c7b11bfa819093c1a685624bcb3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value>{{Created_1.current.location}}=Sydney</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>f6b4c7b11bfa819093c1a685624bcb39</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:38</sys_created_on>
+        <sys_id>b6b4c7b11bfa819093c1a685624bcb3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:38</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">7a07c93587364550a34aecad3fbb3584</block>
+        <comment>check for duplicate email address, if true send duplicate email</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy of Approve Registration &amp; Add to Walk-up">6eb4c7b11bfa819093c1a685624bcb07</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:37</sys_created_on>
+        <sys_id>fab4c7b11bfa819093c1a685624bcb2d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:37</sys_updated_on>
+        <ui_id>c8fb79ae-e103-4fb3-9792-c9ef12b6fa8d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=fab4c7b11bfa819093c1a685624bcb2d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>fab4c7b11bfa819093c1a685624bcb2d</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:37</sys_created_on>
+        <sys_id>32b4c7b11bfa819093c1a685624bcb32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:37</sys_updated_on>
+        <value>User Account Exists</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fab4c7b11bfa819093c1a685624bcb2d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>fab4c7b11bfa819093c1a685624bcb2d</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:37</sys_created_on>
+        <sys_id>beb4c7b11bfa819093c1a685624bcb31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:37</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{8ad6173e-6707-47fc-bc5c-39882785fd1e.Count}}&gt;0</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>fab4c7b11bfa819093c1a685624bcb2d</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:37</sys_created_on>
+        <sys_id>f6b4c7b11bfa819093c1a685624bcb31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:37</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=6eb4c7b11bfa819093c1a685624bcb07^sys_idNOT IN53b40bb11bfa819093c1a685624bcb19,53b40bb11bfa819093c1a685624bcb1a,57b40bb11bfa819093c1a685624bcb19,57b40bb11bfa819093c1a685624bcb1a,5bb40bb11bfa819093c1a685624bcb19,5bb40bb11bfa819093c1a685624bcb1a,5fb40bb11bfa819093c1a685624bcb19,d3b40bb11bfa819093c1a685624bcb19,d3b40bb11bfa819093c1a685624bcb1a,d7b40bb11bfa819093c1a685624bcb18,d7b40bb11bfa819093c1a685624bcb19,d7b40bb11bfa819093c1a685624bcb1a,dbb40bb11bfa819093c1a685624bcb19,dbb40bb11bfa819093c1a685624bcb1a,dfb40bb11bfa819093c1a685624bcb18,dfb40bb11bfa819093c1a685624bcb19"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>6eb4c7b11bfa819093c1a685624bcb07</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:40</sys_created_on>
+        <sys_id>53b40bb11bfa819093c1a685624bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:40</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>38da0fe1-85da-4e38-8c6d-7fe9969e767c</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>6eb4c7b11bfa819093c1a685624bcb07</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:40</sys_created_on>
+        <sys_id>53b40bb11bfa819093c1a685624bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:40</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>f0f7d655-4c18-4217-95d6-a7a8ea2e9ea7</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>6eb4c7b11bfa819093c1a685624bcb07</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:40</sys_created_on>
+        <sys_id>57b40bb11bfa819093c1a685624bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:40</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>0996109c-ea5c-4b19-b14f-89a0d6f0b1be</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>6eb4c7b11bfa819093c1a685624bcb07</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.last_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:40</sys_created_on>
+        <sys_id>57b40bb11bfa819093c1a685624bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:40</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>27826edf-fe9d-4e8c-9526-d7fdfa5bc7c0</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>6eb4c7b11bfa819093c1a685624bcb07</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:40</sys_created_on>
+        <sys_id>5bb40bb11bfa819093c1a685624bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:40</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d52d49a4-42b0-4112-a7b8-9155d377672e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>6eb4c7b11bfa819093c1a685624bcb07</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:40</sys_created_on>
+        <sys_id>5bb40bb11bfa819093c1a685624bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:40</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>858500b7-e450-4369-af02-63d7eb88283e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>6eb4c7b11bfa819093c1a685624bcb07</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.last_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:40</sys_created_on>
+        <sys_id>5fb40bb11bfa819093c1a685624bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:40</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>0a73b69a-aef5-45eb-867e-ce7bbf41663b</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>6eb4c7b11bfa819093c1a685624bcb07</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:40</sys_created_on>
+        <sys_id>d3b40bb11bfa819093c1a685624bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:40</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b96c3c8e-8e80-4977-bb35-3744cc4e049e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>6eb4c7b11bfa819093c1a685624bcb07</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:40</sys_created_on>
+        <sys_id>d3b40bb11bfa819093c1a685624bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:40</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>78091cb0-29e6-49c6-bf6f-c1a051ee1a51</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>6eb4c7b11bfa819093c1a685624bcb07</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:40</sys_created_on>
+        <sys_id>d7b40bb11bfa819093c1a685624bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:40</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>fad91e32-bf81-438a-b05b-8fe1f8eb2f9a</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>6eb4c7b11bfa819093c1a685624bcb07</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.last_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:40</sys_created_on>
+        <sys_id>d7b40bb11bfa819093c1a685624bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:40</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>11f888e7-7061-4363-b5c6-3444b88b375b</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>6eb4c7b11bfa819093c1a685624bcb07</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:40</sys_created_on>
+        <sys_id>d7b40bb11bfa819093c1a685624bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:40</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b8548fe7-8e6b-46fa-97c1-3f98aa54a932</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>6eb4c7b11bfa819093c1a685624bcb07</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:40</sys_created_on>
+        <sys_id>dbb40bb11bfa819093c1a685624bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:40</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d4d7461f-cbfe-4911-b7f6-26736be426d2</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>6eb4c7b11bfa819093c1a685624bcb07</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.last_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:40</sys_created_on>
+        <sys_id>dbb40bb11bfa819093c1a685624bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:40</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>9ec0fcee-0410-472b-b61b-c2f6709c70b0</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>6eb4c7b11bfa819093c1a685624bcb07</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:40</sys_created_on>
+        <sys_id>dfb40bb11bfa819093c1a685624bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:40</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>07b79806-8b42-4a85-b2ff-cad526ccc0e7</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>6eb4c7b11bfa819093c1a685624bcb07</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:40</sys_created_on>
+        <sys_id>dfb40bb11bfa819093c1a685624bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:40</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>25dd01d2-3ba2-40a8-b933-4bb3aeda27a1</ui_id>
+    </sys_hub_pill_compound>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_6eb4c7b11bfa819093c1a685624bcb07^sys_idNOT IN36b4c7b11bfa819093c1a685624bcb23,3eb4c7b11bfa819093c1a685624bcb29"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_6eb4c7b11bfa819093c1a685624bcb07</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:37</sys_created_on>
+        <sys_id>36b4c7b11bfa819093c1a685624bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_6eb4c7b11bfa819093c1a685624bcb07</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2022-04-12 13:24:37</sys_created_on>
+        <sys_id>3eb4c7b11bfa819093c1a685624bcb29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:24:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

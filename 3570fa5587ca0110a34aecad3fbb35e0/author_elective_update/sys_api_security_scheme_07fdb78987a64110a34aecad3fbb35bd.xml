@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_api_security_scheme">
+    <sys_api_security_scheme action="DELETE">
+        <allow_external_access>true</allow_external_access>
+        <api_collection display_value="Rest trigger for flow id=12f92f0987264110a34aecad3fbb3503 - v1">f48a238987264110a34aecad3fbb354f</api_collection>
+        <enforce_acl/>
+        <requires_authentication>false</requires_authentication>
+        <sys_class_name>sys_api_security_scheme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-28 23:23:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>07fdb78987a64110a34aecad3fbb35bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_update_name>sys_api_security_scheme_07fdb78987a64110a34aecad3fbb35bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-28 23:23:38</sys_updated_on>
+    </sys_api_security_scheme>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</application>
+        <file_path/>
+        <instance_id>6dbf685adbfe681007072f17d4961976</instance_id>
+        <instance_name>stevemccluskeydemoq</instance_name>
+        <name>sys_api_security_scheme_07fdb78987a64110a34aecad3fbb35bd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_api_security_scheme"><sys_api_security_scheme action="INSERT_OR_UPDATE"><allow_external_access>true</allow_external_access><api_collection display_value="Rest trigger for flow id=12f92f0987264110a34aecad3fbb3503 - v1">f48a238987264110a34aecad3fbb354f</api_collection><enforce_acl/><requires_authentication>false</requires_authentication><sys_class_name>sys_api_security_scheme</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-03-28 23:23:38</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>07fdb78987a64110a34aecad3fbb35bd</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package><sys_policy/><sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope><sys_update_name>sys_api_security_scheme_07fdb78987a64110a34aecad3fbb35bd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-03-28 23:23:38</sys_updated_on></sys_api_security_scheme></record_update>]]></payload>
+        <payload_hash>341978841</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>b170fa5587ca0110a34aecad3fbb35e5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-28 23:23:38</sys_created_on>
+        <sys_id>4ffdb78987a64110a34aecad3fbb35bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17fd2d796810000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-28 23:23:38</sys_updated_on>
+        <type>API Security Scheme</type>
+        <update_guid>47fdb78955a64110f62d540bd86671bf</update_guid>
+        <update_guid_history>47fdb78955a64110f62d540bd86671bf:341978841</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-29 01:17:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_api_security_scheme">sys_api_security_scheme</sys_db_object>
+        <sys_id>2f0eab3659cd473ebf33591417b882c4</sys_id>
+        <sys_metadata>07fdb78987a64110a34aecad3fbb35bd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_scope_delete display_value="">7a3de565527e4f7e88b00d50362e19e9</sys_scope_delete>
+        <sys_update_name>sys_api_security_scheme_07fdb78987a64110a34aecad3fbb35bd</sys_update_name>
+        <sys_update_version display_value="sys_api_security_scheme_07fdb78987a64110a34aecad3fbb35bd">4ffdb78987a64110a34aecad3fbb35bf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-29 01:17:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

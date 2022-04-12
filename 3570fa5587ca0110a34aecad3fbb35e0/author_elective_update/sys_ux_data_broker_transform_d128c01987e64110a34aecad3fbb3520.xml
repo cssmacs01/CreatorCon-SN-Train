@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="DELETE">
+        <acl_failure_result/>
+        <api_name>x_snc_creatorcon_0.Train API call</api_name>
+        <description>Transform data resource that will call the Train API Flow</description>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Train API call</name>
+        <output_schema/>
+        <private>false</private>
+        <props/>
+        <required_translations>[ ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+    try {
+        var inputs = {};
+		inputs['train_stop'] = 1;
+		
+        var response = sn_fd.FlowAPI.startAction('x_snc_creatorcon_0.train_api_stops', inputs);
+		return response;
+
+    } catch (ex) {
+        var message = ex.getMessage();
+        gs.error(message);
+    }
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-29 00:08:47</sys_created_on>
+        <sys_id>d128c01987e64110a34aecad3fbb3520</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Train API call</sys_name>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_d128c01987e64110a34aecad3fbb3520</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-29 02:22:51</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="DELETE" query="documentkey=d128c01987e64110a34aecad3fbb3520"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</application>
+        <file_path/>
+        <instance_id>6dbf685adbfe681007072f17d4961976</instance_id>
+        <instance_name>stevemccluskeydemoq</instance_name>
+        <name>sys_ux_data_broker_transform_d128c01987e64110a34aecad3fbb3520</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_data_broker_transform"&gt;&lt;sys_ux_data_broker_transform action="INSERT_OR_UPDATE"&gt;&lt;acl_failure_result/&gt;&lt;api_name&gt;x_snc_creatorcon_0.Train API call&lt;/api_name&gt;&lt;description&gt;Transform data resource that will call the Train API Flow&lt;/description&gt;&lt;mutates_server_data&gt;false&lt;/mutates_server_data&gt;&lt;name&gt;Train API call&lt;/name&gt;&lt;output_schema/&gt;&lt;private&gt;false&lt;/private&gt;&lt;props/&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;schema_version&gt;1.0.0&lt;/schema_version&gt;&lt;script&gt;&lt;![CDATA[function transform(input) {
+    try {
+        var inputs = {};
+		inputs['train_stop'] = 1;
+		
+        var response = sn_fd.FlowAPI.startAction('x_snc_creatorcon_0.train_api_stops', inputs);
+		return response;
+
+    } catch (ex) {
+        var message = ex.getMessage();
+        gs.error(message);
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_ux_data_broker_transform&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-03-29 00:08:47&lt;/sys_created_on&gt;&lt;sys_id&gt;d128c01987e64110a34aecad3fbb3520&lt;/sys_id&gt;&lt;sys_mod_count&gt;20&lt;/sys_mod_count&gt;&lt;sys_name&gt;Train API call&lt;/sys_name&gt;&lt;sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0"&gt;3570fa5587ca0110a34aecad3fbb35e0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CreatorCon 22 - SN Train"&gt;3570fa5587ca0110a34aecad3fbb35e0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_data_broker_transform_d128c01987e64110a34aecad3fbb3520&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-29 02:22:51&lt;/sys_updated_on&gt;&lt;/sys_ux_data_broker_transform&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d128c01987e64110a34aecad3fbb3520"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>723883573</payload_hash>
+        <record_name>Train API call</record_name>
+        <reverted_from/>
+        <source>b170fa5587ca0110a34aecad3fbb35e5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-29 02:22:51</sys_created_on>
+        <sys_id>dc07acdd87aa4110a34aecad3fbb3536</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17fd37bac020000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-29 02:22:51</sys_updated_on>
+        <type>Data Broker Server Script</type>
+        <update_guid>9407acdd18aa411039827b0972236636</update_guid>
+        <update_guid_history>9407acdd18aa411039827b0972236636:723883573,b9d6e411aeea4110f606a31d22cf5219:-95292643,6cf5a89dbbaa411004416346c0c301b9:-735744711,9b95605dbcaa4110b312491913af296c:-303067479,af55205d68aa411029ae5c3b5e6113ed:-1653366588,48b460d9ddaa41108a11f3e5486416cf:-1811070246,ba44601d93aa4110bbb0b48be99cb977:2105587638,051460d9b7aa4110e6ce6f0008df4fbe:977075618,0a93ac99abaa4110cdd83f274b436124:560588281,9f31a85597aa41105975c8ae2835ca34:-131031452,f5ff1cd1daaa4110425d637e32305afa:1546254930,d8eed4511baa4110673c21714c83fa80:-2123608815,aced50dd406a41106051743eafcd6880:505260066,7edc145d906a411008b0a86da9b165d5:1661953351,8edb105dd36a4110b7a02a1f5ee45d59:-272273789,0b595cd5776a41101acf14638cba47df:823503614,c9d81cd5536a4110dd2561e8ab68f65d:-272273789,09a81419492a41101e68120df331f613:-118336175,a4ea8cddc1e641109ed6fbec269a6136:1951853649,4219845df3e64110a46ab378951d2c10:1102457420,585848d9e2e6411026c59f63a57ffc4d:-366340709</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-29 02:24:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_data_broker_transform">sys_ux_data_broker_transform</sys_db_object>
+        <sys_id>0a4b645e856c4e93a6a5c85aeef890b1</sys_id>
+        <sys_metadata>d128c01987e64110a34aecad3fbb3520</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Train API call</sys_name>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_scope_delete display_value="">7a3de565527e4f7e88b00d50362e19e9</sys_scope_delete>
+        <sys_update_name>sys_ux_data_broker_transform_d128c01987e64110a34aecad3fbb3520</sys_update_name>
+        <sys_update_version display_value="sys_ux_data_broker_transform_d128c01987e64110a34aecad3fbb3520">dc07acdd87aa4110a34aecad3fbb3536</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-29 02:24:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

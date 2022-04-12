@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="user_activation_request" label="User Acti Req 484190" max_length="40" name="u_user_acti_req_484190" sizeclass="4" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=x_snc_creatorcon_0_organization" label="Organization" max_length="40" name="x_snc_creatorc_0_organization" type="string"/>
+    </element>
+</database>

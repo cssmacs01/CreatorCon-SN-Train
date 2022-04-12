@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-12 21:49:50</sys_created_on>
+        <sys_id>d758fc0e87fe8550a34aecad3fbb357e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>now.creatorcon-22---sn-train---workspace.*.snc_internal</sys_name>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_security_acl display_value="now.creatorcon-22---sn-train---workspace.*">8f58fc0e4cfe8550175344c451729a61</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_d758fc0e87fe8550a34aecad3fbb357e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-12 21:49:50</sys_updated_on>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+        <transaction_id>5e587c0e87fe8550a34aecad3fbb35ff</transaction_id>
+    </sys_security_acl_role>
+</record_update>

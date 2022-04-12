@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="DELETE">
+        <acl_failure_result/>
+        <api_name>x_snc_creatorcon_0.Train API 1</api_name>
+        <description/>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Train API 1</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+  {&#13;
+    "name": "train",&#13;
+    "label": "Train Stops",&#13;
+    "fieldType": "string",&#13;
+    "readOnly": false,&#13;
+    "mandatory": false,&#13;
+    "description": "",&#13;
+    "defaultValue": ""&#13;
+  }&#13;
+]</props>
+        <required_translations>[ {
+  "message" : "Train Stops",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+    try {
+        var inputs = {};
+        inputs['train_stop'] = input.train;
+
+        var response = sn_fd.FlowAPI.startAction('x_snc_creatorcon_0.train_api_stops', inputs);
+        // return response;
+
+    } catch (ex) {
+        var message = ex.getMessage();
+        gs.error(message);
+    }
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-29 13:29:20</sys_created_on>
+        <sys_id>9f8f3ad51baa811093c1a685624bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Train API 1</sys_name>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_9f8f3ad51baa811093c1a685624bcbc7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-29 13:29:20</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="DELETE" query="documentkey=9f8f3ad51baa811093c1a685624bcbc7"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</application>
+        <file_path/>
+        <instance_id>6dbf685adbfe681007072f17d4961976</instance_id>
+        <instance_name>stevemccluskeydemoq</instance_name>
+        <name>sys_ux_data_broker_transform_9f8f3ad51baa811093c1a685624bcbc7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_data_broker_transform"&gt;&lt;sys_ux_data_broker_transform action="INSERT_OR_UPDATE"&gt;&lt;acl_failure_result/&gt;&lt;api_name&gt;x_snc_creatorcon_0.Train API 1&lt;/api_name&gt;&lt;description/&gt;&lt;mutates_server_data&gt;false&lt;/mutates_server_data&gt;&lt;name&gt;Train API 1&lt;/name&gt;&lt;output_schema/&gt;&lt;private&gt;false&lt;/private&gt;&lt;props&gt;[&amp;#13;
+  {&amp;#13;
+    "name": "train",&amp;#13;
+    "label": "Train Stops",&amp;#13;
+    "fieldType": "string",&amp;#13;
+    "readOnly": false,&amp;#13;
+    "mandatory": false,&amp;#13;
+    "description": "",&amp;#13;
+    "defaultValue": ""&amp;#13;
+  }&amp;#13;
+]&lt;/props&gt;&lt;required_translations&gt;[ {
+  "message" : "Train Stops",
+  "comment" : ""
+} ]&lt;/required_translations&gt;&lt;schema_version&gt;1.0.0&lt;/schema_version&gt;&lt;script&gt;&lt;![CDATA[function transform(input) {
+    try {
+        var inputs = {};
+        inputs['train_stop'] = input.train;
+
+        var response = sn_fd.FlowAPI.startAction('x_snc_creatorcon_0.train_api_stops', inputs);
+        // return response;
+
+    } catch (ex) {
+        var message = ex.getMessage();
+        gs.error(message);
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_ux_data_broker_transform&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-03-29 13:29:20&lt;/sys_created_on&gt;&lt;sys_id&gt;9f8f3ad51baa811093c1a685624bcbc7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Train API 1&lt;/sys_name&gt;&lt;sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0"&gt;3570fa5587ca0110a34aecad3fbb35e0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CreatorCon 22 - SN Train"&gt;3570fa5587ca0110a34aecad3fbb35e0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_data_broker_transform_9f8f3ad51baa811093c1a685624bcbc7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-29 13:29:20&lt;/sys_updated_on&gt;&lt;/sys_ux_data_broker_transform&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=9f8f3ad51baa811093c1a685624bcbc7"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1388628430</payload_hash>
+        <record_name>Train API 1</record_name>
+        <reverted_from/>
+        <source>b170fa5587ca0110a34aecad3fbb35e5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-29 13:29:21</sys_created_on>
+        <sys_id>d38f3ad51baa811093c1a685624bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17fd5dddb6f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-29 13:29:21</sys_updated_on>
+        <type>Data Broker Server Script</type>
+        <update_guid>db8f3ad51faa8110a4b86b2bc2ecbdca</update_guid>
+        <update_guid_history>db8f3ad51faa8110a4b86b2bc2ecbdca:1388628430</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-29 14:46:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_data_broker_transform">sys_ux_data_broker_transform</sys_db_object>
+        <sys_id>27491031780c47f0b9696afa69f84739</sys_id>
+        <sys_metadata>9f8f3ad51baa811093c1a685624bcbc7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Train API 1</sys_name>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_scope_delete display_value="">7a3de565527e4f7e88b00d50362e19e9</sys_scope_delete>
+        <sys_update_name>sys_ux_data_broker_transform_9f8f3ad51baa811093c1a685624bcbc7</sys_update_name>
+        <sys_update_version display_value="sys_ux_data_broker_transform_9f8f3ad51baa811093c1a685624bcbc7">d38f3ad51baa811093c1a685624bcbcb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-29 14:46:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
