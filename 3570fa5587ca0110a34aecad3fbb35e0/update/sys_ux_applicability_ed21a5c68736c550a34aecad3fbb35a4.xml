@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_snc_creatorcon_0.Sydney Page</api_name>
+        <description/>
+        <name>Sydney Page</name>
+        <roles name="x_snc_creatorcon_0.sydney">98ef91068736c550a34aecad3fbb35a4</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 00:48:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ed21a5c68736c550a34aecad3fbb35a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sydney Page</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_update_name>sys_ux_applicability_ed21a5c68736c550a34aecad3fbb35a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 00:48:21</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

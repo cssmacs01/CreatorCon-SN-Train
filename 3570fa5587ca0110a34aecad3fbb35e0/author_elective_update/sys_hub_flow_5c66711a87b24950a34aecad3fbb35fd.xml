@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description/>
+        <internal_name>advanced_queue</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Advanced Queue</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 20:59:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5c66711a87b24950a34aecad3fbb35fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Advanced Queue</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_update_name>sys_hub_flow_5c66711a87b24950a34aecad3fbb35fd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 20:59:17</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=5c66711a87b24950a34aecad3fbb35fd"/>
+    <sys_variable_value action="DELETE" query="document_key=5c66711a87b24950a34aecad3fbb35fd"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=5c66711a87b24950a34aecad3fbb35fd^sys_idNOT IN1c66b11a87b24950a34aecad3fbb3500"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>5c66711a87b24950a34aecad3fbb35fd</id>
+        <name>Advanced Queue</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 20:59:17</sys_created_on>
+        <sys_id>1c66b11a87b24950a34aecad3fbb3500</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 20:59:17</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</application>
+        <file_path/>
+        <instance_id>6dbf685adbfe681007072f17d4961976</instance_id>
+        <instance_name>stevemccluskeydemoq</instance_name>
+        <name>sys_hub_flow_5c66711a87b24950a34aecad3fbb35fd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from><copied_from_name>FlowTemplate_Empty</copied_from_name><description/><internal_name>advanced_queue</internal_name><label_cache>[]</label_cache><latest_snapshot/><master_snapshot/><name>Advanced Queue</name><natlang/><outputs/><remote_trigger_id/><run_as>user</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-13 20:59:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5c66711a87b24950a34aecad3fbb35fd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Advanced Queue</sys_name><sys_overrides/><sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package><sys_policy/><sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope><sys_update_name>sys_hub_flow_5c66711a87b24950a34aecad3fbb35fd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-13 20:59:17</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=5c66711a87b24950a34aecad3fbb35fd"/><sys_variable_value action="delete_multiple" query="document_key=5c66711a87b24950a34aecad3fbb35fd"/><sys_flow_cat_variable_model action="delete_multiple" query="id=5c66711a87b24950a34aecad3fbb35fd^sys_idNOT IN1c66b11a87b24950a34aecad3fbb3500"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>5c66711a87b24950a34aecad3fbb35fd</id><name>Advanced Queue</name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-13 20:59:17</sys_created_on><sys_id>1c66b11a87b24950a34aecad3fbb3500</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-13 20:59:17</sys_updated_on></sys_flow_cat_variable_model></record_update>]]></payload>
+        <payload_hash>-1203723569</payload_hash>
+        <record_name>Advanced Queue</record_name>
+        <reverted_from/>
+        <source>3062dd8687b2c550a34aecad3fbb355d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 20:59:17</sys_created_on>
+        <sys_id>d866b11a87b24950a34aecad3fbb3511</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18024b92f4d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 20:59:17</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>9066b11a99b24950c367a39899ba5c11</update_guid>
+        <update_guid_history>9066b11a99b24950c367a39899ba5c11:-1203723569</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 21:05:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>127fef0145de498b831d27484318d789</sys_id>
+        <sys_metadata>5c66711a87b24950a34aecad3fbb35fd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Advanced Queue</sys_name>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_scope_delete display_value="">7a3de565527e4f7e88b00d50362e19e9</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_5c66711a87b24950a34aecad3fbb35fd</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_5c66711a87b24950a34aecad3fbb35fd">d866b11a87b24950a34aecad3fbb3511</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 21:05:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

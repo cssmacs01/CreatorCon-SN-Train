@@ -8,16 +8,16 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6ba07295d2ca01109a7626b94d8550a5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
         <sys_policy/>
         <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
         <sys_update_name>m2m_app_config_theme_6ba07295d2ca01109a7626b94d8550a5</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-03-04 15:52:59</sys_updated_on>
-        <theme display_value="Light Theme">63a072954cca011096cc35762bbaeb94</theme>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-14 04:24:17</sys_updated_on>
+        <theme display_value="Light Theme">0c18825bb8fb7c109c981f0d065866d1</theme>
         <ux_app_configuration display_value="ServiceNow Express Config">57a0729587ca0110a34aecad3fbb3576</ux_app_configuration>
     </m2m_app_config_theme>
 </record_update>

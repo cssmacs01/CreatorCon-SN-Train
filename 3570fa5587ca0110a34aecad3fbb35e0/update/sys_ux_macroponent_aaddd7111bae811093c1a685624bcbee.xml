@@ -239,7 +239,7 @@
       "propertyValues" : {
         "html" : {
           "type" : "JSON_LITERAL",
-          "value" : "&lt;p&gt;We make work, work better for people with modern digital workflows&lt;/p&gt;"
+          "value" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;Rome&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&amp;nbsp;&lt;/p&gt;\n&lt;div data-pm-slice=\"1 1 []\" data-en-clipboard=\"true\"&gt;&lt;span style=\"font-size: 36pt;\"&gt;AES: fulfilling the vision&lt;/span&gt;&lt;/div&gt;"
         }
       },
       "eventMappings" : [ ],
@@ -308,7 +308,7 @@
         }
       },
       "eventMappings" : [ {
-        "eventMappingId" : "clbbgprbjjcaaaaddeddeiijjggmycngat",
+        "eventMappingId" : "clbbwtiikiijjaaaaccuddehhyjvqffpuccp",
         "isConfiguration" : false,
         "offRowStorageId" : null,
         "sourceEventApiName" : "sn_button.NOW_BUTTON_ICONIC#CLICKED",
@@ -324,26 +324,54 @@
           "clientScript" : null,
           "declarativeAction" : null,
           "event" : {
-            "apiName" : "x_snc_creatorcon_0.NAV_ITEM_SELECTED_RELAY_aaddd7111bae811093c1a685624bcbee",
+            "apiName" : "x_snc_creatorcon_0.MODAL_SELECTED_RELAY_aaddd7111bae811093c1a685624bcbee",
             "payload" : {
               "type" : "JSON_LITERAL",
               "value" : {
-                "route" : "landing",
-                "fields" : null,
-                "params" : null,
-                "redirect" : null,
-                "passiveNavigation" : null,
-                "title" : null,
-                "multiInstField" : null,
-                "targetRoute" : null,
-                "external" : null
+                "modalId" : "[component-id$='confirm_1']",
+                "showModal" : true,
+                "displayOptions" : null,
+                "bare" : null,
+                "preserveState" : null
               }
             },
-            "sysId" : "54561bd2872a4910a34aecad3fbb35f9"
+            "sysId" : "21e6d98287f2c550a34aecad3fbb355c"
           },
           "operation" : null,
-          "targetId" : "clbbgprbjjcaaaaddfddeiijjejjfcciqedd",
+          "targetId" : "clbbwtiikiijjaaaaccvddehhyvboteejjw",
           "type" : "EVENT"
+        }, {
+          "broker" : null,
+          "clientScript" : null,
+          "declarativeAction" : null,
+          "event" : null,
+          "operation" : {
+            "dataBrokerId" : "b997a84053021010cbc2ddeeff7b1228",
+            "operationName" : "REFRESH",
+            "parentResourceId" : "look_up_records_1",
+            "payload" : {
+              "type" : "MAP_CONTAINER",
+              "container" : { }
+            }
+          },
+          "targetId" : "clbbyizzybbaaaadduddfiiafqrddacczs",
+          "type" : "DATABROKER_OP"
+        }, {
+          "broker" : null,
+          "clientScript" : null,
+          "declarativeAction" : null,
+          "event" : null,
+          "operation" : {
+            "dataBrokerId" : "b997a84053021010cbc2ddeeff7b1228",
+            "operationName" : "REFRESH",
+            "parentResourceId" : "look_up_records_2",
+            "payload" : {
+              "type" : "MAP_CONTAINER",
+              "container" : { }
+            }
+          },
+          "targetId" : "clbbyjaaaabbaaaaddvddfiiaunvxwbbbbk",
+          "type" : "DATABROKER_OP"
         } ]
       } ],
       "slot" : "Column 3",
@@ -380,15 +408,412 @@
   "styles" : {
     "width" : "100%"
   }
+}, {
+  "elementId" : "confirm_1",
+  "elementLabel" : "Confirm 1",
+  "propertyValues" : {
+    "headerLabel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "Thank you for riding the Creator Workflows Train Experience. "
+    },
+    "content" : {
+      "type" : "JSON_LITERAL",
+      "value" : "Are you ready to end the experience."
+    },
+    "primaryButtonLabel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "Yes"
+    },
+    "secondaryButtonLabel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "Cancel"
+    },
+    "size" : {
+      "type" : "JSON_LITERAL",
+      "value" : "lg"
+    },
+    "preventDefaultPrimaryAction" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "preventDefaultSecondaryAction" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "defer" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    }
+  },
+  "eventMappings" : [ {
+    "eventMappingId" : "clbbyjjqoddcaaaaddnddeiijjggzmkggjcff",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_canvas_chrome.NOW_CONFIRM_MODAL#POSITIVE_BUTTON_CLICKED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_canvas_chrome.NOW_CONFIRM_MODAL#POSITIVE_BUTTON_CLICKED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "ea6a958a87f2c550a34aecad3fbb35e5"
+      },
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "clbbyjjqoddcaaaaddoddeiijjjjgeechjtjj",
+      "type" : "CLIENT_SCRIPT"
+    }, {
+      "broker" : null,
+      "clientScript" : null,
+      "declarativeAction" : null,
+      "event" : {
+        "apiName" : "x_snc_creatorcon_0.NAV_ITEM_SELECTED_RELAY_aaddd7111bae811093c1a685624bcbee",
+        "payload" : {
+          "type" : "MAP_CONTAINER",
+          "container" : {
+            "route" : {
+              "type" : "JSON_LITERAL",
+              "value" : "landing"
+            },
+            "fields" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "params" : {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "name" : {
+                  "type" : "DATA_OUTPUT_BINDING",
+                  "binding" : {
+                    "address" : [ "look_up_records_2", "results", "0", "opened_for", "displayValue" ]
+                  }
+                }
+              }
+            },
+            "redirect" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "passiveNavigation" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "title" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "multiInstField" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "targetRoute" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "external" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            }
+          }
+        },
+        "sysId" : "54561bd2872a4910a34aecad3fbb35f9"
+      },
+      "operation" : null,
+      "targetId" : "clbbyaoggeeggaaaacciddeiijjhhzzajdddx",
+      "type" : "EVENT"
+    } ]
+  } ],
+  "slot" : null,
+  "definition" : {
+    "id" : "13ecfe155b630010b913cbd59b81c7d6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
 } ]</composition>
         <da_relay_models/>
-        <data>[ ]</data>
-        <dispatched_events>54561bd2872a4910a34aecad3fbb35f9</dispatched_events>
+        <data>[ {
+  "definition" : {
+    "id" : "b997a84053021010cbc2ddeeff7b1228",
+    "type" : "COMPOSITE"
+  },
+  "elementId" : "look_up_records_1",
+  "elementLabel" : "Look Up Now Serving Record",
+  "eventMappings" : [ {
+    "eventMappingId" : "clbbyjjbqkaaaaabblddeiijjrsydcxccv",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_uxf.DATA_FETCH_SUCCEEDED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_uxf.DATA_FETCH_SUCCEEDED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : null,
+      "declarativeAction" : null,
+      "event" : {
+        "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+        "payload" : {
+          "type" : "MAP_CONTAINER",
+          "container" : {
+            "propName" : {
+              "type" : "JSON_LITERAL",
+              "value" : "now_serving"
+            },
+            "value" : {
+              "type" : "DATA_OUTPUT_BINDING",
+              "binding" : {
+                "address" : [ "look_up_records_1", "results", "0", "sys_id" ]
+              }
+            }
+          }
+        },
+        "sysId" : "32408b42ff7a10109046e490703bf176"
+      },
+      "operation" : null,
+      "targetId" : "clbbyjjbqkaaaaabbmddeiijjzyqzboggl",
+      "type" : "EVENT"
+    } ]
+  } ],
+  "inputValues" : {
+    "table" : {
+      "type" : "JSON_LITERAL",
+      "value" : "interaction"
+    },
+    "encodedQuery" : {
+      "type" : "CLIENT_TRANSFORM",
+      "transform" : {
+        "operands" : {
+          "type" : "LIST_CONTAINER",
+          "container" : [ {
+            "type" : "JSON_LITERAL",
+            "value" : "state="
+          }, {
+            "type" : "JSON_LITERAL",
+            "value" : "work_in_progress"
+          }, {
+            "type" : "JSON_LITERAL",
+            "value" : "^location="
+          }, {
+            "type" : "JSON_LITERAL",
+            "value" : "b55752901b0b6c10bd3ccaa5604bcb70"
+          }, {
+            "type" : "JSON_LITERAL",
+            "value" : "^type="
+          }, {
+            "type" : "JSON_LITERAL",
+            "value" : "walkup"
+          }, {
+            "type" : "JSON_LITERAL",
+            "value" : "^short_description="
+          }, {
+            "type" : "JSON_LITERAL",
+            "value" : "Creator Workflows Train Experience"
+          }, {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          } ]
+        },
+        "operator" : "CONCAT"
+      }
+    },
+    "returnFields" : {
+      "type" : "JSON_LITERAL",
+      "value" : "number,state,sys_id,opened_for,location,wait_time"
+    },
+    "orderBy" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "sortType" : {
+      "type" : "JSON_LITERAL",
+      "value" : "asc"
+    },
+    "limit" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "offset" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "queryCategory" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "returnFieldMetadata" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+}, {
+  "definition" : {
+    "id" : "b997a84053021010cbc2ddeeff7b1228",
+    "type" : "COMPOSITE"
+  },
+  "elementId" : "look_up_records_2",
+  "elementLabel" : "Look Up 1st in Queue",
+  "eventMappings" : [ {
+    "eventMappingId" : "clbbyjjeerccaaaabbnddeiijjrdddhhedfc",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_uxf.DATA_FETCH_SUCCEEDED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_uxf.DATA_FETCH_SUCCEEDED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : null,
+      "declarativeAction" : null,
+      "event" : {
+        "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+        "payload" : {
+          "type" : "MAP_CONTAINER",
+          "container" : {
+            "propName" : {
+              "type" : "JSON_LITERAL",
+              "value" : "first_in_queue"
+            },
+            "value" : {
+              "type" : "DATA_OUTPUT_BINDING",
+              "binding" : {
+                "address" : [ "look_up_records_2", "results", "0", "sys_id", "displayValue" ]
+              }
+            }
+          }
+        },
+        "sysId" : "32408b42ff7a10109046e490703bf176"
+      },
+      "operation" : null,
+      "targetId" : "clbbyjjeerccaaaabboddeiijjirggjjzdnee",
+      "type" : "EVENT"
+    } ]
+  } ],
+  "inputValues" : {
+    "table" : {
+      "type" : "JSON_LITERAL",
+      "value" : "interaction"
+    },
+    "encodedQuery" : {
+      "type" : "CLIENT_TRANSFORM",
+      "transform" : {
+        "operands" : {
+          "type" : "LIST_CONTAINER",
+          "container" : [ {
+            "type" : "JSON_LITERAL",
+            "value" : "short_description="
+          }, {
+            "type" : "JSON_LITERAL",
+            "value" : "Creator Workflows Train Experience"
+          }, {
+            "type" : "JSON_LITERAL",
+            "value" : "^state="
+          }, {
+            "type" : "JSON_LITERAL",
+            "value" : "new"
+          }, {
+            "type" : "JSON_LITERAL",
+            "value" : "^type="
+          }, {
+            "type" : "JSON_LITERAL",
+            "value" : "walkup"
+          }, {
+            "type" : "JSON_LITERAL",
+            "value" : "^location="
+          }, {
+            "type" : "JSON_LITERAL",
+            "value" : "b55752901b0b6c10bd3ccaa5604bcb70"
+          }, {
+            "type" : "JSON_LITERAL",
+            "value" : "^ORDERBYsys_created_on"
+          } ]
+        },
+        "operator" : "CONCAT"
+      }
+    },
+    "returnFields" : {
+      "type" : "JSON_LITERAL",
+      "value" : "wait_time,number,state,opened_for,sys_created_on,short_description,location,sys_id"
+    },
+    "orderBy" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "sortType" : {
+      "type" : "JSON_LITERAL",
+      "value" : "asc"
+    },
+    "limit" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "offset" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "queryCategory" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "returnFieldMetadata" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+}, {
+  "definition" : {
+    "id" : "1c3ebd1687f24950a34aecad3fbb35a4",
+    "type" : "TRANSFORM"
+  },
+  "elementId" : "advance_queue",
+  "elementLabel" : "Advance Queue",
+  "eventMappings" : [ ],
+  "inputValues" : { },
+  "readEvaluationMode" : "EXPLICIT"
+} ]</data>
+        <dispatched_events>21e6d98287f2c550a34aecad3fbb355c,54561bd2872a4910a34aecad3fbb35f9</dispatched_events>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
         <interfaces/>
-        <internal_event_mappings>{ }</internal_event_mappings>
+        <internal_event_mappings>{
+  "MACROPONENT_READY" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : null,
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      },
+      "sysId" : null
+    },
+    "operation" : null,
+    "targetId" : "clbbyiuzzjjaaaaccqddfiiamnnjgyob",
+    "type" : "EVENT"
+  } ]
+}</internal_event_mappings>
         <layout>{
   "default" : {
     "children" : null,
@@ -432,18 +857,51 @@
         <root_component_config>{ }</root_component_config>
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
-        <state_properties>[ ]</state_properties>
+        <state_properties>[ {
+  "name" : "location",
+  "label" : "location",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : "New York, NY"
+  }
+}, {
+  "name" : "first_in_queue",
+  "label" : "first_in_queue",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : "''"
+  }
+}, {
+  "name" : "now_serving",
+  "label" : "now_serving",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : "''"
+  }
+} ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-29 15:41:43</sys_created_on>
         <sys_id>aaddd7111bae811093c1a685624bcbee</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_name>Landing 5</sys_name>
         <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
         <sys_policy/>
         <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
         <sys_update_name>sys_ux_macroponent_aaddd7111bae811093c1a685624bcbee</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-01 17:49:07</sys_updated_on>
+        <sys_updated_on>2022-04-14 04:53:37</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

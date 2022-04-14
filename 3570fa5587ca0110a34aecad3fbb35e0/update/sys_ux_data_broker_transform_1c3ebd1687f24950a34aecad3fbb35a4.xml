@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_snc_creatorcon_0.Advance Queue</api_name>
+        <description>This is the transform function to call the REST API's from UIB.</description>
+        <mutates_server_data>true</mutates_server_data>
+        <name>Advance Queue</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+  {&#13;
+    "name": "now_serving",&#13;
+    "label": "Now Serving to Closed Complete",&#13;
+    "fieldType": "string",&#13;
+    "readOnly": false,&#13;
+    "mandatory": false,&#13;
+    "description": "This is the inputs for the train"&#13;
+  },&#13;
+ {&#13;
+    "name": "first_queue",&#13;
+    "label": "Next in line change to work-in-progress",&#13;
+    "fieldType": "string",&#13;
+    "readOnly": false,&#13;
+    "mandatory": false,&#13;
+    "description": "This is the inputs for the train stop"&#13;
+  }&#13;
+]</props>
+        <required_translations>[ {
+  "message" : "Next in line change to work-in-progress",
+  "comment" : ""
+}, {
+  "message" : "Now Serving to Closed Complete",
+  "comment" : ""
+}, {
+  "message" : "This is the inputs for the train",
+  "comment" : ""
+}, {
+  "message" : "This is the inputs for the train stop",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+    // set the now_serving to closed complete
+    if (input.now_serving) {
+        var now_GR = new GlideRecord('interaction');
+        now_GR.get(input.now_serving);
+        now_GR.setValue('state', 'Closed Complete');
+        now_GR.update();
+    }
+
+    // set the first queue assigned to Train Conductor and it will switch to "Work In Progress"
+    if (input.first_queue) {
+        var now_GR1 = new GlideRecord('interaction');
+        now_GR1.get(input.first_queue);
+        now_GR1.setValue('assigned_to', '5ef7594687f2c550a34aecad3fbb3541');
+        now_GR1.update();
+    }
+
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 21:33:25</sys_created_on>
+        <sys_id>1c3ebd1687f24950a34aecad3fbb35a4</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Advance Queue</sys_name>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_1c3ebd1687f24950a34aecad3fbb35a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-14 00:05:50</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=1c3ebd1687f24950a34aecad3fbb35a4"/>
+</record_update>

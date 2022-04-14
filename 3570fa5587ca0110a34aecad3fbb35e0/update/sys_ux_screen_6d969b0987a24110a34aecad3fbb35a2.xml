@@ -89,6 +89,7 @@
 } ]</event_mappings>
         <macroponent display_value="The ServiceNow Express">ad969b0987a24110a34aecad3fbb359e</macroponent>
         <macroponent_config>{
+  "name" : "",
   "label" : "",
   "bare" : true,
   "scrollable" : "y",
@@ -108,7 +109,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6d969b0987a24110a34aecad3fbb35a2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>The ServiceNow Express</sys_name>
         <sys_overrides/>
         <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
@@ -116,7 +117,7 @@
         <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
         <sys_update_name>sys_ux_screen_6d969b0987a24110a34aecad3fbb35a2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-28 22:25:00</sys_updated_on>
+        <sys_updated_on>2022-04-14 00:57:20</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=6d969b0987a24110a34aecad3fbb35a2"/>
 </record_update>

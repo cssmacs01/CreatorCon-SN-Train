@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="awa_assignment_rule">
+    <awa_assignment_rule action="INSERT_OR_UPDATE">
+        <after_timeout_presence/>
+        <agent_criteria>least_time_left_in_shift</agent_criteria>
+        <allow_agents_to_decline>false</allow_agents_to_decline>
+        <assign_by>last_assigned</assign_by>
+        <continuous_time_required>false</continuous_time_required>
+        <dedicated_time_required>false</dedicated_time_required>
+        <enable_shift_based_assignment>false</enable_shift_based_assignment>
+        <enable_skills>false</enable_skills>
+        <enforce_mandatory_skills>false</enforce_mandatory_skills>
+        <evaluate_skill_level>false</evaluate_skill_level>
+        <name>Train Conductor Assignment</name>
+        <reassign_on_timeout>false</reassign_on_timeout>
+        <short_description/>
+        <sys_class_name>awa_assignment_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 22:26:53</sys_created_on>
+        <sys_id>515a0e1e87364950a34aecad3fbb35d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Train Conductor Assignment</sys_name>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_update_name>awa_assignment_rule_515a0e1e87364950a34aecad3fbb35d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 22:26:53</sys_updated_on>
+        <time_required/>
+        <timeout>1970-01-01 00:00:00</timeout>
+    </awa_assignment_rule>
+</record_update>

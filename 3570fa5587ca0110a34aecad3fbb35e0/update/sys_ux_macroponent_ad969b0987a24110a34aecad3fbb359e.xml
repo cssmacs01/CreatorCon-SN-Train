@@ -148,8 +148,8 @@
         "text" : {
           "type" : "CLIENT_TRANSFORM_SCRIPT",
           "script" : {
-            "apiVersion" : "1.0.0",
-            "inlineScript" : "/**\n  * @param {params} params\n  * @param {api} params.api\n  * @param {any} params.imports\n  */\nfunction evaluateProperty({api}) {\n\tvar welcome = 'Current experience tailored for: '\n  return (welcome + api.context.session.user.firstName);\n}"
+            "apiVersion" : "2.0.0",
+            "inlineScript" : "/**\n * @param {params} params\n * @param {api} params.api\n * @param {any} params.imports\n */\nfunction evaluateProperty({\n    api\n}) {\n    var name = api.context.props.name;\n    if (name) {\n        var welcome = 'Current experience tailored for: ';\n        return (welcome + name);\n        }\n        else {\n            var welcome = 'Current experience tailored for: Nobody being served';\n            return (welcome);\n        }\n    }"
           }
         },
         "tag" : {
@@ -213,7 +213,7 @@
       "propertyValues" : {
         "html" : {
           "type" : "JSON_LITERAL",
-          "value" : "&lt;div class=\"col-xl-8 col-lg-9\" style=\"box-sizing: border-box; padding: 0px 15px; margin: 0px; outline: 0px; position: relative; width: 1419.22px; min-height: 1px; -webkit-box-flex: 0; flex: 0 0 66.6667%; max-width: 66.6667%; color: #161b1c; font-family: 'Source Sans Pro', sans-serif; font-size: 16px;\"&gt;\n&lt;div class=\"article__head\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; outline: 0px; display: flex; -webkit-box-align: start; align-items: flex-start; -webkit-box-pack: justify; justify-content: space-between;\"&gt;\n&lt;div class=\"article-title\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; outline: 0px; position: relative;\"&gt;\n&lt;h1 style=\"box-sizing: border-box; padding: 0px; margin: 0px; outline: 0px; font-family: inherit; font-weight: 400; line-height: 1.2; color: #425051; font-size: 28px;\" tabindex=\"0\"&gt;&lt;span style=\"font-size: 14pt;\"&gt;How to write effective stories&lt;/span&gt;&lt;/h1&gt;\n&lt;/div&gt;\n&lt;div class=\"actions-wrapper\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; outline: 0px; position: relative;\"&gt;\n&lt;ul class=\"list--actions zDocsTopicActions\" style=\"box-sizing: border-box; padding: 0px 0px 0px 15px; margin: 7px 12px 0px 0px; outline: 0px; list-style: outside none none; display: flex; -webkit-box-align: center; align-items: center;\"&gt;\n&lt;li class=\"feedback-wrapper\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; outline: 0px;\"&gt;\n&lt;ul style=\"box-sizing: border-box; padding: 0px; margin: 0px; outline: 0px; list-style: none; display: flex; align-items: center; border: 1px solid rgba(172, 180, 181, 0.35);\"&gt;\n&lt;li class=\"hidden-sm hidden-xs\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; outline: 0px;\"&gt;\n&lt;div class=\"dropdown dropdown--main dropdown--main-alt\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; outline: 0px; position: relative;\"&gt;\n&lt;div class=\"unique-tooltip\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; outline: 0px;\" tabindex=\"-1\" data-toggle=\"tooltip\" data-trigger=\"hover\" data-placement=\"top\" data-html=\"true\" data-original-title=\"This content helped me.\"&gt;&amp;nbsp;&lt;/div&gt;\n&lt;/div&gt;\n&lt;/li&gt;\n&lt;li class=\"hidden-sm hidden-xs\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; outline: 0px;\"&gt;\n&lt;div class=\"dropdown dropdown--main dropdown--main-alt\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; outline: 0px; position: relative;\"&gt;\n&lt;div class=\"unique-tooltip\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; outline: 0px;\" tabindex=\"-1\" data-toggle=\"tooltip\" data-trigger=\"hover\" data-placement=\"top\" data-html=\"true\" data-original-title=\"This content didn't help me.\"&gt;&amp;nbsp;&lt;/div&gt;\n&lt;/div&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li style=\"box-sizing: border-box; padding: 0px; margin: 0px 0px 0px 11px; outline: 0px;\"&gt;\n&lt;div class=\"dropdown dropdown--main dropdown--main-alt\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; outline: 0px; position: relative;\"&gt;&amp;nbsp;&lt;/div&gt;\n&lt;/li&gt;\n&lt;li style=\"box-sizing: border-box; padding: 0px; margin: 0px 0px 0px 11px; outline: 0px;\"&gt;&amp;nbsp;&lt;/li&gt;\n&lt;li style=\"box-sizing: border-box; padding: 0px; margin: 0px 0px 0px 11px; outline: 0px;\"&gt;&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"tags-top\" style=\"box-sizing: border-box; padding: 0px; margin: 0px 0px 16px; outline: 0px;\"&gt;&lt;span class=\"tag\" style=\"box-sizing: border-box; padding: 0px 8px; margin: 0px 8px 0px 0px; outline: 0px; display: inline-block; min-width: 10px; text-align: center; white-space: nowrap; vertical-align: middle; font-size: 14pt; text-transform: capitalize; background-color: #b8e0d7; border-radius: 2px; line-height: 18px;\"&gt;San Diego&lt;/span&gt;&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"col-xl-8 col-lg-9\" style=\"box-sizing: border-box; padding: 0px 15px; margin: 0px; outline: 0px; position: relative; width: 1419.22px; min-height: 1px; -webkit-box-flex: 0; flex: 0 0 66.6667%; max-width: 66.6667%; color: #161b1c; font-family: 'Source Sans Pro', sans-serif; font-size: 16px;\"&gt;\n&lt;div class=\"article__content\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; outline: 0px;\"&gt;\n&lt;div class=\"article__body\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; outline: 0px;\"&gt;\n&lt;article id=\"bundle:sandiego-it-business-management/enus/product/agile-development/concept/how-to-write-stories.html\" class=\"hascomments\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; outline: 0px;\" data-page=\"bundle:sandiego-it-business-management/enus/product/agile-development/concept/how-to-write-stories.html\"&gt;&lt;main style=\"box-sizing: border-box; padding: 0px; margin: 0px; outline: 0px;\" role=\"main\"&gt;\n&lt;article style=\"box-sizing: border-box; padding: 0px; margin: 0px; outline: 0px;\" role=\"article\" aria-labelledby=\"ariaid-title1\"&gt;\n&lt;div class=\"body conbody\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; outline: 0px;\"&gt;\n&lt;p class=\"shortdesc\" style=\"box-sizing: border-box; padding: 0px; margin: 0px 0px 24px; outline: 0px; line-height: 1.5; word-break: break-word;\"&gt;&lt;span style=\"font-size: 14pt;\"&gt;Well-written stories are easy to understand by all developers and other team members, such as QA or documentation.&lt;/span&gt;&lt;/p&gt;\n&lt;p class=\"p\" style=\"box-sizing: border-box; padding: 0px; margin: 0px 0px 10px; outline: 0px; line-height: 1.5; word-break: break-word;\"&gt;&lt;span style=\"font-size: 14pt;\"&gt;Stories enable the assignment group to accurately estimate the effort required to implement the work according to the definition of done. Definition of done is the exit criteria agreed to by the group, that determines when a story is complete.&lt;/span&gt;&lt;/p&gt;\n&lt;div class=\"p\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; outline: 0px; line-height: 1.5;\"&gt;&lt;span style=\"font-size: 14pt;\"&gt;A story has the following basic conditions:&lt;/span&gt;\n&lt;ul id=\"how-to-write-stories__ul_jhr_1mg_dp\" class=\"ul\" style=\"box-sizing: border-box; padding: 0px 0px 0px 30px; margin: 10px auto 5px; outline: 0px; overflow-wrap: break-word;\"&gt;\n&lt;li class=\"li\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; outline: 0px;\"&gt;&lt;span style=\"font-size: 14pt;\"&gt;Description: The story description relates to a user persona, such as administrator, and either describes a business value or addresses a technical debt.&lt;/span&gt;&lt;/li&gt;\n&lt;li class=\"li\" style=\"box-sizing: border-box; padding: 0px; margin: 6px 0px 0px; outline: 0px;\"&gt;&lt;span style=\"font-size: 14pt;\"&gt;Acceptance criteria: The story acceptance criteria are measurable and testable.&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;\n&lt;section class=\"section\" style=\"box-sizing: border-box; padding: 0px; margin: 24px 0px 0px; outline: 0px;\"&gt;\n&lt;h2 id=\"d86937e70\" class=\"title sectiontitle\" style=\"box-sizing: border-box; padding: 0px; margin: 0px 0px 16px; outline: 0px; font-family: inherit; font-weight: 400; line-height: 1.2; color: #425051; font-size: 20px;\"&gt;&lt;span style=\"font-size: 14pt;\"&gt;Story descriptions&lt;/span&gt;&lt;/h2&gt;\n&lt;div class=\"p\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; outline: 0px; line-height: 1.5;\"&gt;&lt;span style=\"font-size: 14pt;\"&gt;A good user story description identifies the following for meeting the stated requirement:&lt;/span&gt;\n&lt;ul id=\"how-to-write-stories__ul_c3y_mmw_d1b\" class=\"ul\" style=\"box-sizing: border-box; padding: 0px 0px 0px 30px; margin: 10px auto 5px; outline: 0px; overflow-wrap: break-word;\"&gt;\n&lt;li class=\"li\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; outline: 0px;\"&gt;&lt;span style=\"font-size: 14pt;\"&gt;the role of the user persona in the system&lt;/span&gt;&lt;/li&gt;\n&lt;li class=\"li\" style=\"box-sizing: border-box; padding: 0px; margin: 6px 0px 0px; outline: 0px;\"&gt;&lt;span style=\"font-size: 14pt;\"&gt;the need expressed by the user persona&lt;/span&gt;&lt;/li&gt;\n&lt;li class=\"li\" style=\"box-sizing: border-box; padding: 0px; margin: 6px 0px 0px; outline: 0px;\"&gt;&lt;span style=\"font-size: 14pt;\"&gt;the benefit to all stakeholders such as developers, users, and others&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;\n&lt;p class=\"p\" style=\"box-sizing: border-box; padding: 0px; margin: 0px 0px 10px; outline: 0px; line-height: 1.5; word-break: break-word;\"&gt;&lt;span style=\"font-size: 14pt;\"&gt;Typically, a story description is expressed as: \"As a &amp;lt;role&amp;gt;, I want &amp;lt;goal or need&amp;gt;, so that &amp;lt;benefit&amp;gt;.\"&lt;/span&gt;&lt;/p&gt;\n&lt;dl class=\"dl\" style=\"box-sizing: border-box; padding: 4px 8px; margin: 0px; outline: 0px;\"&gt;\n&lt;dt class=\"dt dlterm\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; outline: 0px; font-weight: bold;\"&gt;&lt;span style=\"font-size: 14pt;\"&gt;Examples of good story description&lt;/span&gt;&lt;/dt&gt;\n&lt;dd class=\"dd\" style=\"box-sizing: border-box; padding: 0px; margin: 0px 0px 15px; outline: 0px;\"&gt;\n&lt;ul id=\"how-to-write-stories__ul_dhg_wmg_dp\" class=\"ul\" style=\"box-sizing: border-box; padding: 0px 0px 0px 30px; margin: 10px auto 5px; outline: 0px; overflow-wrap: break-word;\"&gt;\n&lt;li class=\"li\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; outline: 0px;\"&gt;&lt;span style=\"font-size: 14pt;\"&gt;Description: As a developer, I want to publish the current state of my application to an update set, so that I can deploy it to a production system.&lt;/span&gt;&lt;/li&gt;\n&lt;li class=\"li\" style=\"box-sizing: border-box; padding: 0px; margin: 6px 0px 0px; outline: 0px;\"&gt;&lt;span style=\"font-size: 14pt;\"&gt;Description: As a customer, I want to receive notifications when comments are entered for an incident so that I am updated on the status.&lt;/span&gt;&lt;/li&gt;\n&lt;li class=\"li\" style=\"box-sizing: border-box; padding: 0px; margin: 6px 0px 0px; outline: 0px;\"&gt;&lt;span style=\"font-size: 14pt;\"&gt;Description: As a change manager, I want to enable the assessment of risk for any given change by establishing a list of questions with multiple choice answers.&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/dd&gt;\n&lt;dt class=\"dt dlterm\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; outline: 0px; font-weight: bold;\"&gt;&lt;span style=\"font-size: 14pt;\"&gt;Example of bad story description&lt;/span&gt;&lt;/dt&gt;\n&lt;dd class=\"dd\" style=\"box-sizing: border-box; padding: 0px; margin: 0px 0px 15px; outline: 0px;\"&gt;\n&lt;p class=\"p\" style=\"box-sizing: border-box; padding: 0px; margin: 0px 0px 10px; outline: 0px; line-height: 1.5; word-break: break-word;\"&gt;&lt;span style=\"font-size: 14pt;\"&gt;Description: Notifications are sent when incidents are created.&lt;/span&gt;&lt;/p&gt;\n&lt;div class=\"p\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; outline: 0px; line-height: 1.5;\"&gt;&lt;span style=\"font-size: 14pt;\"&gt;This description is poor because:&lt;/span&gt;\n&lt;ul id=\"how-to-write-stories__ul_ukd_bng_dp\" class=\"ul\" style=\"box-sizing: border-box; padding: 0px 0px 0px 30px; margin: 10px auto 5px; outline: 0px; overflow-wrap: break-word;\"&gt;\n&lt;li class=\"li\" style=\"box-sizing: border-box; padding: 0px; margin: 0px; outline: 0px;\"&gt;&lt;span style=\"font-size: 14pt;\"&gt;The description does not state who or what is sending the notifications, not in what form the notification takes, such as email.&lt;/span&gt;&lt;/li&gt;\n&lt;li class=\"li\" style=\"box-sizing: border-box; padding: 0px; margin: 6px 0px 0px; outline: 0px;\"&gt;&lt;span style=\"font-size: 14pt;\"&gt;The description does not include any benefit information, so the business value is not clear.&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;\n&lt;p class=\"p\" style=\"box-sizing: border-box; padding: 0px; margin: 0px 0px 10px; outline: 0px; line-height: 1.5; word-break: break-word;\"&gt;&lt;span style=\"font-size: 14pt;\"&gt;It could be better written as:&lt;/span&gt;&lt;/p&gt;\n&lt;p class=\"p\" style=\"box-sizing: border-box; padding: 0px; margin: 0px 0px 10px; outline: 0px; line-height: 1.5; word-break: break-word;\"&gt;&lt;span style=\"font-size: 14pt;\"&gt;Description: As an incident creator, I want email notifications to be sent to a predefined set of interested parties when I create an incident, so that they can be informed when an incident affecting them is created.&lt;/span&gt;&lt;/p&gt;\n&lt;/dd&gt;\n&lt;/dl&gt;\n&lt;/section&gt;\n&lt;/div&gt;\n&lt;/article&gt;\n&lt;/main&gt;&lt;/article&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;"
+          "value" : "&lt;p&gt;&lt;span style=\"font-size: 36pt;\"&gt;Instructions for Experience for user goes here.&lt;/span&gt;&lt;/p&gt;"
         }
       },
       "eventMappings" : [ ],
@@ -303,6 +303,31 @@
           "operation" : null,
           "targetId" : "clbblfqwcsaaaajjjjddeiijjbqlvnvxe",
           "type" : "CLIENT_SCRIPT"
+        }, {
+          "broker" : null,
+          "clientScript" : null,
+          "declarativeAction" : null,
+          "event" : {
+            "apiName" : "x_snc_creatorcon_0.NAV_ITEM_SELECTED_RELAY_ad969b0987a24110a34aecad3fbb359e",
+            "payload" : {
+              "type" : "JSON_LITERAL",
+              "value" : {
+                "route" : "landing-1",
+                "fields" : null,
+                "params" : null,
+                "redirect" : null,
+                "passiveNavigation" : null,
+                "title" : null,
+                "multiInstField" : null,
+                "targetRoute" : null,
+                "external" : null
+              }
+            },
+            "sysId" : "4c90b7c187664110a34aecad3fbb3532"
+          },
+          "operation" : null,
+          "targetId" : "clbbwtccddiffaaaaaayddehhyddocfggsdbb",
+          "type" : "EVENT"
         } ]
       } ],
       "slot" : "Column 3",
@@ -689,7 +714,25 @@
         <handled_events/>
         <interactions/>
         <interfaces/>
-        <internal_event_mappings>{ }</internal_event_mappings>
+        <internal_event_mappings>{
+  "MACROPONENT_READY" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : {
+      "dataBrokerId" : "b997a84053021010cbc2ddeeff7b1228",
+      "operationName" : "REFRESH",
+      "parentResourceId" : "look_up_records",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : { }
+      }
+    },
+    "targetId" : "clbbyagqzsaaaabbbddeiijjvbbeeddiggdee",
+    "type" : "DATABROKER_OP"
+  } ]
+}</internal_event_mappings>
         <layout>{
   "default" : {
     "children" : null,
@@ -703,7 +746,18 @@
 }</layout>
         <macroponent_dependencies/>
         <name>The ServiceNow Express</name>
-        <props>[ ]</props>
+        <props>[ {
+  "name" : "name",
+  "label" : "Name",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : "",
+  "readOnly" : true,
+  "selectable" : false
+} ]</props>
         <required_translations>[ {
   "message" : "Enter a label",
   "comment" : ""
@@ -733,18 +787,32 @@
         <root_component_config>{ }</root_component_config>
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
-        <state_properties>[ ]</state_properties>
+        <state_properties>[ {
+  "name" : "name",
+  "label" : "name",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "CONTEXT_BINDING",
+    "binding" : {
+      "address" : [ "name" ],
+      "category" : "props"
+    }
+  }
+} ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-28 20:31:29</sys_created_on>
         <sys_id>ad969b0987a24110a34aecad3fbb359e</sys_id>
-        <sys_mod_count>77</sys_mod_count>
+        <sys_mod_count>94</sys_mod_count>
         <sys_name>The ServiceNow Express</sys_name>
         <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
         <sys_policy/>
         <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
         <sys_update_name>sys_ux_macroponent_ad969b0987a24110a34aecad3fbb359e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-05 02:17:31</sys_updated_on>
+        <sys_updated_on>2022-04-14 04:42:28</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
