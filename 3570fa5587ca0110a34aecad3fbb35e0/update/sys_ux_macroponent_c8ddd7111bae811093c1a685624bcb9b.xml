@@ -280,6 +280,16 @@
         "sourceEventSysId" : null,
         "targets" : [ {
           "broker" : null,
+          "clientScript" : {
+            "sysId" : "2c847f3b873ec190a34aecad3fbb35ee"
+          },
+          "declarativeAction" : null,
+          "event" : null,
+          "operation" : null,
+          "targetId" : "clccffjjhzhzaaaaeemddfhhzpiieerhcffa",
+          "type" : "CLIENT_SCRIPT"
+        }, {
+          "broker" : null,
           "clientScript" : null,
           "declarativeAction" : null,
           "event" : {
@@ -301,7 +311,7 @@
             "sysId" : "db1613d2872a4910a34aecad3fbb3587"
           },
           "operation" : null,
-          "targetId" : "clbbgpqcchhaaaaaaccqddeiijjcdqhhjjpgga",
+          "targetId" : "clccffjjieehhhaaaaeenddfhhzighhjjtjjcq",
           "type" : "EVENT"
         } ]
       } ],
@@ -323,7 +333,7 @@
       "propertyValues" : {
         "html" : {
           "type" : "JSON_LITERAL",
-          "value" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;London&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&amp;nbsp;&lt;/p&gt;\n&lt;div data-pm-slice=\"1 1 []\" data-en-clipboard=\"true\"&gt;&lt;span style=\"font-size: 36pt;\"&gt;Integration hub: now anyone can integrate with stuff&amp;nbsp;&lt;/span&gt;&lt;/div&gt;"
+          "value" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;Train Stop 4: London - Integration HUB (Automation Engine)&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&amp;nbsp;&lt;/p&gt;\n&lt;div data-pm-slice=\"1 1 []\" data-en-clipboard=\"true\"&gt;\n&lt;div data-pm-slice=\"1 1 []\" data-en-clipboard=\"true\"&gt;&lt;span style=\"font-size: 24pt; color: #000000;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;&amp;nbsp; &amp;nbsp; There&amp;rsquo;s a spoke for that&amp;hellip;After moving to Flow Designer, the need for easy to use integrations was met with the launch of Integration Hub.&amp;nbsp; The control of credentials and connections stays with the pro-coders giving more actions within flow designer to extend workflows to other systems easily and dynamically.&amp;nbsp; With over 300+ spokes available from devops to communications to documents, Integration Hub enables automation to go across the business to whomever is building the the flow.&amp;nbsp; Can&amp;rsquo;t find a spoke?&amp;nbsp; No problem &amp;ndash; use your REST, Powershell or other coding skills to create your own, reuseable spokes.&amp;nbsp; What automation spoke was added in San Diego that extends to non-api systems?&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;\n&lt;/div&gt;"
         }
       },
       "eventMappings" : [ ],
@@ -339,11 +349,47 @@
       },
       "isNonDestructive" : false,
       "styles" : { }
+    }, {
+      "elementId" : "container_4",
+      "elementLabel" : "Container 4",
+      "propertyValues" : { },
+      "eventMappings" : [ ],
+      "slot" : "Column 3",
+      "definition" : {
+        "id" : "d356d14b6e293a3020a244b63d278d8f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ ],
+        "layout" : {
+          "default" : {
+            "children" : null,
+            "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
+            "root" : null,
+            "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
+            "styles" : null,
+            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+            "type" : "flex"
+          }
+        }
+      },
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "height" : "550px",
+        "padding-top" : "80px",
+        "background-repeat" : "no-repeat",
+        "background-image" : "url(train1.jpg)",
+        "background-size" : "95%"
+      }
     } ],
     "layout" : {
       "default" : {
         "children" : null,
-        "items" : [{"slotName":"Column 1","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Column 2","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Column 3","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
+        "items" : [{"slotName":"Column 1","rules":{"flex":"1","margin-right":"1rem"},"styles":{"height":"550px","padding-top":"80px","background-repeat":"no-repeat","background-image":"url(im3.png)","background-size":"95%"}},{"slotName":"Column 2","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Column 3","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
         "root" : null,
         "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
         "styles" : null,
@@ -363,7 +409,17 @@
   }
 } ]</composition>
         <da_relay_models/>
-        <data>[ ]</data>
+        <data>[ {
+  "definition" : {
+    "id" : "7197685187ea4110a34aecad3fbb35c2",
+    "type" : "TRANSFORM"
+  },
+  "elementId" : "train_control_api_1",
+  "elementLabel" : "Train Control API 1",
+  "eventMappings" : [ ],
+  "inputValues" : { },
+  "readEvaluationMode" : "EXPLICIT"
+} ]</data>
         <dispatched_events>db1613d2872a4910a34aecad3fbb3587</dispatched_events>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
@@ -415,13 +471,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-29 15:41:33</sys_created_on>
         <sys_id>c8ddd7111bae811093c1a685624bcb9b</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Landing 4</sys_name>
         <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
         <sys_policy/>
         <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
         <sys_update_name>sys_ux_macroponent_c8ddd7111bae811093c1a685624bcb9b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-14 04:22:26</sys_updated_on>
+        <sys_updated_on>2022-04-20 00:18:37</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

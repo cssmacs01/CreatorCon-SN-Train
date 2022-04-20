@@ -201,7 +201,7 @@
       "propertyValues" : {
         "html" : {
           "type" : "JSON_LITERAL",
-          "value" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;Kingston&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&amp;nbsp;&lt;/p&gt;\n&lt;div data-pm-slice=\"1 1 []\" data-en-clipboard=\"true\"&gt;&lt;span style=\"font-size: 36pt;\"&gt;Flow designer introduced&lt;/span&gt;&lt;/div&gt;"
+          "value" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;Train Stop 3: Kingsto&lt;span style=\"color: #000000;\"&gt;n -&amp;nbsp;Flow Designer introduced&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&amp;nbsp;&lt;/p&gt;\n&lt;div data-pm-slice=\"1 1 []\" data-en-clipboard=\"true\"&gt;\n&lt;div data-pm-slice=\"1 1 []\" data-en-clipboard=\"true\"&gt;&lt;span style=\"font-size: 18pt; color: #000000;\"&gt;Are you still using workflow editor?&amp;nbsp; Way back in Kingston the shift to flow designer started &amp;ndash; opening the door to better integrations, faster development and more intuitive for no code developers.&amp;nbsp; Flow designer is now the default workflow editor, utilizing reusable components, drag and drop &amp;lsquo;pills&amp;rsquo; from previous steps and in San Diego, we now have the ability to view flows in diagram mode &amp;ndash; Woohoo!&amp;nbsp; Did you know Flow Designer can use decision tables for more complex decisions?&amp;nbsp; Works great if you want to eliminate multiple tree branches.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;\n&lt;/div&gt;"
         }
       },
       "eventMappings" : [ ],
@@ -283,6 +283,16 @@
         "sourceEventSysId" : null,
         "targets" : [ {
           "broker" : null,
+          "clientScript" : {
+            "sysId" : "f054b37b873ec190a34aecad3fbb3548"
+          },
+          "declarativeAction" : null,
+          "event" : null,
+          "operation" : null,
+          "targetId" : "clccffjjgxdlaaaaeeddddfhhzaffafkuxl",
+          "type" : "CLIENT_SCRIPT"
+        }, {
+          "broker" : null,
           "clientScript" : null,
           "declarativeAction" : null,
           "event" : {
@@ -304,7 +314,7 @@
             "sysId" : "fda59792872a4910a34aecad3fbb356a"
           },
           "operation" : null,
-          "targetId" : "clbbgpnfffcaaaacceeddeiijjceadyulp",
+          "targetId" : "clccffjjhbbegaaaaeeeeddfhhzgfccfvjjbbb",
           "type" : "EVENT"
         } ]
       } ],
@@ -320,11 +330,47 @@
       },
       "isNonDestructive" : false,
       "styles" : { }
+    }, {
+      "elementId" : "container_4",
+      "elementLabel" : "Container 4",
+      "propertyValues" : { },
+      "eventMappings" : [ ],
+      "slot" : "Column 3",
+      "definition" : {
+        "id" : "d356d14b6e293a3020a244b63d278d8f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ ],
+        "layout" : {
+          "default" : {
+            "children" : null,
+            "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
+            "root" : null,
+            "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
+            "styles" : null,
+            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+            "type" : "flex"
+          }
+        }
+      },
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "height" : "550px",
+        "padding-top" : "80px",
+        "background-repeat" : "no-repeat",
+        "background-image" : "url(im1.png)",
+        "background-size" : "95%"
+      }
     } ],
     "layout" : {
       "default" : {
         "children" : null,
-        "items" : [{"slotName":"Column 1","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Column 2","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Column 3","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
+        "items" : [{"slotName":"Column 1","rules":{"flex":"1","margin-right":"1rem"},"styles":{"height":"550px","padding-top":"80px","background-repeat":"no-repeat","background-image":"url(train3.jpg)","background-size":"95%"}},{"slotName":"Column 2","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Column 3","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
         "root" : null,
         "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
         "styles" : null,
@@ -344,7 +390,17 @@
   }
 } ]</composition>
         <da_relay_models/>
-        <data>[ ]</data>
+        <data>[ {
+  "definition" : {
+    "id" : "7197685187ea4110a34aecad3fbb35c2",
+    "type" : "TRANSFORM"
+  },
+  "elementId" : "train_control_api_1",
+  "elementLabel" : "Train Control API 1",
+  "eventMappings" : [ ],
+  "inputValues" : { },
+  "readEvaluationMode" : "EXPLICIT"
+} ]</data>
         <dispatched_events>fda59792872a4910a34aecad3fbb356a</dispatched_events>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
@@ -393,13 +449,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-29 15:41:11</sys_created_on>
         <sys_id>6abdd3dd1b6e811093c1a685624bcbd2</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Landing 3</sys_name>
         <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
         <sys_policy/>
         <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
         <sys_update_name>sys_ux_macroponent_6abdd3dd1b6e811093c1a685624bcbd2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-14 04:22:39</sys_updated_on>
+        <sys_updated_on>2022-04-20 00:18:25</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

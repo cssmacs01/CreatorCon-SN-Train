@@ -4,331 +4,103 @@
         <category>page</category>
         <component_dependencies/>
         <composition>[ {
-  "elementId" : "container_1",
-  "elementLabel" : "Container 1",
-  "propertyValues" : { },
-  "eventMappings" : [ ],
-  "slot" : "Main",
-  "definition" : {
-    "id" : "d356d14b6e293a3020a244b63d278d8f",
-    "type" : "MACROPONENT"
-  },
-  "overrides" : {
-    "composition" : [ {
-      "elementId" : "filter_1",
-      "elementLabel" : "Filter 1",
-      "propertyValues" : {
-        "filterName" : {
-          "type" : "TRANSLATION_LITERAL",
-          "value" : {
-            "message" : "Filter",
-            "comment" : ""
-          }
-        },
-        "filterProperties" : {
-          "type" : "JSON_LITERAL",
-          "value" : "{\"tablefields\":[{\"table\":{\"id\":\"interaction\",\"label\":\"Interaction\",\"count\":0},\"field\":{\"id\":\"type\",\"label\":\"Type\",\"type\":\"choice\",\"choices\":null,\"choiceLabel\":\"Choice\",\"reference\":null,\"referenceField\":null,\"referenceLabel\":\"\"}}],\"defaults\":[{\"label\":\"Walk-up\",\"id\":\"walkup\"}],\"booleanLabels\":{},\"elementId\":\"filter_1\",\"encodedQuery\":null,\"emptyOption\":null,\"listMode\":\"multi\",\"sort\":\"ASC\"}"
-        },
-        "filterConfigurations" : {
-          "type" : "STATE_BINDING",
-          "binding" : {
-            "address" : [ "parFilters" ]
-          }
-        }
-      },
-      "eventMappings" : [ ],
-      "slot" : "Column 2",
-      "definition" : {
-        "id" : "226449101138d0dff1abe0e1566c8b2a",
-        "type" : "MACROPONENT"
-      },
-      "overrides" : null,
-      "isHidden" : {
-        "type" : "JSON_LITERAL",
-        "value" : ""
-      },
-      "isNonDestructive" : false,
-      "styles" : { }
-    }, {
-      "elementId" : "list__simple_1",
-      "elementLabel" : "List - Simple 1",
-      "propertyValues" : {
-        "listTitle" : {
-          "type" : "TRANSLATION_LITERAL",
-          "value" : {
-            "message" : "Walk-up Queue",
-            "comment" : ""
-          }
-        },
-        "table" : {
-          "type" : "JSON_LITERAL",
-          "value" : "interaction"
-        },
-        "query" : {
-          "type" : "CLIENT_TRANSFORM",
-          "transform" : {
-            "operands" : {
-              "type" : "LIST_CONTAINER",
-              "container" : [ {
-                "type" : "JSON_LITERAL",
-                "value" : "short_description="
-              }, {
-                "type" : "JSON_LITERAL",
-                "value" : "Creator Workflows Train Experience"
-              }, {
-                "type" : "JSON_LITERAL",
-                "value" : "^stateIN"
-              }, {
-                "type" : "JSON_LITERAL",
-                "value" : "new,work_in_progress"
-              }, {
-                "type" : "JSON_LITERAL",
-                "value" : ""
-              } ]
-            },
-            "operator" : "CONCAT"
-          }
-        },
-        "columns" : {
-          "type" : "JSON_LITERAL",
-          "value" : "opened_for,state,wait_time,sys_created_on"
-        },
-        "groupByField" : {
-          "type" : "JSON_LITERAL",
-          "value" : null
-        },
-        "limit" : {
-          "type" : "JSON_LITERAL",
-          "value" : "20"
-        },
-        "maxColumns" : {
-          "type" : "JSON_LITERAL",
-          "value" : "10"
-        },
-        "page" : {
-          "type" : "JSON_LITERAL",
-          "value" : 1
-        },
-        "highlightedValueConfigId" : {
-          "type" : "JSON_LITERAL",
-          "value" : ""
-        },
-        "hideHighlightedValues" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hideHeader" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hideTitle" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hideTitleRowCount" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hideRefreshButton" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hideLastRefreshedText" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hideColumnGrouping" : {
-          "type" : "JSON_LITERAL",
-          "value" : true
-        },
-        "hideColumnFiltering" : {
-          "type" : "JSON_LITERAL",
-          "value" : true
-        },
-        "hideColumnSorting" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hideInlineEditing" : {
-          "type" : "JSON_LITERAL",
-          "value" : true
-        },
-        "hideLinks" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hideViewAll" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hideCellFilter" : {
-          "type" : "JSON_LITERAL",
-          "value" : true
-        },
-        "hideCheckboxHover" : {
-          "type" : "JSON_LITERAL",
-          "value" : true
-        },
-        "hideFilterPanel" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hideFirstPage" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hideLastPage" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hideLimitSelector" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hideMenuButton" : {
-          "type" : "JSON_LITERAL",
-          "value" : true
-        },
-        "hideMultiEdit" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hideDeclarativeActions" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hideNextPage" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hidePages" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hidePagination" : {
-          "type" : "JSON_LITERAL",
-          "value" : true
-        },
-        "hidePanel" : {
-          "type" : "JSON_LITERAL",
-          "value" : true
-        },
-        "hidePanelAdvanced" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hidePanelConditionDelete" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hidePanelFooter" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hidePanelRestore" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hidePreviousPage" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hideQuickEdit" : {
-          "type" : "JSON_LITERAL",
-          "value" : true
-        },
-        "hideRange" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hideRowCount" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hideRowSelector" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hideSelectAll" : {
-          "type" : "JSON_LITERAL",
-          "value" : true
-        },
-        "hideEmptyStateImage" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hideDBViews" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "hideUnnecessaryRowSelectors" : {
-          "type" : "JSON_LITERAL",
-          "value" : true
-        },
-        "wordWrap" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "maxCharLimit" : {
-          "type" : "JSON_LITERAL",
-          "value" : 4000
-        },
-        "refreshRequested" : {
-          "type" : "JSON_LITERAL",
-          "value" : ""
-        },
-        "recordSelectedTable" : {
-          "type" : "JSON_LITERAL",
-          "value" : ""
-        },
-        "recordSelectedSysId" : {
-          "type" : "JSON_LITERAL",
-          "value" : ""
-        },
-        "recordSelectedQuery" : {
-          "type" : "JSON_LITERAL",
-          "value" : ""
-        },
-        "recordSelectedView" : {
-          "type" : "JSON_LITERAL",
-          "value" : ""
-        }
-      },
-      "eventMappings" : [ ],
-      "slot" : "Column 2",
-      "definition" : {
-        "id" : "2b1c080881e05dc63b917044290b233f",
-        "type" : "MACROPONENT"
-      },
-      "overrides" : null,
-      "isHidden" : {
-        "type" : "JSON_LITERAL",
-        "value" : ""
-      },
-      "isNonDestructive" : false,
-      "styles" : { }
-    } ],
-    "layout" : {
-      "default" : {
-        "children" : null,
-        "items" : [{"slotName":"Column 1","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Column 2","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column","align-items":"center","justify-content":"space-around"}},{"slotName":"Column 3","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
-        "root" : null,
-        "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
-        "styles" : null,
-        "templateId" : "4105f10153071010e6bcddeeff7b121e",
-        "type" : "flex"
-      },
-      "version" : "2.0.0"
+  "elementId" : "iframe_1",
+  "elementLabel" : "iFrame 1",
+  "propertyValues" : {
+    "title" : {
+      "type" : "JSON_LITERAL",
+      "value" : "Wikipedia home page"
+    },
+    "src" : {
+      "type" : "JSON_LITERAL",
+      "value" : "https://stevemccluskeydemoq.service-now.com/walkup?id=walkup_queue_on_site&amp;location_id=c129ff6d87ba0550a34aecad3fbb3580"
+    },
+    "width" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1000"
+    },
+    "height" : {
+      "type" : "JSON_LITERAL",
+      "value" : "800"
+    },
+    "disableSandbox" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
     }
   },
+  "eventMappings" : [ ],
+  "slot" : "Row 1",
+  "definition" : {
+    "id" : "2eda8d95aae6d05a26d94fbf692ac6f9",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
   "isHidden" : {
     "type" : "JSON_LITERAL",
     "value" : ""
   },
   "isNonDestructive" : false,
-  "styles" : {
-    "width" : "100%"
-  }
+  "styles" : { }
+}, {
+  "elementId" : "image_1",
+  "elementLabel" : "Image 1",
+  "propertyValues" : {
+    "alt" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "src" : {
+      "type" : "JSON_LITERAL",
+      "value" : "/new_york.png"
+    },
+    "fit" : {
+      "type" : "JSON_LITERAL",
+      "value" : "fill"
+    },
+    "position" : {
+      "type" : "JSON_LITERAL",
+      "value" : "top left"
+    },
+    "height" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Row 2",
+  "definition" : {
+    "id" : "15fe506403f8a98575b6df59008ea8f1",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
+  "elementId" : "rich_text_1",
+  "elementLabel" : "Rich text 1",
+  "propertyValues" : {
+    "html" : {
+      "type" : "JSON_LITERAL",
+      "value" : "&lt;p&gt;&lt;span style=\"font-size: 36pt;\"&gt;Attention Passengers :&lt;/span&gt;&lt;/p&gt;\n&lt;ol&gt;\n&lt;li&gt;&lt;span style=\"font-size: 14pt;\"&gt;&amp;nbsp;&lt;span style=\"font-size: 24pt;\"&gt;Scan the QR code .&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;&lt;span style=\"font-size: 24pt;\"&gt;&amp;nbsp;You will be redirected to Registration Page.&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;&lt;span style=\"font-size: 24pt;\"&gt;&amp;nbsp;Enter your details and Register.&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;&lt;span style=\"font-size: 24pt;\"&gt;&amp;nbsp;Wait for your email.&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;&lt;span style=\"font-size: 24pt;\"&gt;&amp;nbsp;Once you get the email, walk up to train console , enjoy the journey of ServiceNow through the time, as train walks though the stations&lt;/span&gt;&lt;/li&gt;\n&lt;/ol&gt;"
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Row 2",
+  "definition" : {
+    "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
 } ]</composition>
         <da_relay_models/>
         <data>[ {
@@ -403,24 +175,18 @@
         <layout>{
   "default" : {
     "children" : null,
-    "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
+    "items" : [{"slotName":"Row 1","rules":{"flex":"1","margin-bottom":"1rem"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Row 2","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"row"}}],
     "root" : null,
-    "rules" : {"flex-flow":"row nowrap","align-items":"stretch","min-height":"400px","height":"100%"},
+    "rules" : {"flex-flow":"column nowrap","align-items":"stretch","min-height":"400px","height":"100%"},
     "styles" : null,
-    "templateId" : "28bde4cd53431010e6bcddeeff7b12cc",
+    "templateId" : "1afa9dc153c31010e6bcddeeff7b1280",
     "type" : "flex"
   }
 }</layout>
         <macroponent_dependencies/>
         <name>Register</name>
         <props>[ ]</props>
-        <required_translations>[ {
-  "message" : "Filter",
-  "comment" : ""
-}, {
-  "message" : "Walk-up Queue",
-  "comment" : ""
-} ]</required_translations>
+        <required_translations>[ ]</required_translations>
         <root_component/>
         <root_component_config>{ }</root_component_config>
         <root_component_definition/>
@@ -430,13 +196,13 @@
         <sys_created_by>swati.agarwal</sys_created_by>
         <sys_created_on>2022-04-04 17:23:33</sys_created_on>
         <sys_id>38be621f1b6e015093c1a685624bcbc6</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>Register</sys_name>
         <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
         <sys_policy/>
         <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
         <sys_update_name>sys_ux_macroponent_38be621f1b6e015093c1a685624bcbc6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-12 05:18:08</sys_updated_on>
+        <sys_updated_on>2022-04-20 00:54:29</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

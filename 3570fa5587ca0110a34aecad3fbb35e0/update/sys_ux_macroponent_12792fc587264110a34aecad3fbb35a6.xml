@@ -163,7 +163,7 @@
       "propertyValues" : {
         "html" : {
           "type" : "JSON_LITERAL",
-          "value" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 24pt;\"&gt;San Diego&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&amp;nbsp;&lt;/p&gt;\n&lt;div data-pm-slice=\"1 1 []\" data-en-clipboard=\"true\"&gt;&lt;span style=\"font-size: 36pt;\"&gt;Fred's vision to build a platform anyone can build an app on.&lt;/span&gt;&lt;/div&gt;"
+          "value" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;Train Stop 1: San Diego - \"Fred's vision\"&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&amp;nbsp;&lt;/p&gt;\n&lt;div data-pm-slice=\"1 1 []\" data-en-clipboard=\"true\"&gt;\n&lt;p class=\"MsoNormal\" style=\"margin: 0in; font-size: 12pt; font-family: Calibri, sans-serif;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;1970&amp;rsquo;s &amp;ndash; A young Fred Luddy experiences the joy of developing software to improve work for others when his coworker, Phyilis, explains that her daily activities include inputting customer orders into a computer system and despite 80% of the content being the same for each entry, she has to start the form over for each order she enters. That night Fred builds a simple &amp;ldquo;copy previous order&amp;rdquo; button for Phyilis. Not only does that button save Phylis hours of work but she cries from the improvement in her work life.&lt;/span&gt;&lt;/p&gt;\n&lt;p class=\"MsoNormal\" style=\"margin: 0in; font-size: 12pt; font-family: Calibri, sans-serif;\"&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p class=\"MsoNormal\" style=\"margin: 0in; font-size: 12pt; font-family: Calibri, sans-serif;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;This experience gave way to Fred's vision that the world needs a platform that everyday people can use to get work moving and to build enterprise applications quickly.&lt;/span&gt;&lt;/p&gt;\n&lt;/div&gt;"
         }
       },
       "eventMappings" : [ ],
@@ -245,6 +245,16 @@
         "sourceEventSysId" : null,
         "targets" : [ {
           "broker" : null,
+          "clientScript" : {
+            "sysId" : "3dc3b7b7873ec190a34aecad3fbb35f9"
+          },
+          "declarativeAction" : null,
+          "event" : null,
+          "operation" : null,
+          "targetId" : "clccffjjeeynaaaacceddfhhzaegmyhddr",
+          "type" : "CLIENT_SCRIPT"
+        }, {
+          "broker" : null,
           "clientScript" : null,
           "declarativeAction" : null,
           "event" : {
@@ -266,7 +276,7 @@
             "sysId" : "6b3b2c7587ee0510a34aecad3fbb35b7"
           },
           "operation" : null,
-          "targetId" : "clbbdrffbbeaaaaffddddeiijjochhaauwkr",
+          "targetId" : "clccffjjetkggaaaaccfddfhhznhhyjxvhhu",
           "type" : "EVENT"
         } ]
       } ],
@@ -282,6 +292,77 @@
       },
       "isNonDestructive" : false,
       "styles" : { }
+    }, {
+      "elementId" : "container_4",
+      "elementLabel" : "Container 4",
+      "propertyValues" : { },
+      "eventMappings" : [ ],
+      "slot" : "Column 1",
+      "definition" : {
+        "id" : "d356d14b6e293a3020a244b63d278d8f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ ],
+        "layout" : {
+          "default" : {
+            "children" : null,
+            "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
+            "root" : null,
+            "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
+            "styles" : null,
+            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+            "type" : "flex"
+          }
+        }
+      },
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "height" : "300px",
+        "background-repeat" : "no-repeat",
+        "background-image" : "url(fl.png)",
+        "background-size" : "90%"
+      }
+    }, {
+      "elementId" : "container_5",
+      "elementLabel" : "Container 5",
+      "propertyValues" : { },
+      "eventMappings" : [ ],
+      "slot" : "Column 3",
+      "definition" : {
+        "id" : "d356d14b6e293a3020a244b63d278d8f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ ],
+        "layout" : {
+          "default" : {
+            "children" : null,
+            "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
+            "root" : null,
+            "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
+            "styles" : null,
+            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+            "type" : "flex"
+          }
+        }
+      },
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "height" : "550px",
+        "padding-top" : "80px",
+        "background-repeat" : "no-repeat",
+        "background-image" : "url(aes_resources_developer_community.svg)",
+        "background-size" : "95%"
+      }
     } ],
     "layout" : {
       "default" : {
@@ -306,7 +387,17 @@
   }
 } ]</composition>
         <da_relay_models/>
-        <data>[ ]</data>
+        <data>[ {
+  "definition" : {
+    "id" : "7197685187ea4110a34aecad3fbb35c2",
+    "type" : "TRANSFORM"
+  },
+  "elementId" : "train_control_api_1",
+  "elementLabel" : "Train Control API 1",
+  "eventMappings" : [ ],
+  "inputValues" : { },
+  "readEvaluationMode" : "EXPLICIT"
+} ]</data>
         <dispatched_events>6b3b2c7587ee0510a34aecad3fbb35b7</dispatched_events>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
@@ -349,13 +440,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-28 21:54:01</sys_created_on>
         <sys_id>12792fc587264110a34aecad3fbb35a6</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_name>Landing 1</sys_name>
         <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
         <sys_policy/>
         <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
         <sys_update_name>sys_ux_macroponent_12792fc587264110a34aecad3fbb35a6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-14 04:18:30</sys_updated_on>
+        <sys_updated_on>2022-04-20 00:18:07</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

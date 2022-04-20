@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Landing 3">6abdd3dd1b6e811093c1a685624bcbd2</macroponent>
+        <name>Train Stop 4</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+ function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    api.data.train_control_api_1.execute({
+        train: "Train 1", //this needs be dynamic based on roles of the walk-up user
+        stop: "5",
+        dir: "F",
+        speed: "50",
+        mid: "train_mid1"
+    });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-18 22:00:26</sys_created_on>
+        <sys_id>f054b37b873ec190a34aecad3fbb3548</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Train Stop 4</sys_name>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_update_name>sys_ux_client_script_f054b37b873ec190a34aecad3fbb3548</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-18 22:16:15</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>

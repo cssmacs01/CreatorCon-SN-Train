@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Train Management Dashboard">7cfe5392876a4910a34aecad3fbb353a</macroponent>
+        <name>Train Battery</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    var trainMap = {
+        "Train 1": "train_mid1",
+        "Train 2": "train_mid2",
+        "Train 3": "train_mid3",
+    };
+    api.data.train_status_api_1.execute({
+        train: api.state.train_selected, //this needs be dynamic based on roles of the walk-up user
+        stop: "1",
+        dir: "F",
+        speed: "0",
+        mid: trainMap[api.state.train_selected]
+    });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-18 22:46:38</sys_created_on>
+        <sys_id>e5eefbbb877ec190a34aecad3fbb3569</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Train Battery</sys_name>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_update_name>sys_ux_client_script_e5eefbbb877ec190a34aecad3fbb3569</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-19 00:05:21</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>

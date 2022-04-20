@@ -213,7 +213,7 @@
       "propertyValues" : {
         "html" : {
           "type" : "JSON_LITERAL",
-          "value" : "&lt;p&gt;&lt;span style=\"font-size: 36pt;\"&gt;Instructions for Experience for user goes here.&lt;/span&gt;&lt;/p&gt;"
+          "value" : "&lt;p&gt;&lt;span style=\"font-size: 36pt;\"&gt;Attention Passengers :&lt;/span&gt;&lt;/p&gt;\n&lt;ol&gt;\n&lt;li&gt;&lt;span style=\"font-size: 14pt;\"&gt;&amp;nbsp;Scan the QR code .&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;&lt;span style=\"font-size: 14pt;\"&gt;&amp;nbsp;You will be redirected to Registration Page.&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;&lt;span style=\"font-size: 14pt;\"&gt;&amp;nbsp;Enter your details and Register.&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;&lt;span style=\"font-size: 14pt;\"&gt;&amp;nbsp;Wait for your email.&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;&lt;span style=\"font-size: 14pt;\"&gt;&amp;nbsp;Once you get the email, walk up to train console , enjoy the journey of ServiceNow through the time, as train walks though the stations&lt;/span&gt;&lt;/li&gt;\n&lt;/ol&gt;"
         }
       },
       "eventMappings" : [ ],
@@ -255,7 +255,7 @@
         },
         "hidePadding" : {
           "type" : "JSON_LITERAL",
-          "value" : false
+          "value" : "false"
         },
         "highContrast" : {
           "type" : "JSON_LITERAL",
@@ -341,312 +341,50 @@
         "value" : ""
       },
       "isNonDestructive" : false,
-      "styles" : { }
+      "styles" : {
+        "width" : "100%"
+      }
     }, {
-      "elementId" : "button_1",
-      "elementLabel" : "Button 1",
-      "propertyValues" : {
-        "variant" : {
-          "type" : "JSON_LITERAL",
-          "value" : "secondary"
-        },
-        "size" : {
-          "type" : "JSON_LITERAL",
-          "value" : "md"
-        },
-        "label" : {
-          "type" : "TRANSLATION_LITERAL",
-          "value" : {
-            "message" : "Step 2",
-            "comment" : ""
-          }
-        },
-        "icon" : {
-          "type" : "JSON_LITERAL",
-          "value" : null
-        },
-        "disabled" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "tooltipContent" : {
-          "type" : "TRANSLATION_LITERAL",
-          "value" : {
-            "message" : "Enter a label",
-            "comment" : ""
-          }
-        },
-        "configAria" : {
-          "type" : "MAP_CONTAINER",
-          "container" : { }
-        }
-      },
-      "eventMappings" : [ {
-        "eventMappingId" : "clbblghhmibaaaaajddeiijjswggjjhodr",
-        "isConfiguration" : false,
-        "offRowStorageId" : null,
-        "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
-        "sourceEventCorrelationId" : null,
-        "sourceEventDefinition" : {
-          "apiName" : "sn_button.NOW_BUTTON#CLICKED",
-          "id" : null,
-          "type" : "UXEVENT"
-        },
-        "sourceEventSysId" : null,
-        "targets" : [ {
-          "broker" : null,
-          "clientScript" : {
-            "sysId" : "aaa9506b87ae4510a34aecad3fbb35b2"
-          },
-          "declarativeAction" : null,
-          "event" : null,
-          "operation" : null,
-          "targetId" : "clbblghhmibaaaaakddeiijjfwggrggmkj",
-          "type" : "CLIENT_SCRIPT"
-        } ]
-      } ],
+      "elementId" : "container_5",
+      "elementLabel" : "Container 5",
+      "propertyValues" : { },
+      "eventMappings" : [ ],
       "slot" : "Column 3",
       "definition" : {
-        "id" : "d37ce8abca89d02905fed903c8e34d8e",
+        "id" : "d356d14b6e293a3020a244b63d278d8f",
         "type" : "MACROPONENT"
       },
-      "overrides" : null,
+      "overrides" : {
+        "composition" : [ ],
+        "layout" : {
+          "default" : {
+            "children" : null,
+            "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
+            "root" : null,
+            "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
+            "styles" : null,
+            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+            "type" : "flex"
+          }
+        }
+      },
       "isHidden" : {
         "type" : "JSON_LITERAL",
         "value" : ""
       },
       "isNonDestructive" : false,
-      "styles" : { }
-    }, {
-      "elementId" : "button_2",
-      "elementLabel" : "Button 2",
-      "propertyValues" : {
-        "variant" : {
-          "type" : "JSON_LITERAL",
-          "value" : "secondary"
-        },
-        "size" : {
-          "type" : "JSON_LITERAL",
-          "value" : "md"
-        },
-        "label" : {
-          "type" : "TRANSLATION_LITERAL",
-          "value" : {
-            "message" : "Step 3",
-            "comment" : ""
-          }
-        },
-        "icon" : {
-          "type" : "JSON_LITERAL",
-          "value" : null
-        },
-        "disabled" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "tooltipContent" : {
-          "type" : "TRANSLATION_LITERAL",
-          "value" : {
-            "message" : "Enter a label",
-            "comment" : ""
-          }
-        },
-        "configAria" : {
-          "type" : "MAP_CONTAINER",
-          "container" : { }
-        }
-      },
-      "eventMappings" : [ {
-        "eventMappingId" : "clbblghhsddsaaaaalddeiijjcbxffwgmee",
-        "isConfiguration" : false,
-        "offRowStorageId" : null,
-        "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
-        "sourceEventCorrelationId" : null,
-        "sourceEventDefinition" : {
-          "apiName" : "sn_button.NOW_BUTTON#CLICKED",
-          "id" : null,
-          "type" : "UXEVENT"
-        },
-        "sourceEventSysId" : null,
-        "targets" : [ {
-          "broker" : null,
-          "clientScript" : {
-            "sysId" : "f0b9dce787ae4510a34aecad3fbb3505"
-          },
-          "declarativeAction" : null,
-          "event" : null,
-          "operation" : null,
-          "targetId" : "clbblghhsddsaaaaamddeiijjvthygccffm",
-          "type" : "CLIENT_SCRIPT"
-        } ]
-      } ],
-      "slot" : "Column 3",
-      "definition" : {
-        "id" : "d37ce8abca89d02905fed903c8e34d8e",
-        "type" : "MACROPONENT"
-      },
-      "overrides" : null,
-      "isHidden" : {
-        "type" : "JSON_LITERAL",
-        "value" : ""
-      },
-      "isNonDestructive" : false,
-      "styles" : { }
-    }, {
-      "elementId" : "button_3",
-      "elementLabel" : "Button 3",
-      "propertyValues" : {
-        "variant" : {
-          "type" : "JSON_LITERAL",
-          "value" : "secondary"
-        },
-        "size" : {
-          "type" : "JSON_LITERAL",
-          "value" : "md"
-        },
-        "label" : {
-          "type" : "TRANSLATION_LITERAL",
-          "value" : {
-            "message" : "Step 4",
-            "comment" : ""
-          }
-        },
-        "icon" : {
-          "type" : "JSON_LITERAL",
-          "value" : null
-        },
-        "disabled" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "tooltipContent" : {
-          "type" : "TRANSLATION_LITERAL",
-          "value" : {
-            "message" : "Enter a label",
-            "comment" : ""
-          }
-        },
-        "configAria" : {
-          "type" : "MAP_CONTAINER",
-          "container" : { }
-        }
-      },
-      "eventMappings" : [ {
-        "eventMappingId" : "clbblghhxkvaaaaanddeiijjhjjflffffyd",
-        "isConfiguration" : false,
-        "offRowStorageId" : null,
-        "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
-        "sourceEventCorrelationId" : null,
-        "sourceEventDefinition" : {
-          "apiName" : "sn_button.NOW_BUTTON#CLICKED",
-          "id" : null,
-          "type" : "UXEVENT"
-        },
-        "sourceEventSysId" : null,
-        "targets" : [ {
-          "broker" : null,
-          "clientScript" : {
-            "sysId" : "84c95c2b87ae4510a34aecad3fbb351a"
-          },
-          "declarativeAction" : null,
-          "event" : null,
-          "operation" : null,
-          "targetId" : "clbblghhxkvaaaaaoddeiijjxrpjeeggtu",
-          "type" : "CLIENT_SCRIPT"
-        } ]
-      } ],
-      "slot" : "Column 3",
-      "definition" : {
-        "id" : "d37ce8abca89d02905fed903c8e34d8e",
-        "type" : "MACROPONENT"
-      },
-      "overrides" : null,
-      "isHidden" : {
-        "type" : "JSON_LITERAL",
-        "value" : ""
-      },
-      "isNonDestructive" : false,
-      "styles" : { }
-    }, {
-      "elementId" : "button_4",
-      "elementLabel" : "Button 4",
-      "propertyValues" : {
-        "variant" : {
-          "type" : "JSON_LITERAL",
-          "value" : "secondary"
-        },
-        "size" : {
-          "type" : "JSON_LITERAL",
-          "value" : "md"
-        },
-        "label" : {
-          "type" : "TRANSLATION_LITERAL",
-          "value" : {
-            "message" : "Step 5",
-            "comment" : ""
-          }
-        },
-        "icon" : {
-          "type" : "JSON_LITERAL",
-          "value" : null
-        },
-        "disabled" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "tooltipContent" : {
-          "type" : "TRANSLATION_LITERAL",
-          "value" : {
-            "message" : "Enter a label",
-            "comment" : ""
-          }
-        },
-        "configAria" : {
-          "type" : "MAP_CONTAINER",
-          "container" : { }
-        }
-      },
-      "eventMappings" : [ {
-        "eventMappingId" : "clbblgiiccoeeaaaaapddeiijjzbbeedhedc",
-        "isConfiguration" : false,
-        "offRowStorageId" : null,
-        "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
-        "sourceEventCorrelationId" : null,
-        "sourceEventDefinition" : {
-          "apiName" : "sn_button.NOW_BUTTON#CLICKED",
-          "id" : null,
-          "type" : "UXEVENT"
-        },
-        "sourceEventSysId" : null,
-        "targets" : [ {
-          "broker" : null,
-          "clientScript" : {
-            "sysId" : "7dd9906b87ae4510a34aecad3fbb35d5"
-          },
-          "declarativeAction" : null,
-          "event" : null,
-          "operation" : null,
-          "targetId" : "clbblgiiccoeeaaaaaqddeiijjccaaupiqffl",
-          "type" : "CLIENT_SCRIPT"
-        } ]
-      } ],
-      "slot" : "Column 3",
-      "definition" : {
-        "id" : "d37ce8abca89d02905fed903c8e34d8e",
-        "type" : "MACROPONENT"
-      },
-      "overrides" : null,
-      "isHidden" : {
-        "type" : "JSON_LITERAL",
-        "value" : ""
-      },
-      "isNonDestructive" : false,
-      "styles" : { }
+      "styles" : {
+        "height" : "550px",
+        "padding-top" : "80px",
+        "background-repeat" : "no-repeat",
+        "background-image" : "url(im2.png)",
+        "background-size" : "95%"
+      }
     } ],
     "layout" : {
       "default" : {
         "children" : null,
-        "items" : [{"slotName":"Column 1","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Column 2","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Column 3","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
+        "items" : [{"slotName":"Column 1","rules":{"flex":"1","margin-right":"1rem"},"styles":{"height":"100%","background-image":"url(mobile.jpg)"}},{"slotName":"Column 2","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Column 3","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
         "root" : null,
         "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
         "styles" : null,
@@ -768,18 +506,6 @@
   "message" : "Search",
   "comment" : ""
 }, {
-  "message" : "Step 2",
-  "comment" : ""
-}, {
-  "message" : "Step 3",
-  "comment" : ""
-}, {
-  "message" : "Step 4",
-  "comment" : ""
-}, {
-  "message" : "Step 5",
-  "comment" : ""
-}, {
   "message" : "Welcome to the Creator Workflows \nTrain Experience",
   "comment" : ""
 } ]</required_translations>
@@ -806,13 +532,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-28 20:31:29</sys_created_on>
         <sys_id>ad969b0987a24110a34aecad3fbb359e</sys_id>
-        <sys_mod_count>94</sys_mod_count>
+        <sys_mod_count>110</sys_mod_count>
         <sys_name>The ServiceNow Express</sys_name>
         <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
         <sys_policy/>
         <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
         <sys_update_name>sys_ux_macroponent_ad969b0987a24110a34aecad3fbb359e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-14 04:42:28</sys_updated_on>
+        <sys_updated_on>2022-04-20 00:17:53</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
