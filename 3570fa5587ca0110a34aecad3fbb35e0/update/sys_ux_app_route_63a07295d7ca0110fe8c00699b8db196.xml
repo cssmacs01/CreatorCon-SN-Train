@@ -4,25 +4,25 @@
         <description/>
         <fields/>
         <icon/>
-        <name>Landing Page</name>
+        <name>Train Home</name>
         <optional_parameters>name</optional_parameters>
         <order>0</order>
         <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
         <parent_macroponent_composition_element_id/>
         <route_type>landing</route_type>
-        <screen_type display_value="Landing Page">23a07295deca0110d6e1d9b37c523b96</screen_type>
+        <screen_type display_value="Train Home">23a07295deca0110d6e1d9b37c523b96</screen_type>
         <sys_class_name>sys_ux_app_route</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-03-04 15:53:00</sys_created_on>
         <sys_id>63a07295d7ca0110fe8c00699b8db196</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Landing Page</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Train Home</sys_name>
         <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
         <sys_policy/>
         <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
         <sys_update_name>sys_ux_app_route_63a07295d7ca0110fe8c00699b8db196</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-14 00:56:27</sys_updated_on>
+        <sys_updated_by>steve.mccluskey</sys_updated_by>
+        <sys_updated_on>2022-04-21 04:28:27</sys_updated_on>
     </sys_ux_app_route>
     <sys_translated_text action="delete_multiple" query="documentkey=63a07295d7ca0110fe8c00699b8db196"/>
 </record_update>

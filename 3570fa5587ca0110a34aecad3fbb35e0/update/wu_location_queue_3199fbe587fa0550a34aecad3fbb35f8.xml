@@ -9,10 +9,9 @@
         <average_wait_time>1970-01-01 00:00:30</average_wait_time>
         <away_image/>
         <away_message>We are away at the moment. Please check back later.</away_message>
-        <ccc_source_id/>
         <check_in_greeting>Welcome! Please check in below to add yourself to the queue.</check_in_greeting>
         <closed_message>We are closed. Please refer to the hours of operation.</closed_message>
-        <condition table="interaction">location=722890de1bb2e010bd3ccaa5604bcb7b^EQ<item display_table="cmn_location" display_value="Sydney, Australia" endquery="false" field="location" goto="false" newquery="false" operator="=" or="false" value="722890de1bb2e010bd3ccaa5604bcb7b"/>
+        <condition table="interaction">location=dc8729ed0a0a0a650191d89865d564a4^EQ<item display_table="cmn_location" display_value="Sydney" endquery="false" field="location" goto="false" newquery="false" operator="=" or="false" value="dc8729ed0a0a0a650191d89865d564a4"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <condition_mode>simple</condition_mode>
@@ -20,6 +19,7 @@
 	// customize condition logic here, return true or false  
 	return false;
 })(current);]]></condition_script>
+        <contact_types_for_appointment/>
         <description/>
         <display_technician>true</display_technician>
         <eligible_booking_group/>
@@ -28,6 +28,7 @@
         <enable_away_state>false</enable_away_state>
         <enable_employee_support>true</enable_employee_support>
         <enable_external_user_support>true</enable_external_user_support>
+        <enable_kiosk>false</enable_kiosk>
         <enable_online_checkin>true</enable_online_checkin>
         <evaluation_scope>document</evaluation_scope>
         <external>false</external>
@@ -35,9 +36,10 @@
         <hold_time>5</hold_time>
         <initial_agent_response>Thank you for contacting support. I am looking into your question now and will be with you shortly.</initial_agent_response>
         <last_checkin>30</last_checkin>
-        <location display_value="Sydney, Australia">722890de1bb2e010bd3ccaa5604bcb7b</location>
+        <location display_value="Sydney">dc8729ed0a0a0a650191d89865d564a4</location>
         <location_image/>
         <logo/>
+        <max_num_of_appointments/>
         <max_search_results>5</max_search_results>
         <max_wait_time>1970-01-01 00:00:00</max_wait_time>
         <max_wait_time_message>No agents are available to chat right now. Check back later.</max_wait_time_message>
@@ -54,6 +56,7 @@
         <search_config/>
         <service_channel display_value="Walk-up">48e395bc3b102300f1612c2b54efc46f</service_channel>
         <short_description/>
+        <show_kiosk>false</show_kiosk>
         <show_wait_time>false</show_wait_time>
         <stockroom/>
         <sys_class_name>wu_location_queue</sys_class_name>
@@ -61,14 +64,14 @@
         <sys_created_on>2022-04-11 22:37:36</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>3199fbe587fa0550a34aecad3fbb35f8</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Sydney</sys_name>
         <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
         <sys_policy/>
         <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
         <sys_update_name>wu_location_queue_3199fbe587fa0550a34aecad3fbb35f8</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-13 00:13:46</sys_updated_on>
+        <sys_updated_by>steve.mccluskey</sys_updated_by>
+        <sys_updated_on>2022-04-21 04:04:51</sys_updated_on>
         <target_wait_time/>
         <threshold_notification>3</threshold_notification>
         <use_condition>true</use_condition>

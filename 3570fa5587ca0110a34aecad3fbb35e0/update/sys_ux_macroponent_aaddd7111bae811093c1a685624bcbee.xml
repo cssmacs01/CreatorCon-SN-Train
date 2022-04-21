@@ -6,7 +6,32 @@
         <composition>[ {
   "elementId" : "container_1",
   "elementLabel" : "Container 1",
-  "propertyValues" : { },
+  "propertyValues" : {
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
   "eventMappings" : [ ],
   "slot" : "Main",
   "definition" : {
@@ -26,7 +51,8 @@
               "label" : {
                 "type" : "TRANSLATION_LITERAL",
                 "value" : {
-                  "message" : "SN Express Home",
+                  "code" : null,
+                  "message" : "Train Home",
                   "comment" : ""
                 }
               },
@@ -49,17 +75,18 @@
               "label" : {
                 "type" : "TRANSLATION_LITERAL",
                 "value" : {
-                  "message" : "Landing 1",
+                  "code" : null,
+                  "message" : "Stop 1",
                   "comment" : ""
                 }
-              },
-              "icon" : {
-                "type" : "JSON_LITERAL",
-                "value" : "default-cart-icon.svg"
               },
               "href" : {
                 "type" : "JSON_LITERAL",
                 "value" : "/now/servicenow-express/landing-1"
+              },
+              "icon" : {
+                "type" : "JSON_LITERAL",
+                "value" : "default-cart-icon.svg"
               }
             }
           }, {
@@ -68,17 +95,18 @@
               "label" : {
                 "type" : "TRANSLATION_LITERAL",
                 "value" : {
-                  "message" : "Landing 2",
+                  "code" : null,
+                  "message" : "Stop 2",
                   "comment" : ""
                 }
-              },
-              "icon" : {
-                "type" : "JSON_LITERAL",
-                "value" : "default-cart-icon.svg"
               },
               "href" : {
                 "type" : "JSON_LITERAL",
                 "value" : "/now/servicenow-express/landing-2"
+              },
+              "icon" : {
+                "type" : "JSON_LITERAL",
+                "value" : "default-cart-icon.svg"
               }
             }
           }, {
@@ -87,17 +115,18 @@
               "label" : {
                 "type" : "TRANSLATION_LITERAL",
                 "value" : {
-                  "message" : "Landing 3",
+                  "code" : null,
+                  "message" : "Stop 3",
                   "comment" : ""
                 }
-              },
-              "icon" : {
-                "type" : "JSON_LITERAL",
-                "value" : "default-cart-icon.svg"
               },
               "href" : {
                 "type" : "JSON_LITERAL",
                 "value" : "/now/servicenow-express/landing-3"
+              },
+              "icon" : {
+                "type" : "JSON_LITERAL",
+                "value" : "default-cart-icon.svg"
               }
             }
           }, {
@@ -106,17 +135,18 @@
               "label" : {
                 "type" : "TRANSLATION_LITERAL",
                 "value" : {
-                  "message" : "Landing 4",
+                  "code" : null,
+                  "message" : "Stop 4",
                   "comment" : ""
                 }
-              },
-              "icon" : {
-                "type" : "JSON_LITERAL",
-                "value" : "default-cart-icon.svg"
               },
               "href" : {
                 "type" : "JSON_LITERAL",
                 "value" : "/now/servicenow-express/landing-4"
+              },
+              "icon" : {
+                "type" : "JSON_LITERAL",
+                "value" : "default-cart-icon.svg"
               }
             }
           }, {
@@ -125,17 +155,18 @@
               "label" : {
                 "type" : "TRANSLATION_LITERAL",
                 "value" : {
-                  "message" : "Landing 5",
+                  "code" : null,
+                  "message" : "Stop 5",
                   "comment" : ""
                 }
-              },
-              "icon" : {
-                "type" : "JSON_LITERAL",
-                "value" : "default-cart-icon.svg"
               },
               "href" : {
                 "type" : "JSON_LITERAL",
                 "value" : "/now/servicenow-express/landing-5"
+              },
+              "icon" : {
+                "type" : "JSON_LITERAL",
+                "value" : "default-cart-icon.svg"
               }
             }
           } ]
@@ -147,13 +178,6 @@
         "overflow" : {
           "type" : "JSON_LITERAL",
           "value" : "wrap"
-        },
-        "activeRoute" : {
-          "type" : "JSON_LITERAL",
-          "value" : {
-            "0" : "[",
-            "routeType" : ""
-          }
         }
       },
       "eventMappings" : [ ],
@@ -167,12 +191,14 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : { }
     } ],
     "layout" : {
       "default" : {
         "children" : null,
+        "isInline" : null,
         "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column","justify-content":"space-around","align-items":"center"}}],
         "root" : null,
         "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
@@ -186,6 +212,7 @@
     "type" : "JSON_LITERAL",
     "value" : ""
   },
+  "isHero" : false,
   "isNonDestructive" : false,
   "styles" : {
     "width" : "100%"
@@ -193,7 +220,32 @@
 }, {
   "elementId" : "container_3",
   "elementLabel" : "Container 3",
-  "propertyValues" : { },
+  "propertyValues" : {
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
   "eventMappings" : [ ],
   "slot" : "Main",
   "definition" : {
@@ -205,6 +257,7 @@
     "layout" : {
       "default" : {
         "children" : null,
+        "isInline" : null,
         "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
         "root" : null,
         "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
@@ -218,6 +271,7 @@
     "type" : "JSON_LITERAL",
     "value" : ""
   },
+  "isHero" : false,
   "isNonDestructive" : false,
   "styles" : {
     "width" : "100%"
@@ -225,7 +279,32 @@
 }, {
   "elementId" : "container_2",
   "elementLabel" : "Container 2",
-  "propertyValues" : { },
+  "propertyValues" : {
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
   "eventMappings" : [ ],
   "slot" : "Main",
   "definition" : {
@@ -238,8 +317,12 @@
       "elementLabel" : "Rich text 1",
       "propertyValues" : {
         "html" : {
-          "type" : "JSON_LITERAL",
-          "value" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;Last Stop: Rome&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&amp;nbsp;&lt;/p&gt;\n&lt;div data-pm-slice=\"1 1 []\" data-en-clipboard=\"true\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;AES: fulfilling the vision&lt;/span&gt;&lt;/div&gt;"
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;Last Stop: Rome - App Engine Studio &amp;ndash; fulfilling the dream and vision&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&amp;nbsp;&lt;/p&gt;\n&lt;div data-pm-slice=\"1 1 []\" data-en-clipboard=\"true\"&gt;\n&lt;p&gt;&lt;span style=\"font-size: 24pt;\"&gt;&amp;nbsp; &amp;nbsp; Welcome to the last train stop, Station App Engine Studio.&amp;nbsp; In early 2020, we came out with our no-code/citizen-developer builder interface and as you exit the train check out all the great features AES has to offer &amp;ndash; templates, guided tours, resources, etc..everything you need to create a scaleable, enterprise-grade workflow application complete with portal intake and mobile interfaces.&amp;nbsp; Phyllis would have had a fun time building out her solution years ago when Fred Luddy took the time to make her world of work, work better&lt;/span&gt;&lt;/p&gt;\n&lt;/div&gt;",
+            "comment" : ""
+          }
         }
       },
       "eventMappings" : [ ],
@@ -253,6 +336,7 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : { }
     }, {
@@ -290,6 +374,7 @@
         "tooltipContent" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "Enter a label",
             "comment" : ""
           }
@@ -300,6 +385,7 @@
             "aria-label" : {
               "type" : "TRANSLATION_LITERAL",
               "value" : {
+                "code" : null,
                 "message" : "Search",
                 "comment" : ""
               }
@@ -322,6 +408,7 @@
         "targets" : [ {
           "broker" : null,
           "clientScript" : null,
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : {
             "apiName" : "x_snc_creatorcon_0.MODAL_SELECTED_RELAY_aaddd7111bae811093c1a685624bcbee",
@@ -332,7 +419,9 @@
                 "showModal" : true,
                 "displayOptions" : null,
                 "bare" : null,
-                "preserveState" : null
+                "viewportElementId" : null,
+                "viewportRoute" : null,
+                "viewportFields" : null
               }
             },
             "sysId" : "21e6d98287f2c550a34aecad3fbb355c"
@@ -343,6 +432,7 @@
         }, {
           "broker" : null,
           "clientScript" : null,
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : null,
           "operation" : {
@@ -350,8 +440,8 @@
             "operationName" : "REFRESH",
             "parentResourceId" : "look_up_records_1",
             "payload" : {
-              "type" : "MAP_CONTAINER",
-              "container" : { }
+              "type" : "JSON_LITERAL",
+              "value" : { }
             }
           },
           "targetId" : "clbbyizzybbaaaadduddfiiafqrddacczs",
@@ -359,6 +449,7 @@
         }, {
           "broker" : null,
           "clientScript" : null,
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : null,
           "operation" : {
@@ -366,8 +457,8 @@
             "operationName" : "REFRESH",
             "parentResourceId" : "look_up_records_2",
             "payload" : {
-              "type" : "MAP_CONTAINER",
-              "container" : { }
+              "type" : "JSON_LITERAL",
+              "value" : { }
             }
           },
           "targetId" : "clbbyjaaaabbaaaaddvddfiiaunvxwbbbbk",
@@ -384,12 +475,38 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : { }
     }, {
       "elementId" : "container_4",
       "elementLabel" : "Container 4",
-      "propertyValues" : { },
+      "propertyValues" : {
+        "ariaRegionName" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "",
+            "comment" : ""
+          }
+        },
+        "includeAriaHeading" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "ariaRegionHeadingLevel" : {
+          "type" : "JSON_LITERAL",
+          "value" : "1"
+        },
+        "type" : {
+          "type" : "JSON_LITERAL",
+          "value" : "section"
+        },
+        "ariaRole" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        }
+      },
       "eventMappings" : [ ],
       "slot" : "Column 3",
       "definition" : {
@@ -401,6 +518,7 @@
         "layout" : {
           "default" : {
             "children" : null,
+            "isInline" : null,
             "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
             "root" : null,
             "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
@@ -414,6 +532,7 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : {
         "height" : "550px",
@@ -426,6 +545,7 @@
     "layout" : {
       "default" : {
         "children" : null,
+        "isInline" : null,
         "items" : [{"slotName":"Column 1","rules":{"flex":"1","margin-right":"1rem"},"styles":{"height":"550px","padding-top":"80px","background-repeat":"no-repeat","background-image":"url(train2.jpg)","background-size":"95%"}},{"slotName":"Column 2","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Column 3","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
         "root" : null,
         "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
@@ -440,6 +560,7 @@
     "type" : "JSON_LITERAL",
     "value" : ""
   },
+  "isHero" : false,
   "isNonDestructive" : false,
   "styles" : {
     "width" : "100%"
@@ -449,20 +570,36 @@
   "elementLabel" : "Confirm 1",
   "propertyValues" : {
     "headerLabel" : {
-      "type" : "JSON_LITERAL",
-      "value" : "Thank you for riding the Creator Workflows Train Experience. "
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Thank you for riding the Creator Workflows Train Experience. ",
+        "comment" : ""
+      }
     },
     "content" : {
-      "type" : "JSON_LITERAL",
-      "value" : "Are you ready to end the experience."
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Are you ready to end the experience.",
+        "comment" : ""
+      }
     },
     "primaryButtonLabel" : {
-      "type" : "JSON_LITERAL",
-      "value" : "Yes"
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Yes",
+        "comment" : ""
+      }
     },
     "secondaryButtonLabel" : {
-      "type" : "JSON_LITERAL",
-      "value" : "Cancel"
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Cancel",
+        "comment" : ""
+      }
     },
     "size" : {
       "type" : "JSON_LITERAL",
@@ -498,6 +635,7 @@
       "clientScript" : {
         "sysId" : "ea6a958a87f2c550a34aecad3fbb35e5"
       },
+      "conditional" : null,
       "declarativeAction" : null,
       "event" : null,
       "operation" : null,
@@ -508,6 +646,7 @@
       "clientScript" : {
         "sysId" : "82b4bb3b873ec190a34aecad3fbb358b"
       },
+      "conditional" : null,
       "declarativeAction" : null,
       "event" : null,
       "operation" : null,
@@ -516,6 +655,7 @@
     }, {
       "broker" : null,
       "clientScript" : null,
+      "conditional" : null,
       "declarativeAction" : null,
       "event" : {
         "apiName" : "x_snc_creatorcon_0.NAV_ITEM_SELECTED_RELAY_aaddd7111bae811093c1a685624bcbee",
@@ -584,6 +724,7 @@
     "type" : "JSON_LITERAL",
     "value" : ""
   },
+  "isHero" : false,
   "isNonDestructive" : false,
   "styles" : { }
 } ]</composition>
@@ -610,6 +751,7 @@
     "targets" : [ {
       "broker" : null,
       "clientScript" : null,
+      "conditional" : null,
       "declarativeAction" : null,
       "event" : {
         "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
@@ -729,6 +871,7 @@
     "targets" : [ {
       "broker" : null,
       "clientScript" : null,
+      "conditional" : null,
       "declarativeAction" : null,
       "event" : {
         "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
@@ -856,6 +999,7 @@
   "MACROPONENT_READY" : [ {
     "broker" : null,
     "clientScript" : null,
+    "conditional" : null,
     "declarativeAction" : null,
     "event" : {
       "apiName" : null,
@@ -873,6 +1017,7 @@
         <layout>{
   "default" : {
     "children" : null,
+    "isInline" : null,
     "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
     "root" : null,
     "rules" : {"flex-flow":"row nowrap","align-items":"stretch","min-height":"400px","height":"100%"},
@@ -885,28 +1030,43 @@
         <name>Landing 5</name>
         <props>[ ]</props>
         <required_translations>[ {
+  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;Last Stop: Rome - App Engine Studio &amp;ndash; fulfilling the dream and vision&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&amp;nbsp;&lt;/p&gt;\n&lt;div data-pm-slice=\"1 1 []\" data-en-clipboard=\"true\"&gt;\n&lt;p&gt;&lt;span style=\"font-size: 24pt;\"&gt;&amp;nbsp; &amp;nbsp; Welcome to the last train stop, Station App Engine Studio.&amp;nbsp; In early 2020, we came out with our no-code/citizen-developer builder interface and as you exit the train check out all the great features AES has to offer &amp;ndash; templates, guided tours, resources, etc..everything you need to create a scaleable, enterprise-grade workflow application complete with portal intake and mobile interfaces.&amp;nbsp; Phyllis would have had a fun time building out her solution years ago when Fred Luddy took the time to make her world of work, work better&lt;/span&gt;&lt;/p&gt;\n&lt;/div&gt;",
+  "comment" : ""
+}, {
+  "message" : "Are you ready to end the experience.",
+  "comment" : ""
+}, {
+  "message" : "Cancel",
+  "comment" : ""
+}, {
   "message" : "Enter a label",
   "comment" : ""
 }, {
-  "message" : "Landing 1",
-  "comment" : ""
-}, {
-  "message" : "Landing 2",
-  "comment" : ""
-}, {
-  "message" : "Landing 3",
-  "comment" : ""
-}, {
-  "message" : "Landing 4",
-  "comment" : ""
-}, {
-  "message" : "Landing 5",
-  "comment" : ""
-}, {
-  "message" : "SN Express Home",
-  "comment" : ""
-}, {
   "message" : "Search",
+  "comment" : ""
+}, {
+  "message" : "Stop 1",
+  "comment" : ""
+}, {
+  "message" : "Stop 2",
+  "comment" : ""
+}, {
+  "message" : "Stop 3",
+  "comment" : ""
+}, {
+  "message" : "Stop 4",
+  "comment" : ""
+}, {
+  "message" : "Stop 5",
+  "comment" : ""
+}, {
+  "message" : "Thank you for riding the Creator Workflows Train Experience. ",
+  "comment" : ""
+}, {
+  "message" : "Train Home",
+  "comment" : ""
+}, {
+  "message" : "Yes",
   "comment" : ""
 } ]</required_translations>
         <root_component/>
@@ -951,13 +1111,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-29 15:41:43</sys_created_on>
         <sys_id>aaddd7111bae811093c1a685624bcbee</sys_id>
-        <sys_mod_count>65</sys_mod_count>
+        <sys_mod_count>67</sys_mod_count>
         <sys_name>Landing 5</sys_name>
         <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
         <sys_policy/>
         <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
         <sys_update_name>sys_ux_macroponent_aaddd7111bae811093c1a685624bcbee</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-20 00:17:05</sys_updated_on>
+        <sys_updated_by>steve.mccluskey</sys_updated_by>
+        <sys_updated_on>2022-04-21 04:33:37</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

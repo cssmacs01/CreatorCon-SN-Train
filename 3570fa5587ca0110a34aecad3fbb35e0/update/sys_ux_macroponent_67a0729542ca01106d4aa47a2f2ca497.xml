@@ -8,20 +8,36 @@
   "elementLabel" : "Delete Comment Modal",
   "propertyValues" : {
     "headerLabel" : {
-      "type" : "JSON_LITERAL",
-      "value" : "Are you sure you want to delete?"
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Are you sure you want to delete?",
+        "comment" : ""
+      }
     },
     "content" : {
-      "type" : "JSON_LITERAL",
-      "value" : "Deleting this post will also delete all its feedback and responses."
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Deleting this post will also delete all its feedback and responses.",
+        "comment" : ""
+      }
     },
     "secondaryButtonLabel" : {
-      "type" : "JSON_LITERAL",
-      "value" : "Cancel"
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Cancel",
+        "comment" : ""
+      }
     },
     "primaryButtonLabel" : {
-      "type" : "JSON_LITERAL",
-      "value" : "Yes, Delete"
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Yes, Delete",
+        "comment" : ""
+      }
     },
     "size" : {
       "type" : "JSON_LITERAL",
@@ -55,6 +71,7 @@
     "targets" : [ {
       "broker" : null,
       "clientScript" : null,
+      "conditional" : null,
       "declarativeAction" : null,
       "event" : null,
       "operation" : {
@@ -85,6 +102,7 @@
     }, {
       "broker" : null,
       "clientScript" : null,
+      "conditional" : null,
       "declarativeAction" : null,
       "event" : null,
       "operation" : {
@@ -92,8 +110,8 @@
         "operationName" : "REFRESH",
         "parentResourceId" : "retrieve_knowledge_comments",
         "payload" : {
-          "type" : "MAP_CONTAINER",
-          "container" : { }
+          "type" : "JSON_LITERAL",
+          "value" : { }
         }
       },
       "targetId" : "ckfqceeffeeaaaaaaahhddhhhdccxluaffjii",
@@ -103,6 +121,7 @@
       "clientScript" : {
         "sysId" : "aba07295b3ca0110f952b2de7e3bf798"
       },
+      "conditional" : null,
       "declarativeAction" : null,
       "event" : null,
       "operation" : null,
@@ -120,6 +139,7 @@
     "type" : "JSON_LITERAL",
     "value" : ""
   },
+  "isHero" : false,
   "isNonDestructive" : false,
   "styles" : { }
 }, {
@@ -157,6 +177,7 @@
         "label" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "Help us improve this article",
             "comment" : ""
           }
@@ -189,6 +210,7 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : { }
     }, {
@@ -196,8 +218,12 @@
       "elementLabel" : "Feedback Container",
       "propertyValues" : {
         "label" : {
-          "type" : "JSON_LITERAL",
-          "value" : ""
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "",
+            "comment" : ""
+          }
         },
         "bare" : {
           "type" : "JSON_LITERAL",
@@ -222,6 +248,7 @@
             "text" : {
               "type" : "TRANSLATION_LITERAL",
               "value" : {
+                "code" : null,
                 "message" : "Select a reason",
                 "comment" : ""
               }
@@ -242,6 +269,7 @@
             "type" : "JSON_LITERAL",
             "value" : ""
           },
+          "isHero" : false,
           "isNonDestructive" : false,
           "styles" : {
             "color" : "RGB(var(--now-color--neutral-9,99,114,116))",
@@ -259,6 +287,7 @@
             "text" : {
               "type" : "TRANSLATION_LITERAL",
               "value" : {
+                "code" : null,
                 "message" : "Additional details",
                 "comment" : ""
               }
@@ -279,6 +308,7 @@
             "type" : "JSON_LITERAL",
             "value" : ""
           },
+          "isHero" : false,
           "isNonDestructive" : false,
           "styles" : {
             "color" : "RGB(var(--now-color--neutral-9,99,114,116))",
@@ -304,6 +334,7 @@
             "placeholder" : {
               "type" : "TRANSLATION_LITERAL",
               "value" : {
+                "code" : null,
                 "message" : "Select a reason",
                 "comment" : ""
               }
@@ -344,6 +375,7 @@
                   "label" : {
                     "type" : "TRANSLATION_LITERAL",
                     "value" : {
+                      "code" : null,
                       "message" : "The article is incomplete",
                       "comment" : ""
                     }
@@ -359,6 +391,7 @@
                   "label" : {
                     "type" : "TRANSLATION_LITERAL",
                     "value" : {
+                      "code" : null,
                       "message" : "The article contains incorrect information",
                       "comment" : ""
                     }
@@ -374,6 +407,7 @@
                   "label" : {
                     "type" : "TRANSLATION_LITERAL",
                     "value" : {
+                      "code" : null,
                       "message" : "The article is unclear",
                       "comment" : ""
                     }
@@ -389,6 +423,7 @@
                   "label" : {
                     "type" : "TRANSLATION_LITERAL",
                     "value" : {
+                      "code" : null,
                       "message" : "Other",
                       "comment" : ""
                     }
@@ -412,22 +447,19 @@
             },
             "configAria" : {
               "type" : "JSON_LITERAL",
-              "value" : ""
+              "value" : null
             },
             "tooltipContent" : {
-              "type" : "JSON_LITERAL",
-              "value" : ""
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "",
+                "comment" : ""
+              }
             },
             "showPresencePattern" : {
               "type" : "JSON_LITERAL",
               "value" : false
-            },
-            "activeRoute" : {
-              "type" : "JSON_LITERAL",
-              "value" : {
-                "0" : "[",
-                "routeType" : ""
-              }
             }
           },
           "eventMappings" : [ {
@@ -447,6 +479,7 @@
               "clientScript" : {
                 "sysId" : "27a0729568ca011025a1ba4d373bce97"
               },
+              "conditional" : null,
               "declarativeAction" : null,
               "event" : null,
               "operation" : null,
@@ -464,6 +497,7 @@
             "type" : "JSON_LITERAL",
             "value" : ""
           },
+          "isHero" : false,
           "isNonDestructive" : false,
           "styles" : { }
         }, {
@@ -471,8 +505,12 @@
           "elementLabel" : "Textarea 1",
           "propertyValues" : {
             "label" : {
-              "type" : "JSON_LITERAL",
-              "value" : ""
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "",
+                "comment" : ""
+              }
             },
             "value" : {
               "type" : "STATE_BINDING",
@@ -481,8 +519,12 @@
               }
             },
             "placeholder" : {
-              "type" : "JSON_LITERAL",
-              "value" : ""
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "",
+                "comment" : ""
+              }
             },
             "rows" : {
               "type" : "JSON_LITERAL",
@@ -497,8 +539,12 @@
               "value" : null
             },
             "helperContent" : {
-              "type" : "JSON_LITERAL",
-              "value" : ""
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "",
+                "comment" : ""
+              }
             },
             "messages" : {
               "type" : "LIST_CONTAINER",
@@ -531,10 +577,6 @@
             "resize" : {
               "type" : "JSON_LITERAL",
               "value" : "none"
-            },
-            "showBorders" : {
-              "type" : "JSON_LITERAL",
-              "value" : true
             },
             "showCounter" : {
               "type" : "JSON_LITERAL",
@@ -570,6 +612,7 @@
               "clientScript" : {
                 "sysId" : "1663358a7352101036fe41244ef6a7af"
               },
+              "conditional" : null,
               "declarativeAction" : null,
               "event" : null,
               "operation" : null,
@@ -587,6 +630,7 @@
             "type" : "JSON_LITERAL",
             "value" : ""
           },
+          "isHero" : false,
           "isNonDestructive" : false,
           "styles" : {
             "width" : "100%"
@@ -595,6 +639,7 @@
         "layout" : {
           "default" : {
             "children" : null,
+            "isInline" : null,
             "items" : [{"slotName":"dropdown-label","rules":{"grid-area":"1/ 1 / 2 / 2","min-height":"30px"},"styles":{"display":"flex"}},{"slotName":"dropdown-field","rules":{"grid-area":"2/ 1 / 3 / 2","min-height":"30px"},"styles":{"display":"flex"}},{"slotName":"textarea-label","rules":{"grid-area":"3 / 1 / 4 / 2","min-height":"30px"},"styles":{"display":"flex","width":"100%"}},{"slotName":"textarea-field","rules":{"grid-area":"4 / 1 / 5 / 2","min-height":"30px"},"styles":{"display":"flex","width":"100%"}}],
             "root" : null,
             "rules" : {"grid-template-columns":"1fr","grid-template-rows":"auto auto auto auto","grid-column-gap":"0px","grid-row-gap":"0px"},
@@ -608,6 +653,7 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : { }
     }, {
@@ -615,8 +661,12 @@
       "elementLabel" : "Article Action Continer",
       "propertyValues" : {
         "label" : {
-          "type" : "JSON_LITERAL",
-          "value" : ""
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "",
+            "comment" : ""
+          }
         },
         "bare" : {
           "type" : "JSON_LITERAL",
@@ -645,6 +695,7 @@
             "label" : {
               "type" : "TRANSLATION_LITERAL",
               "value" : {
+                "code" : null,
                 "message" : "No thanks",
                 "comment" : ""
               }
@@ -658,8 +709,12 @@
               "value" : false
             },
             "tooltipContent" : {
-              "type" : "JSON_LITERAL",
-              "value" : ""
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "",
+                "comment" : ""
+              }
             },
             "configAria" : {
               "type" : "MAP_CONTAINER",
@@ -683,6 +738,7 @@
               "clientScript" : {
                 "sysId" : "67a0729586ca01103abca0b442263198"
               },
+              "conditional" : null,
               "declarativeAction" : null,
               "event" : null,
               "operation" : null,
@@ -700,6 +756,7 @@
             "type" : "JSON_LITERAL",
             "value" : ""
           },
+          "isHero" : false,
           "isNonDestructive" : false,
           "styles" : { }
         }, {
@@ -717,6 +774,7 @@
             "label" : {
               "type" : "TRANSLATION_LITERAL",
               "value" : {
+                "code" : null,
                 "message" : "Submit",
                 "comment" : ""
               }
@@ -730,8 +788,12 @@
               "value" : false
             },
             "tooltipContent" : {
-              "type" : "JSON_LITERAL",
-              "value" : ""
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "",
+                "comment" : ""
+              }
             },
             "configAria" : {
               "type" : "MAP_CONTAINER",
@@ -755,6 +817,7 @@
               "clientScript" : {
                 "sysId" : "67a0729586ca01103abca0b442263198"
               },
+              "conditional" : null,
               "declarativeAction" : null,
               "event" : null,
               "operation" : null,
@@ -772,12 +835,14 @@
             "type" : "JSON_LITERAL",
             "value" : ""
           },
+          "isHero" : false,
           "isNonDestructive" : false,
           "styles" : { }
         } ],
         "layout" : {
           "default" : {
             "children" : null,
+            "isInline" : null,
             "items" : [{"slotName":"footer-1","rules":{"grid-area":"1/ 1 / 2 / 2","min-height":"30px"},"styles":{"display":"flex"}},{"slotName":"footer-2","rules":{"grid-area":"1 / 2 / 2 / 3","min-height":"30px"},"styles":{"display":"flex"}}],
             "root" : null,
             "rules" : {"grid-template-columns":"auto auto","grid-template-rows":"1fr","grid-column-gap":"10px","grid-row-gap":"0px"},
@@ -791,12 +856,14 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : { }
     } ],
     "layout" : {
       "default" : {
         "children" : null,
+        "isInline" : null,
         "items" : [{"slotName":"sn-modal-title","rules":{"grid-area":"1 / 1 / 2 / 2","min-height":"0px"},"styles":{}},{"slotName":"sn-modal-content","rules":{"grid-area":"2 / 1 / 3 / 2","min-height":"50px"},"styles":{}},{"slotName":"sn-modal-footer","rules":{"grid-area":"3 / 1 / 4 / 2","min-height":"0px"}}],
         "root" : null,
         "rules" : {"grid-template-columns":"1fr","grid-template-rows":"repeat(3, auto)","grid-column-gap":"0px","grid-row-gap":"0px"},
@@ -810,6 +877,7 @@
     "type" : "JSON_LITERAL",
     "value" : ""
   },
+  "isHero" : false,
   "isNonDestructive" : false,
   "styles" : { }
 }, {
@@ -847,6 +915,7 @@
         "label" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "Flag this article",
             "comment" : ""
           }
@@ -879,6 +948,7 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : { }
     }, {
@@ -888,17 +958,26 @@
         "label" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "Add a comment",
             "comment" : ""
           }
         },
         "value" : {
-          "type" : "JSON_LITERAL",
-          "value" : ""
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "",
+            "comment" : ""
+          }
         },
         "placeholder" : {
-          "type" : "JSON_LITERAL",
-          "value" : ""
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "",
+            "comment" : ""
+          }
         },
         "rows" : {
           "type" : "JSON_LITERAL",
@@ -913,8 +992,12 @@
           "value" : null
         },
         "helperContent" : {
-          "type" : "JSON_LITERAL",
-          "value" : ""
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "",
+            "comment" : ""
+          }
         },
         "messages" : {
           "type" : "LIST_CONTAINER",
@@ -947,10 +1030,6 @@
         "resize" : {
           "type" : "JSON_LITERAL",
           "value" : "none"
-        },
-        "showBorders" : {
-          "type" : "JSON_LITERAL",
-          "value" : true
         },
         "showCounter" : {
           "type" : "JSON_LITERAL",
@@ -986,6 +1065,7 @@
           "clientScript" : {
             "sysId" : "6fa0729593ca01106d609839190be399"
           },
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : null,
           "operation" : null,
@@ -1003,6 +1083,7 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : {
         "width" : "100%"
@@ -1022,6 +1103,7 @@
         "label" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "Flag Article",
             "comment" : ""
           }
@@ -1034,12 +1116,17 @@
           "type" : "CLIENT_TRANSFORM_SCRIPT",
           "script" : {
             "apiVersion" : "1.0.0",
-            "inlineScript" : "function evaluateProperty({\n    api\n}) {\n    return api.state.flagArticleContent &amp;&amp; api.state.flagArticleContent.length &gt; 0 ? false : true;\n}"
+            "inlineScript" : "function evaluateProperty({\n    api\n}) {\n    return api.state.flagArticleContent &amp;&amp; api.state.flagArticleContent.length &gt; 0 ? false : true;\n}",
+            "scriptSysId" : null
           }
         },
         "tooltipContent" : {
-          "type" : "JSON_LITERAL",
-          "value" : ""
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "",
+            "comment" : ""
+          }
         },
         "configAria" : {
           "type" : "MAP_CONTAINER",
@@ -1063,6 +1150,7 @@
           "clientScript" : {
             "sysId" : "67a0729586ca01103abca0b442263198"
           },
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : null,
           "operation" : null,
@@ -1080,12 +1168,14 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : { }
     } ],
     "layout" : {
       "default" : {
         "children" : null,
+        "isInline" : null,
         "items" : [{"slotName":"sn-modal-title","rules":{"grid-area":"1 / 1 / 2 / 2","min-height":"0px"},"styles":{}},{"slotName":"sn-modal-content","rules":{"grid-area":"2 / 1 / 3 / 2","min-height":"50px"},"styles":{}},{"slotName":"sn-modal-footer","rules":{"grid-area":"3 / 1 / 4 / 2","min-height":"0px"},"styles":{"display":"flex","flex-direction":"row-reverse"}}],
         "root" : null,
         "rules" : {"grid-template-columns":"1fr","grid-template-rows":"repeat(3, auto)","grid-column-gap":"0px","grid-row-gap":"0px"},
@@ -1099,12 +1189,38 @@
     "type" : "JSON_LITERAL",
     "value" : ""
   },
+  "isHero" : false,
   "isNonDestructive" : false,
   "styles" : { }
 }, {
   "elementId" : "container_1",
   "elementLabel" : "Container 1",
-  "propertyValues" : { },
+  "propertyValues" : {
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
   "eventMappings" : [ ],
   "slot" : "wrapper",
   "definition" : {
@@ -1120,7 +1236,8 @@
           "type" : "CLIENT_TRANSFORM_SCRIPT",
           "script" : {
             "apiVersion" : "2.0.0",
-            "inlineScript" : "/**\n  * @param {params} params\n  * @param {api} params.api\n  * @param {any} params.imports\n  */\nfunction evaluateProperty({api}) {\n\treturn [{\n            \"label\": api.data.breadcrumbs_broker_1.output[0]['label'],\n            \"icon\": \"home-outline\",\n            \"hideLabel\": false\n        },\n        {\n            \"label\": api.data.get_article_details_1.articleDetails.articleInfo.number\n        }\n    ];\n}"
+            "inlineScript" : "/**\n  * @param {params} params\n  * @param {api} params.api\n  * @param {any} params.imports\n  */\nfunction evaluateProperty({api}) {\n\treturn [{\n            \"label\": api.data.breadcrumbs_broker_1.output[0]['label'],\n            \"icon\": \"home-outline\",\n            \"hideLabel\": false\n        },\n        {\n            \"label\": api.data.get_article_details_1.articleDetails.articleInfo.number\n        }\n    ];\n}",
+            "scriptSysId" : null
           }
         },
         "delimiter" : {
@@ -1130,13 +1247,6 @@
         "overflow" : {
           "type" : "JSON_LITERAL",
           "value" : "collapse"
-        },
-        "activeRoute" : {
-          "type" : "JSON_LITERAL",
-          "value" : {
-            "0" : "j",
-            "routeType" : ""
-          }
         }
       },
       "eventMappings" : [ {
@@ -1154,6 +1264,7 @@
         "targets" : [ {
           "broker" : null,
           "clientScript" : null,
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : {
             "apiName" : "x_snc_creatorcon_0.NAV_ITEM_SELECTED_RELAY_67a0729542ca01106d4aa47a2f2ca497",
@@ -1188,6 +1299,7 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : {
         "margin-bottom" : "1.5rem",
@@ -1196,7 +1308,32 @@
     }, {
       "elementId" : "article_content",
       "elementLabel" : "Article Content",
-      "propertyValues" : { },
+      "propertyValues" : {
+        "ariaRegionName" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "",
+            "comment" : ""
+          }
+        },
+        "includeAriaHeading" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "ariaRegionHeadingLevel" : {
+          "type" : "JSON_LITERAL",
+          "value" : "1"
+        },
+        "type" : {
+          "type" : "JSON_LITERAL",
+          "value" : "section"
+        },
+        "ariaRole" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        }
+      },
       "eventMappings" : [ ],
       "slot" : "Main",
       "definition" : {
@@ -1259,7 +1396,32 @@
             "composition" : [ {
               "elementId" : "container_3",
               "elementLabel" : "Container 3",
-              "propertyValues" : { },
+              "propertyValues" : {
+                "ariaRegionName" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "code" : null,
+                    "message" : "",
+                    "comment" : ""
+                  }
+                },
+                "includeAriaHeading" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "ariaRegionHeadingLevel" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "1"
+                },
+                "type" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "section"
+                },
+                "ariaRole" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : ""
+                }
+              },
               "eventMappings" : [ ],
               "slot" : "actions",
               "definition" : {
@@ -1286,6 +1448,7 @@
                     "placeholder" : {
                       "type" : "TRANSLATION_LITERAL",
                       "value" : {
+                        "code" : null,
                         "message" : "Action Menu. Please click for available actions on the article",
                         "comment" : ""
                       }
@@ -1322,7 +1485,8 @@
                       "type" : "CLIENT_TRANSFORM_SCRIPT",
                       "script" : {
                         "apiVersion" : "1.0.0",
-                        "inlineScript" : "function evaluateProperty({\n    api\n}) {\n    var items = [{\n        \"id\": \"copyLink\",\n        \"label\": \"Copy Link\"\n    }]\n    if (api.data.get_article_details_1.articleDetails &amp;&amp; api.data.get_article_details_1.articleDetails.showFlag)\n        items.unshift({\n            \"id\": \"flag\",\n            \"label\": \"Flag Article\"\n        });\n    return items;\n}"
+                        "inlineScript" : "function evaluateProperty({\n    api\n}) {\n    var items = [{\n        \"id\": \"copyLink\",\n        \"label\": \"Copy Link\"\n    }]\n    if (api.data.get_article_details_1.articleDetails &amp;&amp; api.data.get_article_details_1.articleDetails.showFlag)\n        items.unshift({\n            \"id\": \"flag\",\n            \"label\": \"Flag Article\"\n        });\n    return items;\n}",
+                        "scriptSysId" : null
                       }
                     },
                     "opened" : {
@@ -1342,14 +1506,11 @@
                       "value" : null
                     },
                     "tooltipContent" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : ""
-                    },
-                    "activeRoute" : {
-                      "type" : "JSON_LITERAL",
+                      "type" : "TRANSLATION_LITERAL",
                       "value" : {
-                        "0" : "j",
-                        "routeType" : ""
+                        "code" : null,
+                        "message" : "",
+                        "comment" : ""
                       }
                     }
                   },
@@ -1370,6 +1531,7 @@
                       "clientScript" : {
                         "sysId" : "6fa0729593ca01106d609839190be399"
                       },
+                      "conditional" : null,
                       "declarativeAction" : null,
                       "event" : null,
                       "operation" : null,
@@ -1387,12 +1549,14 @@
                     "type" : "JSON_LITERAL",
                     "value" : ""
                   },
+                  "isHero" : false,
                   "isNonDestructive" : false,
                   "styles" : { }
                 } ],
                 "layout" : {
                   "default" : {
                     "children" : null,
+                    "isInline" : null,
                     "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column"}}],
                     "root" : null,
                     "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
@@ -1406,6 +1570,7 @@
                 "type" : "JSON_LITERAL",
                 "value" : ""
               },
+              "isHero" : false,
               "isNonDestructive" : false,
               "styles" : { }
             } ],
@@ -1415,12 +1580,38 @@
             "type" : "JSON_LITERAL",
             "value" : ""
           },
+          "isHero" : false,
           "isNonDestructive" : false,
           "styles" : { }
         }, {
           "elementId" : "rate_article",
           "elementLabel" : "Rate Article",
-          "propertyValues" : { },
+          "propertyValues" : {
+            "ariaRegionName" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "",
+                "comment" : ""
+              }
+            },
+            "includeAriaHeading" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "ariaRegionHeadingLevel" : {
+              "type" : "JSON_LITERAL",
+              "value" : "1"
+            },
+            "type" : {
+              "type" : "JSON_LITERAL",
+              "value" : "section"
+            },
+            "ariaRole" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            }
+          },
           "eventMappings" : [ ],
           "slot" : "Main",
           "definition" : {
@@ -1439,6 +1630,7 @@
                 "text" : {
                   "type" : "TRANSLATION_LITERAL",
                   "value" : {
+                    "code" : null,
                     "message" : "Rate",
                     "comment" : ""
                   }
@@ -1459,6 +1651,7 @@
                 "type" : "JSON_LITERAL",
                 "value" : ""
               },
+              "isHero" : false,
               "isNonDestructive" : false,
               "styles" : {
                 "font-size" : "1rem"
@@ -1484,8 +1677,12 @@
                   "value" : "5"
                 },
                 "ariaLabel" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : ""
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "code" : null,
+                    "message" : "",
+                    "comment" : ""
+                  }
                 }
               },
               "eventMappings" : [ {
@@ -1505,6 +1702,7 @@
                   "clientScript" : {
                     "sysId" : "67a0729586ca01103abca0b442263198"
                   },
+                  "conditional" : null,
                   "declarativeAction" : null,
                   "event" : null,
                   "operation" : null,
@@ -1522,6 +1720,7 @@
                 "type" : "JSON_LITERAL",
                 "value" : ""
               },
+              "isHero" : false,
               "isNonDestructive" : false,
               "styles" : {
                 "margin-top" : "18px",
@@ -1531,6 +1730,7 @@
             "layout" : {
               "default" : {
                 "children" : null,
+                "isInline" : null,
                 "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"row"}}],
                 "root" : null,
                 "rules" : {"grid-template-rows":"auto","grid-template-columns":"auto","grid-template-areas":"\"main\"","grid-gap":"0px","height":"100%"},
@@ -1544,12 +1744,14 @@
             "type" : "JSON_LITERAL",
             "value" : ""
           },
+          "isHero" : false,
           "isNonDestructive" : false,
           "styles" : { }
         } ],
         "layout" : {
           "default" : {
             "children" : null,
+            "isInline" : null,
             "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column","background-color":"white","padding":"1.5rem","height":"auto"}}],
             "root" : null,
             "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
@@ -1563,6 +1765,7 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : { }
     }, {
@@ -1580,6 +1783,7 @@
         "label" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "Back to Setup",
             "comment" : ""
           }
@@ -1595,6 +1799,7 @@
         "tooltipContent" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "Enter a label",
             "comment" : ""
           }
@@ -1619,6 +1824,7 @@
         "targets" : [ {
           "broker" : null,
           "clientScript" : null,
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : {
             "apiName" : "x_snc_creatorcon_0.NAV_ITEM_SELECTED_RELAY_67a0729542ca01106d4aa47a2f2ca497",
@@ -1653,12 +1859,14 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : { }
     } ],
     "layout" : {
       "default" : {
         "children" : null,
+        "isInline" : null,
         "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Sidebar","rules":{"grid-area":"sidebar"},"styles":{"display":"flex","align-items":"center","justify-content":"space-around"}}],
         "root" : null,
         "rules" : {"grid-template-rows":"auto","grid-template-columns":"2fr 1fr","grid-template-areas":"\"main sidebar\"","grid-gap":"0px 2rem","max-width":"90rem"},
@@ -1672,6 +1880,7 @@
     "type" : "JSON_LITERAL",
     "value" : ""
   },
+  "isHero" : false,
   "isNonDestructive" : false,
   "styles" : { }
 } ]</composition>
@@ -1691,6 +1900,26 @@
         "address" : [ "sysId" ],
         "category" : "props"
       }
+    },
+    "showHelpful" : {
+      "type" : "JSON_LITERAL",
+      "value" : "true"
+    },
+    "showRating" : {
+      "type" : "JSON_LITERAL",
+      "value" : "true"
+    },
+    "showFlag" : {
+      "type" : "JSON_LITERAL",
+      "value" : "true"
+    },
+    "showRelatedArticles" : {
+      "type" : "JSON_LITERAL",
+      "value" : "true"
+    },
+    "showComments" : {
+      "type" : "JSON_LITERAL",
+      "value" : "true"
     },
     "ts_query_kb_id" : {
       "type" : "JSON_LITERAL",
@@ -1783,6 +2012,7 @@
       "clientScript" : {
         "sysId" : "63a072955dca0110f6eb74c56e9d4e99"
       },
+      "conditional" : null,
       "declarativeAction" : null,
       "event" : null,
       "operation" : null,
@@ -1824,6 +2054,7 @@
       "clientScript" : {
         "sysId" : "63a072955dca0110f6eb74c56e9d4e99"
       },
+      "conditional" : null,
       "declarativeAction" : null,
       "event" : null,
       "operation" : null,
@@ -1857,6 +2088,7 @@
       "clientScript" : {
         "sysId" : "63a072955dca0110f6eb74c56e9d4e99"
       },
+      "conditional" : null,
       "declarativeAction" : null,
       "event" : null,
       "operation" : null,
@@ -1890,6 +2122,7 @@
       "clientScript" : {
         "sysId" : "63a072955dca0110f6eb74c56e9d4e99"
       },
+      "conditional" : null,
       "declarativeAction" : null,
       "event" : null,
       "operation" : null,
@@ -1923,6 +2156,7 @@
       "clientScript" : {
         "sysId" : "63a072955dca0110f6eb74c56e9d4e99"
       },
+      "conditional" : null,
       "declarativeAction" : null,
       "event" : null,
       "operation" : null,
@@ -1956,6 +2190,7 @@
       "clientScript" : {
         "sysId" : "67a0729586ca01103abca0b442263198"
       },
+      "conditional" : null,
       "declarativeAction" : null,
       "event" : null,
       "operation" : null,
@@ -1990,6 +2225,7 @@
         <layout>{
   "default" : {
     "children" : null,
+    "isInline" : null,
     "items" : [{"slotName":"wrapper","rules":{"grid-area":"wrapper"},"styles":{"display":"flex","flex-direction":"column"}}],
     "root" : null,
     "rules" : {"grid-template-rows":"minmax(400px, auto)","grid-template-columns":"1fr","grid-template-areas":"\"wrapper\"","grid-gap":"0px","height":"100%"},
@@ -2010,7 +2246,8 @@
   "defaultValue" : "",
   "description" : null,
   "readOnly" : true,
-  "selectable" : false
+  "selectable" : false,
+  "disabled" : false
 }, {
   "name" : "sysId",
   "label" : "sysId",
@@ -2021,7 +2258,8 @@
   "defaultValue" : "",
   "description" : "",
   "readOnly" : true,
-  "selectable" : false
+  "selectable" : false,
+  "disabled" : false
 } ]</props>
         <required_translations>[ {
   "message" : "Action Menu. Please click for available actions on the article",
@@ -2033,7 +2271,16 @@
   "message" : "Additional details",
   "comment" : ""
 }, {
+  "message" : "Are you sure you want to delete?",
+  "comment" : ""
+}, {
   "message" : "Back to Setup",
+  "comment" : ""
+}, {
+  "message" : "Cancel",
+  "comment" : ""
+}, {
+  "message" : "Deleting this post will also delete all its feedback and responses.",
   "comment" : ""
 }, {
   "message" : "Enter a label",
@@ -2070,6 +2317,9 @@
   "comment" : ""
 }, {
   "message" : "The article is unclear",
+  "comment" : ""
+}, {
+  "message" : "Yes, Delete",
   "comment" : ""
 } ]</required_translations>
         <root_component/>
@@ -2136,13 +2386,13 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-03-04 15:53:02</sys_created_on>
         <sys_id>67a0729542ca01106d4aa47a2f2ca497</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Article page</sys_name>
         <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
         <sys_policy/>
         <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
         <sys_update_name>sys_ux_macroponent_67a0729542ca01106d4aa47a2f2ca497</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-19 00:12:59</sys_updated_on>
+        <sys_updated_by>steve.mccluskey</sys_updated_by>
+        <sys_updated_on>2022-04-21 05:11:13</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

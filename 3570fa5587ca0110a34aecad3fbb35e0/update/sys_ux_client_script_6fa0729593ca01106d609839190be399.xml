@@ -4,9 +4,11 @@
         <macroponent display_value="Article page">67a0729542ca01106d4aa47a2f2ca497</macroponent>
         <name>Article actions</name>
         <required_translations>[ {
+  "code" : null,
   "message" : "Unable to copy link to clipboard because of a browser limitation. Use the following link: ",
   "comment" : ""
 }, {
+  "code" : null,
   "message" : "Link copied to clipboard",
   "comment" : ""
 } ]</required_translations>
@@ -73,13 +75,14 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-03-04 15:53:00</sys_created_on>
         <sys_id>6fa0729593ca01106d609839190be399</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Article actions</sys_name>
         <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
         <sys_policy/>
         <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
         <sys_update_name>sys_ux_client_script_6fa0729593ca01106d609839190be399</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-03-04 15:53:00</sys_updated_on>
+        <sys_updated_by>steve.mccluskey</sys_updated_by>
+        <sys_updated_on>2022-04-21 05:11:12</sys_updated_on>
+        <type/>
     </sys_ux_client_script>
 </record_update>

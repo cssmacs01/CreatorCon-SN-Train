@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="The ServiceNow Express">ad969b0987a24110a34aecad3fbb359e</macroponent>
+        <name>Train Stop 4</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    api.data.train_api.execute({
+        train: "Train 1", //this needs be dynamic based on roles of the walk-up user
+        stop: "4",
+        dir: "F",
+        speed: "50",
+        mid: "train_mid1"
+    });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-05 01:11:17</sys_created_on>
+        <sys_id>84c95c2b87ae4510a34aecad3fbb351a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Train Stop 4</sys_name>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_update_name>sys_ux_client_script_84c95c2b87ae4510a34aecad3fbb351a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-18 21:56:17</sys_updated_on>
+        <type/>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</application>
+        <file_path/>
+        <instance_id>cf0198e7dbea41100ae3ac44d4961931</instance_id>
+        <instance_name>cctrain</instance_name>
+        <name>sys_ux_client_script_84c95c2b87ae4510a34aecad3fbb351a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="The ServiceNow Express"&gt;ad969b0987a24110a34aecad3fbb359e&lt;/macroponent&gt;&lt;name&gt;Train Stop 4&lt;/name&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    api.data.train_api.execute({
+        train: "Train 1", //this needs be dynamic based on roles of the walk-up user
+        stop: "4",
+        dir: "F",
+        speed: "50",
+        mid: "train_mid1"
+    });
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-04-05 01:11:17&lt;/sys_created_on&gt;&lt;sys_id&gt;84c95c2b87ae4510a34aecad3fbb351a&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Train Stop 4&lt;/sys_name&gt;&lt;sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0"&gt;3570fa5587ca0110a34aecad3fbb35e0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CreatorCon 22 - SN Train"&gt;3570fa5587ca0110a34aecad3fbb35e0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_84c95c2b87ae4510a34aecad3fbb351a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-04-18 21:56:17&lt;/sys_updated_on&gt;&lt;type/&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>498390479</payload_hash>
+        <record_name>Train Stop 4</record_name>
+        <reverted_from/>
+        <source>0d475b20870fcd105f40cbb4dabb359d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>steve.mccluskey</sys_created_by>
+        <sys_created_on>2022-04-21 04:28:32</sys_created_on>
+        <sys_id>615067ac870fcd105f40cbb4dabb353c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1804a60fe4c0000001</sys_recorded_at>
+        <sys_updated_by>steve.mccluskey</sys_updated_by>
+        <sys_updated_on>2022-04-21 04:28:32</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>695067ac670fcd105007671d4e86ba3b</update_guid>
+        <update_guid_history>695067ac670fcd105007671d4e86ba3b:498390479,a8079fa0fc0fcd1032c71572ae3b9688:0,40eccb20eacbcd10125dca75d1989939:461774705,0a6ccb6c688bcd10bda45027e8b2b643:498390479,8e7fe154114b4d1037d4fd4a4b46bada:-336070830</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>steve.mccluskey</sys_created_by>
+        <sys_created_on>2022-04-21 05:05:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>7109df6200c74ee49d65990622e84b10</sys_id>
+        <sys_metadata>84c95c2b87ae4510a34aecad3fbb351a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Train Stop 4</sys_name>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_scope_delete display_value="">7a3de565527e4f7e88b00d50362e19e9</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_84c95c2b87ae4510a34aecad3fbb351a</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_84c95c2b87ae4510a34aecad3fbb351a">615067ac870fcd105f40cbb4dabb353c</sys_update_version>
+        <sys_updated_by>steve.mccluskey</sys_updated_by>
+        <sys_updated_on>2022-04-21 05:05:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

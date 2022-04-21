@@ -6,7 +6,32 @@
         <composition>[ {
   "elementId" : "container_2",
   "elementLabel" : "Container 2",
-  "propertyValues" : { },
+  "propertyValues" : {
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
   "eventMappings" : [ ],
   "slot" : "Main",
   "definition" : {
@@ -21,6 +46,7 @@
         "text" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "Train Health Dashboard",
             "comment" : ""
           }
@@ -45,12 +71,14 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : { }
     } ],
     "layout" : {
       "default" : {
         "children" : null,
+        "isInline" : null,
         "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column","align-items":"center","justify-content":"space-around"}}],
         "root" : null,
         "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
@@ -64,6 +92,7 @@
     "type" : "JSON_LITERAL",
     "value" : ""
   },
+  "isHero" : false,
   "isNonDestructive" : false,
   "styles" : {
     "width" : "100%"
@@ -71,7 +100,32 @@
 }, {
   "elementId" : "container_1",
   "elementLabel" : "Container 1",
-  "propertyValues" : { },
+  "propertyValues" : {
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
   "eventMappings" : [ ],
   "slot" : "Main",
   "definition" : {
@@ -86,6 +140,7 @@
         "label" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "Train Battery %",
             "comment" : ""
           }
@@ -160,6 +215,7 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : { }
     }, {
@@ -177,6 +233,7 @@
         "label" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "Setup Train",
             "comment" : ""
           }
@@ -192,6 +249,7 @@
         "tooltipContent" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "click for setup of train",
             "comment" : ""
           }
@@ -216,6 +274,7 @@
         "targets" : [ {
           "broker" : null,
           "clientScript" : null,
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : {
             "apiName" : "x_snc_creatorcon_0.MODAL_SELECTED_RELAY_7cfe5392876a4910a34aecad3fbb353a",
@@ -226,7 +285,9 @@
                 "showModal" : true,
                 "displayOptions" : null,
                 "bare" : true,
-                "preserveState" : null
+                "viewportElementId" : null,
+                "viewportRoute" : null,
+                "viewportFields" : null
               }
             },
             "sysId" : "c44a831f87664510a34aecad3fbb3547"
@@ -246,6 +307,7 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : { }
     }, {
@@ -263,6 +325,7 @@
         "label" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "Setup KB Article",
             "comment" : ""
           }
@@ -278,6 +341,7 @@
         "tooltipContent" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "Enter a label",
             "comment" : ""
           }
@@ -302,23 +366,54 @@
         "targets" : [ {
           "broker" : null,
           "clientScript" : null,
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : {
             "apiName" : "x_snc_creatorcon_0.NAV_ITEM_SELECTED_RELAY_7cfe5392876a4910a34aecad3fbb353a",
             "payload" : {
-              "type" : "JSON_LITERAL",
-              "value" : {
-                "route" : "article",
-                "fields" : {
-                  "sysId" : "5e61d00c87cfc190a34aecad3fbb3518"
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "route" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "article"
                 },
-                "params" : null,
-                "redirect" : null,
-                "passiveNavigation" : null,
-                "title" : null,
-                "multiInstField" : null,
-                "targetRoute" : null,
-                "external" : null
+                "fields" : {
+                  "type" : "MAP_CONTAINER",
+                  "container" : {
+                    "sysId" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "58d9a7a4874fcd105f40cbb4dabb35db"
+                    }
+                  }
+                },
+                "params" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "redirect" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "passiveNavigation" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "title" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "multiInstField" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "targetRoute" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "external" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                }
               }
             },
             "sysId" : "48a1500c87cfc190a34aecad3fbb3596"
@@ -338,6 +433,7 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : {
         "margin-top" : "100px"
@@ -357,6 +453,7 @@
         "label" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "Check Train Battery",
             "comment" : ""
           }
@@ -372,6 +469,7 @@
         "tooltipContent" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "Enter a label",
             "comment" : ""
           }
@@ -396,6 +494,7 @@
         "targets" : [ {
           "broker" : null,
           "clientScript" : null,
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : {
             "apiName" : "x_snc_creatorcon_0.MODAL_SELECTED_RELAY_7cfe5392876a4910a34aecad3fbb353a",
@@ -406,7 +505,9 @@
                 "showModal" : true,
                 "displayOptions" : null,
                 "bare" : true,
-                "preserveState" : null
+                "viewportElementId" : null,
+                "viewportRoute" : null,
+                "viewportFields" : null
               }
             },
             "sysId" : "c44a831f87664510a34aecad3fbb3547"
@@ -426,6 +527,7 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : { }
     }, {
@@ -443,6 +545,7 @@
         "label" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "Train Workspace",
             "comment" : ""
           }
@@ -458,6 +561,7 @@
         "tooltipContent" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "Enter a label",
             "comment" : ""
           }
@@ -482,6 +586,7 @@
         "targets" : [ {
           "broker" : null,
           "clientScript" : null,
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : {
             "apiName" : "x_snc_creatorcon_0.NAV_ITEM_SELECTED_RELAY_7cfe5392876a4910a34aecad3fbb353a",
@@ -497,7 +602,7 @@
                 "multiInstField" : null,
                 "targetRoute" : null,
                 "external" : {
-                  "url" : "https://stevemccluskeydemoq.service-now.com/now/creatorcon-22---sn-train---workspace/home"
+                  "url" : "https://cctrain.service-now.com/now/creatorcon-22---sn-train---workspace"
                 }
               }
             },
@@ -518,6 +623,7 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : {
         "margin-top" : "100px"
@@ -526,6 +632,7 @@
     "layout" : {
       "default" : {
         "children" : null,
+        "isInline" : null,
         "items" : [{"slotName":"Column 1","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column","justify-content":"space-around","align-items":"center"}},{"slotName":"Column 2","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Column 3","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column","align-items":"center","justify-content":"space-around"}}],
         "root" : null,
         "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
@@ -540,6 +647,7 @@
     "type" : "JSON_LITERAL",
     "value" : ""
   },
+  "isHero" : false,
   "isNonDestructive" : false,
   "styles" : {
     "width" : "100%"
@@ -579,6 +687,7 @@
         "text" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "Train Setup",
             "comment" : ""
           }
@@ -603,6 +712,7 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : { }
     }, {
@@ -624,6 +734,7 @@
         "placeholder" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "Select Train",
             "comment" : ""
           }
@@ -668,6 +779,7 @@
               "label" : {
                 "type" : "TRANSLATION_LITERAL",
                 "value" : {
+                  "code" : null,
                   "message" : "Train 1 (New York/Las Vegas)",
                   "comment" : ""
                 }
@@ -683,6 +795,7 @@
               "label" : {
                 "type" : "TRANSLATION_LITERAL",
                 "value" : {
+                  "code" : null,
                   "message" : "Train 2 (The Hague)",
                   "comment" : ""
                 }
@@ -698,6 +811,7 @@
               "label" : {
                 "type" : "TRANSLATION_LITERAL",
                 "value" : {
+                  "code" : null,
                   "message" : "Train 3 (Sydney)",
                   "comment" : ""
                 }
@@ -724,13 +838,6 @@
         "tooltipContent" : {
           "type" : "JSON_LITERAL",
           "value" : null
-        },
-        "activeRoute" : {
-          "type" : "JSON_LITERAL",
-          "value" : {
-            "0" : "[",
-            "routeType" : ""
-          }
         }
       },
       "eventMappings" : [ {
@@ -748,6 +855,7 @@
         "targets" : [ {
           "broker" : null,
           "clientScript" : null,
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : {
             "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
@@ -783,6 +891,7 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : { }
     }, {
@@ -796,6 +905,7 @@
         "label" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "Train IP Address",
             "comment" : ""
           }
@@ -803,6 +913,7 @@
         "placeholder" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "10.0.0.0",
             "comment" : ""
           }
@@ -891,6 +1002,7 @@
         "targets" : [ {
           "broker" : null,
           "clientScript" : null,
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : {
             "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
@@ -926,6 +1038,7 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : { }
     }, {
@@ -939,6 +1052,7 @@
         "label" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "Email for verification",
             "comment" : ""
           }
@@ -1031,6 +1145,7 @@
         "targets" : [ {
           "broker" : null,
           "clientScript" : null,
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : {
             "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
@@ -1066,6 +1181,7 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : { }
     }, {
@@ -1075,6 +1191,7 @@
         "label" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "Cell Number",
             "comment" : ""
           }
@@ -1167,6 +1284,7 @@
         "targets" : [ {
           "broker" : null,
           "clientScript" : null,
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : {
             "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
@@ -1202,6 +1320,7 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : { }
     }, {
@@ -1219,6 +1338,7 @@
         "label" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "Submit",
             "comment" : ""
           }
@@ -1234,6 +1354,7 @@
         "tooltipContent" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "Enter a label",
             "comment" : ""
           }
@@ -1260,6 +1381,7 @@
           "clientScript" : {
             "sysId" : "f0f98b9b87664510a34aecad3fbb3566"
           },
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : null,
           "operation" : null,
@@ -1268,6 +1390,7 @@
         }, {
           "broker" : null,
           "clientScript" : null,
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : {
             "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
@@ -1286,6 +1409,7 @@
         }, {
           "broker" : null,
           "clientScript" : null,
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : {
             "apiName" : "x_snc_creatorcon_0.MODAL_SELECTED_RELAY_7cfe5392876a4910a34aecad3fbb353a",
@@ -1296,7 +1420,9 @@
                 "showModal" : null,
                 "displayOptions" : null,
                 "bare" : true,
-                "preserveState" : null
+                "viewportElementId" : null,
+                "viewportRoute" : null,
+                "viewportFields" : null
               }
             },
             "sysId" : "c44a831f87664510a34aecad3fbb3547"
@@ -1316,12 +1442,14 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : { }
     } ],
     "layout" : {
       "default" : {
         "children" : null,
+        "isInline" : null,
         "items" : [{"slotName":"modal-title","rules":{"grid-area":"1 / 1 / 2 / 2","min-height":"50px"},"styles":{"display":"flex","flex-direction":"column","justify-content":"space-around","align-items":"center"}},{"slotName":"modal-content","rules":{"grid-area":"2 / 1 / 3 / 2","min-height":"100px"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"modal-footer","rules":{"grid-area":"3 / 1 / 4 / 2","min-height":"50px"},"styles":{"display":"flex","flex-direction":"column","justify-content":"space-around","align-items":"center"}}],
         "root" : null,
         "rules" : {"grid-template-columns":"1fr","grid-template-rows":"repeat(3, auto)","grid-column-gap":"0px","grid-row-gap":"1rem"},
@@ -1335,6 +1463,7 @@
     "type" : "JSON_LITERAL",
     "value" : ""
   },
+  "isHero" : false,
   "isNonDestructive" : false,
   "styles" : {
     "width" : "100%"
@@ -1386,6 +1515,7 @@
         "placeholder" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "Dropdown",
             "comment" : ""
           }
@@ -1430,6 +1560,7 @@
               "label" : {
                 "type" : "TRANSLATION_LITERAL",
                 "value" : {
+                  "code" : null,
                   "message" : "Train 1 (New York/Las Vegas)",
                   "comment" : ""
                 }
@@ -1445,6 +1576,7 @@
               "label" : {
                 "type" : "TRANSLATION_LITERAL",
                 "value" : {
+                  "code" : null,
                   "message" : "Train 2 (The Hague)",
                   "comment" : ""
                 }
@@ -1460,6 +1592,7 @@
               "label" : {
                 "type" : "TRANSLATION_LITERAL",
                 "value" : {
+                  "code" : null,
                   "message" : "Train 3 (Sydney)",
                   "comment" : ""
                 }
@@ -1486,13 +1619,6 @@
         "tooltipContent" : {
           "type" : "JSON_LITERAL",
           "value" : null
-        },
-        "activeRoute" : {
-          "type" : "JSON_LITERAL",
-          "value" : {
-            "0" : "[",
-            "routeType" : ""
-          }
         }
       },
       "eventMappings" : [ {
@@ -1510,6 +1636,7 @@
         "targets" : [ {
           "broker" : null,
           "clientScript" : null,
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : {
             "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
@@ -1537,6 +1664,7 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : {
         "margin-top" : "50px"
@@ -1556,6 +1684,7 @@
         "label" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "Submit",
             "comment" : ""
           }
@@ -1573,6 +1702,7 @@
         "tooltipContent" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "Enter a label",
             "comment" : ""
           }
@@ -1599,6 +1729,7 @@
           "clientScript" : {
             "sysId" : "e5eefbbb877ec190a34aecad3fbb3569"
           },
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : null,
           "operation" : null,
@@ -1607,6 +1738,7 @@
         }, {
           "broker" : null,
           "clientScript" : null,
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : {
             "apiName" : "x_snc_creatorcon_0.MODAL_SELECTED_RELAY_7cfe5392876a4910a34aecad3fbb353a",
@@ -1617,7 +1749,9 @@
                 "showModal" : null,
                 "displayOptions" : null,
                 "bare" : true,
-                "preserveState" : null
+                "viewportElementId" : null,
+                "viewportRoute" : null,
+                "viewportFields" : null
               }
             },
             "sysId" : "c44a831f87664510a34aecad3fbb3547"
@@ -1637,6 +1771,7 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : { }
     }, {
@@ -1669,12 +1804,14 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : { }
     } ],
     "layout" : {
       "default" : {
         "children" : null,
+        "isInline" : null,
         "items" : [{"slotName":"modal-title","rules":{"grid-area":"1 / 1 / 2 / 2","min-height":"50px"},"styles":{"display":"flex","flex-direction":"column","justify-content":"space-around","align-items":"stretch"}},{"slotName":"modal-content","rules":{"grid-area":"2 / 1 / 3 / 2","min-height":"100px"},"styles":{"display":"flex","flex-direction":"column","align-items":"center"}},{"slotName":"modal-footer","rules":{"grid-area":"3 / 1 / 4 / 2","min-height":"50px"},"styles":{"display":"flex","flex-direction":"column","align-items":"center","justify-content":"space-around"}}],
         "root" : null,
         "rules" : {"grid-template-columns":"1fr","grid-template-rows":"repeat(3, auto)","grid-column-gap":"0px","grid-row-gap":"1rem"},
@@ -1688,6 +1825,7 @@
     "type" : "JSON_LITERAL",
     "value" : ""
   },
+  "isHero" : false,
   "isNonDestructive" : false,
   "styles" : {
     "width" : "100%"
@@ -1724,6 +1862,7 @@
         <layout>{
   "default" : {
     "children" : null,
+    "isInline" : null,
     "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column","justify-content":"flex-start","align-items":"flex-start","width":"auto"}}],
     "root" : null,
     "rules" : {"flex-flow":"row nowrap","align-items":"stretch","min-height":"400px","height":"100%"},
@@ -1868,13 +2007,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-01 18:20:27</sys_created_on>
         <sys_id>7cfe5392876a4910a34aecad3fbb353a</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_name>Train Management Dashboard</sys_name>
         <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
         <sys_policy/>
         <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
         <sys_update_name>sys_ux_macroponent_7cfe5392876a4910a34aecad3fbb353a</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-19 02:18:00</sys_updated_on>
+        <sys_updated_by>steve.mccluskey</sys_updated_by>
+        <sys_updated_on>2022-04-21 05:11:38</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

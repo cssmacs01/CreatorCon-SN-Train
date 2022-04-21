@@ -9,10 +9,9 @@
         <average_wait_time>1970-01-01 00:00:30</average_wait_time>
         <away_image/>
         <away_message>We are away at the moment. Please check back later.</away_message>
-        <ccc_source_id/>
         <check_in_greeting>Welcome! Please check in below to add yourself to the queue.</check_in_greeting>
         <closed_message>We are closed. Please refer to the hours of operation.</closed_message>
-        <condition table="interaction">location=002b8fa587b60550a34aecad3fbb358e^EQ<item display_table="cmn_location" display_value="The Hague" endquery="false" field="location" goto="false" newquery="false" operator="=" or="false" value="002b8fa587b60550a34aecad3fbb358e"/>
+        <condition table="interaction">location=fb570ba4878bcd105f40cbb4dabb3507^EQ<item display_table="cmn_location" display_value="The Hague" endquery="false" field="location" goto="false" newquery="false" operator="=" or="false" value="fb570ba4878bcd105f40cbb4dabb3507"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <condition_mode>simple</condition_mode>
@@ -20,6 +19,7 @@
 	// customize condition logic here, return true or false  
 	return false;
 })(current);]]></condition_script>
+        <contact_types_for_appointment/>
         <description/>
         <display_technician>true</display_technician>
         <eligible_booking_group/>
@@ -28,6 +28,7 @@
         <enable_away_state>false</enable_away_state>
         <enable_employee_support>true</enable_employee_support>
         <enable_external_user_support>true</enable_external_user_support>
+        <enable_kiosk>false</enable_kiosk>
         <enable_online_checkin>true</enable_online_checkin>
         <evaluation_scope>document</evaluation_scope>
         <external>false</external>
@@ -35,9 +36,10 @@
         <hold_time>5</hold_time>
         <initial_agent_response>Thank you for contacting support. I am looking into your question now and will be with you shortly.</initial_agent_response>
         <last_checkin>30</last_checkin>
-        <location display_value="The Hague">002b8fa587b60550a34aecad3fbb358e</location>
+        <location display_value="The Hague">fb570ba4878bcd105f40cbb4dabb3507</location>
         <location_image/>
         <logo/>
+        <max_num_of_appointments/>
         <max_search_results>5</max_search_results>
         <max_wait_time>1970-01-01 00:00:00</max_wait_time>
         <max_wait_time_message>No agents are available to chat right now. Check back later.</max_wait_time_message>
@@ -54,6 +56,7 @@
         <search_config/>
         <service_channel display_value="Walk-up">48e395bc3b102300f1612c2b54efc46f</service_channel>
         <short_description/>
+        <show_kiosk>false</show_kiosk>
         <show_wait_time>false</show_wait_time>
         <stockroom/>
         <sys_class_name>wu_location_queue</sys_class_name>
@@ -61,14 +64,14 @@
         <sys_created_on>2022-04-11 20:55:38</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>e332efad873a0550a34aecad3fbb35b8</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>The Hague</sys_name>
         <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
         <sys_policy/>
         <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
         <sys_update_name>wu_location_queue_e332efad873a0550a34aecad3fbb35b8</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-13 00:14:17</sys_updated_on>
+        <sys_updated_by>steve.mccluskey</sys_updated_by>
+        <sys_updated_on>2022-04-21 04:05:20</sys_updated_on>
         <target_wait_time/>
         <threshold_notification>3</threshold_notification>
         <use_condition>true</use_condition>
