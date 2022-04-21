@@ -8,8 +8,12 @@
   "elementLabel" : "Stylized Container",
   "propertyValues" : {
     "label" : {
-      "type" : "JSON_LITERAL",
-      "value" : ""
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
     },
     "bare" : {
       "type" : "JSON_LITERAL",
@@ -50,6 +54,7 @@
     "collapseButtonTooltipContent" : {
       "type" : "TRANSLATION_LITERAL",
       "value" : {
+        "code" : null,
         "message" : "Collapse container to hide contents",
         "comment" : ""
       }
@@ -57,9 +62,26 @@
     "expandButtonTooltipContent" : {
       "type" : "TRANSLATION_LITERAL",
       "value" : {
+        "code" : null,
         "message" : "Expand container to show contents",
         "comment" : ""
       }
+    },
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
     }
   },
   "eventMappings" : [ ],
@@ -73,6 +95,7 @@
     "layout" : {
       "default" : {
         "children" : null,
+        "isInline" : null,
         "items" : [{"slotName":"default-slot","styles":{"margin-top":"16vh","margin-left":"9vw"}}],
         "root" : null,
         "rules" : {"flex-direction":"column"},
@@ -86,12 +109,38 @@
     "type" : "JSON_LITERAL",
     "value" : ""
   },
+  "isHero" : false,
   "isNonDestructive" : false,
   "styles" : { }
 }, {
   "elementId" : "login_wrapper",
   "elementLabel" : "Login Wrapper",
-  "propertyValues" : { },
+  "propertyValues" : {
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
   "eventMappings" : [ ],
   "slot" : "Column 2",
   "definition" : {
@@ -114,6 +163,7 @@
         "label" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "Click To Register",
             "comment" : ""
           }
@@ -129,6 +179,7 @@
         "tooltipContent" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "use this button to register for an account",
             "comment" : ""
           }
@@ -153,6 +204,7 @@
         "targets" : [ {
           "broker" : null,
           "clientScript" : null,
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : {
             "apiName" : "x_snc_creatorcon_0.MODAL_SELECTED_RELAY_2fa0729588ca011052d3ca7840770f9e",
@@ -163,7 +215,9 @@
                 "showModal" : true,
                 "displayOptions" : null,
                 "bare" : true,
-                "preserveState" : null
+                "viewportElementId" : null,
+                "viewportRoute" : null,
+                "viewportFields" : null
               }
             },
             "sysId" : "d3e516a987320550a34aecad3fbb3538"
@@ -174,6 +228,7 @@
         }, {
           "broker" : null,
           "clientScript" : null,
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : {
             "apiName" : "sn_uxf_page.NOW_UXF_PAGE#CLEAR_NOTIFICATIONS",
@@ -198,6 +253,7 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : {
         "width" : "100%"
@@ -206,6 +262,7 @@
     "layout" : {
       "default" : {
         "children" : null,
+        "isInline" : null,
         "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"max-width":"390px","margin":"auto"}}],
         "root" : null,
         "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
@@ -219,6 +276,7 @@
     "type" : "JSON_LITERAL",
     "value" : ""
   },
+  "isHero" : false,
   "isNonDestructive" : false,
   "styles" : { }
 }, {
@@ -260,6 +318,7 @@
         "label" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "First Name",
             "comment" : ""
           }
@@ -352,6 +411,7 @@
         "targets" : [ {
           "broker" : null,
           "clientScript" : null,
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : {
             "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
@@ -380,6 +440,7 @@
           "clientScript" : {
             "sysId" : "af9ffbe1873e0550a34aecad3fbb3586"
           },
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : null,
           "operation" : null,
@@ -397,6 +458,7 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : { }
     }, {
@@ -410,6 +472,7 @@
         "label" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "Last Name",
             "comment" : ""
           }
@@ -502,6 +565,7 @@
         "targets" : [ {
           "broker" : null,
           "clientScript" : null,
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : {
             "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
@@ -530,6 +594,7 @@
           "clientScript" : {
             "sysId" : "af9ffbe1873e0550a34aecad3fbb3586"
           },
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : null,
           "operation" : null,
@@ -547,6 +612,7 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : { }
     }, {
@@ -560,6 +626,7 @@
         "label" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "Email",
             "comment" : ""
           }
@@ -652,6 +719,7 @@
         "targets" : [ {
           "broker" : null,
           "clientScript" : null,
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : {
             "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
@@ -680,6 +748,7 @@
           "clientScript" : {
             "sysId" : "af9ffbe1873e0550a34aecad3fbb3586"
           },
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : null,
           "operation" : null,
@@ -697,6 +766,7 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : { }
     }, {
@@ -710,6 +780,7 @@
         "label" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "Organization",
             "comment" : ""
           }
@@ -802,6 +873,7 @@
         "targets" : [ {
           "broker" : null,
           "clientScript" : null,
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : {
             "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
@@ -830,6 +902,7 @@
           "clientScript" : {
             "sysId" : "af9ffbe1873e0550a34aecad3fbb3586"
           },
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : null,
           "operation" : null,
@@ -847,6 +920,7 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : { }
     }, {
@@ -856,6 +930,7 @@
         "text" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "Register for Creator Workflows Train Experience",
             "comment" : ""
           }
@@ -880,6 +955,7 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : { }
     }, {
@@ -897,6 +973,7 @@
         "label" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "Submit",
             "comment" : ""
           }
@@ -914,6 +991,7 @@
         "tooltipContent" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
+            "code" : null,
             "message" : "Enter a label",
             "comment" : ""
           }
@@ -940,6 +1018,7 @@
           "clientScript" : {
             "sysId" : "f48c96a587720550a34aecad3fbb3563"
           },
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : null,
           "operation" : null,
@@ -948,6 +1027,7 @@
         }, {
           "broker" : null,
           "clientScript" : null,
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : {
             "apiName" : "sn_uxf_page.NOW_UXF_PAGE#ADD_NOTIFICATIONS",
@@ -967,23 +1047,57 @@
         }, {
           "broker" : null,
           "clientScript" : null,
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : {
             "apiName" : "x_snc_creatorcon_0.NAV_ITEM_SELECTED_RELAY_2fa0729588ca011052d3ca7840770f9e",
             "payload" : {
-              "type" : "JSON_LITERAL",
-              "value" : {
-                "route" : "login",
-                "fields" : {
-                  "location" : "new_york"
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "route" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "login"
                 },
-                "params" : null,
-                "redirect" : null,
-                "passiveNavigation" : null,
-                "title" : null,
-                "multiInstField" : null,
-                "targetRoute" : null,
-                "external" : null
+                "fields" : {
+                  "type" : "MAP_CONTAINER",
+                  "container" : {
+                    "location" : {
+                      "type" : "CONTEXT_BINDING",
+                      "binding" : {
+                        "address" : [ "location" ],
+                        "category" : "props"
+                      }
+                    }
+                  }
+                },
+                "params" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "redirect" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "passiveNavigation" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "title" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "multiInstField" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "targetRoute" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "external" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                }
               }
             },
             "sysId" : "eba07295e4ca01101bbaafcd1f9dcc9e"
@@ -994,6 +1108,23 @@
         }, {
           "broker" : null,
           "clientScript" : null,
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : {
+            "apiName" : "x_snc_creatorcon_0.PORTAL_APP_SHELL_DATA_SOURCE_REFRESH_RELAY_2fa0729588ca011052d3ca7840770f9e",
+            "payload" : {
+              "type" : "JSON_LITERAL",
+              "value" : { }
+            },
+            "sysId" : "5dd002bc870701505f40cbb4dabb3542"
+          },
+          "operation" : null,
+          "targetId" : "clccjjhhiieeneaabbffeddgggzohvhukgl",
+          "type" : "EVENT"
+        }, {
+          "broker" : null,
+          "clientScript" : null,
+          "conditional" : null,
           "declarativeAction" : null,
           "event" : {
             "apiName" : "x_snc_creatorcon_0.MODAL_SELECTED_RELAY_2fa0729588ca011052d3ca7840770f9e",
@@ -1004,13 +1135,15 @@
                 "showModal" : null,
                 "displayOptions" : null,
                 "bare" : true,
-                "preserveState" : null
+                "viewportElementId" : null,
+                "viewportRoute" : null,
+                "viewportFields" : null
               }
             },
             "sysId" : "d3e516a987320550a34aecad3fbb3538"
           },
           "operation" : null,
-          "targetId" : "clbbyieehhciaaaabbgddfiiaqnhjjcccccj",
+          "targetId" : "clccjjhhjjosmaabbggggddgggzqeegbjjaxd",
           "type" : "EVENT"
         } ]
       } ],
@@ -1024,12 +1157,14 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : { }
     } ],
     "layout" : {
       "default" : {
         "children" : null,
+        "isInline" : null,
         "items" : [{"slotName":"modal-title","rules":{"grid-area":"1 / 1 / 2 / 2","min-height":"50px"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"modal-content","rules":{"grid-area":"2 / 1 / 3 / 2","min-height":"100px"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"modal-footer","rules":{"grid-area":"3 / 1 / 4 / 2","min-height":"50px"},"styles":{"display":"flex","flex-direction":"column","align-items":"center"}}],
         "root" : null,
         "rules" : {"grid-template-columns":"1fr","grid-template-rows":"repeat(3, auto)","grid-column-gap":"0px","grid-row-gap":"1rem"},
@@ -1043,6 +1178,7 @@
     "type" : "JSON_LITERAL",
     "value" : ""
   },
+  "isHero" : false,
   "isNonDestructive" : false,
   "styles" : {
     "width" : "100%"
@@ -1060,7 +1196,7 @@
   "inputValues" : { },
   "readEvaluationMode" : "EXPLICIT"
 } ]</data>
-        <dispatched_events>d3e516a987320550a34aecad3fbb3538,eba07295e4ca01101bbaafcd1f9dcc9e</dispatched_events>
+        <dispatched_events>5dd002bc870701505f40cbb4dabb3542,d3e516a987320550a34aecad3fbb3538,eba07295e4ca01101bbaafcd1f9dcc9e</dispatched_events>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
@@ -1069,6 +1205,7 @@
         <layout>{
   "default" : {
     "children" : null,
+    "isInline" : null,
     "items" : [{"slotName":"Column 1","rules":{"grid-area":"column1"},"styles":{"background-color":"rgb(var(--now-color_grouped--blue-1))","background-position":"80% 80%","background-repeat":"no-repeat","background-image":"url(Reg.jpg)","background-size":"contain","display":"flex","align-items":"center","justify-content":"space-around"}},{"slotName":"Column 2","rules":{"grid-area":"column2"},"styles":{"padding-top":"9rem"}}],
     "root" : null,
     "rules" : {"grid-template-rows":"minmax(600px,auto)","grid-template-columns":"2fr 1fr","grid-template-areas":"\"column1 column2\"","grid-gap":"2rem","height":"100%"},
@@ -1089,7 +1226,8 @@
   "defaultValue" : "",
   "description" : "",
   "readOnly" : true,
-  "selectable" : false
+  "selectable" : false,
+  "disabled" : false
 } ]</props>
         <required_translations>[ {
   "message" : "Click To Register",
@@ -1214,13 +1352,13 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-03-04 15:53:01</sys_created_on>
         <sys_id>2fa0729588ca011052d3ca7840770f9e</sys_id>
-        <sys_mod_count>64</sys_mod_count>
+        <sys_mod_count>67</sys_mod_count>
         <sys_name>Login</sys_name>
         <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
         <sys_policy/>
         <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
         <sys_update_name>sys_ux_macroponent_2fa0729588ca011052d3ca7840770f9e</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-20 03:00:33</sys_updated_on>
+        <sys_updated_by>steve.mccluskey</sys_updated_by>
+        <sys_updated_on>2022-04-21 16:10:24</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

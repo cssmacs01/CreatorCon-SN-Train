@@ -4,6 +4,36 @@
         <app_config display_value="ServiceNow Express Config">57a0729587ca0110a34aecad3fbb3576</app_config>
         <description/>
         <event_mappings>[ {
+  "eventMappingId" : "clccjjhhjjbbiuaabbffmddgggzzzqxwbpb",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_snc_creatorcon_0.PORTAL_APP_SHELL_DATA_SOURCE_REFRESH_RELAY_2fa0729588ca011052d3ca7840770f9e",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "x_snc_creatorcon_0.PORTAL_APP_SHELL_DATA_SOURCE_REFRESH_RELAY_2fa0729588ca011052d3ca7840770f9e",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : {
+      "dataBrokerId" : "eaa5861c530210105a20ddeeff7b12fd",
+      "operationName" : "REFRESH",
+      "parentResourceId" : "portal_app_shell_data_source",
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      }
+    },
+    "targetId" : "clccjjhhjjbbiuaabbfflddgggzdbbbbjphhiiii",
+    "type" : "DATABROKER_OP"
+  } ]
+}, {
   "eventMappingId" : "clbbuveeorjjaaaabbggddeiijjjxjjeeuhhxh",
   "isConfiguration" : false,
   "offRowStorageId" : null,
@@ -18,6 +48,7 @@
   "targets" : [ {
     "broker" : null,
     "clientScript" : null,
+    "conditional" : null,
     "declarativeAction" : null,
     "event" : {
       "apiName" : "sn_canvas_core.MODAL_SELECTED",
@@ -48,11 +79,17 @@
               "address" : [ "bare" ]
             }
           },
-          "preserveState" : {
-            "type" : "EVENT_PAYLOAD_BINDING",
-            "binding" : {
-              "address" : [ "preserveState" ]
-            }
+          "viewportElementId" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "viewportRoute" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "viewportFields" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
           }
         }
       },
@@ -77,6 +114,7 @@
   "targets" : [ {
     "broker" : null,
     "clientScript" : null,
+    "conditional" : null,
     "declarativeAction" : null,
     "event" : {
       "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",
@@ -148,13 +186,42 @@
 } ]</event_mappings>
         <macroponent display_value="Login">2fa0729588ca011052d3ca7840770f9e</macroponent>
         <macroponent_config>{
-  "location" : "",
-  "label" : "",
-  "bare" : true,
-  "scrollable" : "none",
-  "headerLevel" : "1",
-  "interceptNotifications" : false,
-  "propagateNotifications" : false
+  "location" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "label" : {
+    "type" : "TRANSLATION_LITERAL",
+    "value" : {
+      "code" : null,
+      "message" : "",
+      "comment" : ""
+    }
+  },
+  "bare" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  },
+  "scrollable" : {
+    "type" : "JSON_LITERAL",
+    "value" : "none"
+  },
+  "headerLevel" : {
+    "type" : "JSON_LITERAL",
+    "value" : "1"
+  },
+  "headingOnlyVisibleToScreenReaders" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "interceptNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "propagateNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
 }</macroponent_config>
         <name>Login Default</name>
         <order>10</order>
@@ -169,7 +236,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e7a07295e8ca0110b29e08ccf691eea4</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Login Default</sys_name>
         <sys_overrides/>
         <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
@@ -177,7 +244,7 @@
         <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
         <sys_update_name>sys_ux_screen_e7a07295e8ca0110b29e08ccf691eea4</sys_update_name>
         <sys_updated_by>steve.mccluskey</sys_updated_by>
-        <sys_updated_on>2022-04-21 05:25:25</sys_updated_on>
+        <sys_updated_on>2022-04-21 16:09:46</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=e7a07295e8ca0110b29e08ccf691eea4"/>
 </record_update>

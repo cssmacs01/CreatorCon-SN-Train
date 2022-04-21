@@ -6,7 +6,32 @@
         <composition>[ {
   "elementId" : "container_1",
   "elementLabel" : "Container 1",
-  "propertyValues" : { },
+  "propertyValues" : {
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
   "eventMappings" : [ ],
   "slot" : "Main",
   "definition" : {
@@ -18,6 +43,7 @@
     "layout" : {
       "default" : {
         "children" : null,
+        "isInline" : null,
         "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column","justify-content":"space-around","align-items":"center"}}],
         "root" : null,
         "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
@@ -31,6 +57,7 @@
     "type" : "JSON_LITERAL",
     "value" : ""
   },
+  "isHero" : false,
   "isNonDestructive" : false,
   "styles" : {
     "width" : "100%"
@@ -38,7 +65,32 @@
 }, {
   "elementId" : "container_3",
   "elementLabel" : "Container 3",
-  "propertyValues" : { },
+  "propertyValues" : {
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
   "eventMappings" : [ ],
   "slot" : "Main",
   "definition" : {
@@ -50,6 +102,7 @@
     "layout" : {
       "default" : {
         "children" : null,
+        "isInline" : null,
         "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
         "root" : null,
         "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
@@ -63,6 +116,7 @@
     "type" : "JSON_LITERAL",
     "value" : ""
   },
+  "isHero" : false,
   "isNonDestructive" : false,
   "styles" : {
     "width" : "100%"
@@ -70,7 +124,32 @@
 }, {
   "elementId" : "container_2",
   "elementLabel" : "Container 2",
-  "propertyValues" : { },
+  "propertyValues" : {
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
   "eventMappings" : [ ],
   "slot" : "Main",
   "definition" : {
@@ -81,7 +160,32 @@
     "composition" : [ {
       "elementId" : "container_6",
       "elementLabel" : "Container 6",
-      "propertyValues" : { },
+      "propertyValues" : {
+        "ariaRegionName" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "",
+            "comment" : ""
+          }
+        },
+        "includeAriaHeading" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "ariaRegionHeadingLevel" : {
+          "type" : "JSON_LITERAL",
+          "value" : "1"
+        },
+        "type" : {
+          "type" : "JSON_LITERAL",
+          "value" : "section"
+        },
+        "ariaRole" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        }
+      },
       "eventMappings" : [ ],
       "slot" : "Main",
       "definition" : {
@@ -101,6 +205,7 @@
                   "label" : {
                     "type" : "TRANSLATION_LITERAL",
                     "value" : {
+                      "code" : null,
                       "message" : "SN Express Home",
                       "comment" : ""
                     }
@@ -124,6 +229,7 @@
                   "label" : {
                     "type" : "TRANSLATION_LITERAL",
                     "value" : {
+                      "code" : null,
                       "message" : "Station 1",
                       "comment" : ""
                     }
@@ -143,6 +249,7 @@
                   "label" : {
                     "type" : "TRANSLATION_LITERAL",
                     "value" : {
+                      "code" : null,
                       "message" : "Station 2",
                       "comment" : ""
                     }
@@ -162,6 +269,7 @@
                   "label" : {
                     "type" : "TRANSLATION_LITERAL",
                     "value" : {
+                      "code" : null,
                       "message" : "Station 3",
                       "comment" : ""
                     }
@@ -181,6 +289,7 @@
                   "label" : {
                     "type" : "TRANSLATION_LITERAL",
                     "value" : {
+                      "code" : null,
                       "message" : "Station 4",
                       "comment" : ""
                     }
@@ -200,6 +309,7 @@
                   "label" : {
                     "type" : "TRANSLATION_LITERAL",
                     "value" : {
+                      "code" : null,
                       "message" : "Station 5",
                       "comment" : ""
                     }
@@ -222,13 +332,6 @@
             "overflow" : {
               "type" : "JSON_LITERAL",
               "value" : "wrap"
-            },
-            "activeRoute" : {
-              "type" : "JSON_LITERAL",
-              "value" : {
-                "0" : "[",
-                "routeType" : ""
-              }
             }
           },
           "eventMappings" : [ ],
@@ -242,6 +345,7 @@
             "type" : "JSON_LITERAL",
             "value" : ""
           },
+          "isHero" : false,
           "isNonDestructive" : false,
           "styles" : {
             "color" : "#009156",
@@ -251,6 +355,7 @@
         "layout" : {
           "default" : {
             "children" : null,
+            "isInline" : null,
             "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
             "root" : null,
             "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
@@ -264,6 +369,7 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : {
         "width" : "100%"
@@ -271,7 +377,32 @@
     }, {
       "elementId" : "container_5",
       "elementLabel" : "Container 5",
-      "propertyValues" : { },
+      "propertyValues" : {
+        "ariaRegionName" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "",
+            "comment" : ""
+          }
+        },
+        "includeAriaHeading" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "ariaRegionHeadingLevel" : {
+          "type" : "JSON_LITERAL",
+          "value" : "1"
+        },
+        "type" : {
+          "type" : "JSON_LITERAL",
+          "value" : "section"
+        },
+        "ariaRole" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        }
+      },
       "eventMappings" : [ ],
       "slot" : "Main",
       "definition" : {
@@ -314,6 +445,7 @@
             "tooltipContent" : {
               "type" : "TRANSLATION_LITERAL",
               "value" : {
+                "code" : null,
                 "message" : "Enter a label",
                 "comment" : ""
               }
@@ -324,6 +456,7 @@
                 "aria-label" : {
                   "type" : "TRANSLATION_LITERAL",
                   "value" : {
+                    "code" : null,
                     "message" : "Search",
                     "comment" : ""
                   }
@@ -346,6 +479,7 @@
             "targets" : [ {
               "broker" : null,
               "clientScript" : null,
+              "conditional" : null,
               "declarativeAction" : null,
               "event" : {
                 "apiName" : "x_snc_creatorcon_0.MODAL_SELECTED_RELAY_e4ce5be81b03815093c1a685624bcb1b",
@@ -356,7 +490,9 @@
                     "showModal" : true,
                     "displayOptions" : null,
                     "bare" : null,
-                    "preserveState" : null
+                    "viewportElementId" : null,
+                    "viewportRoute" : null,
+                    "viewportFields" : null
                   }
                 },
                 "sysId" : "f7506be81b03815093c1a685624bcbba"
@@ -367,6 +503,7 @@
             }, {
               "broker" : null,
               "clientScript" : null,
+              "conditional" : null,
               "declarativeAction" : null,
               "event" : null,
               "operation" : {
@@ -374,8 +511,8 @@
                 "operationName" : "REFRESH",
                 "parentResourceId" : "look_up_records_1",
                 "payload" : {
-                  "type" : "MAP_CONTAINER",
-                  "container" : { }
+                  "type" : "JSON_LITERAL",
+                  "value" : { }
                 }
               },
               "targetId" : "clbbyizzybbaaaadduddfiiafqrddacczs",
@@ -383,6 +520,7 @@
             }, {
               "broker" : null,
               "clientScript" : null,
+              "conditional" : null,
               "declarativeAction" : null,
               "event" : null,
               "operation" : {
@@ -390,8 +528,8 @@
                 "operationName" : "REFRESH",
                 "parentResourceId" : "look_up_records_2",
                 "payload" : {
-                  "type" : "MAP_CONTAINER",
-                  "container" : { }
+                  "type" : "JSON_LITERAL",
+                  "value" : { }
                 }
               },
               "targetId" : "clbbyjaaaabbaaaaddvddfiiaunvxwbbbbk",
@@ -408,6 +546,7 @@
             "type" : "JSON_LITERAL",
             "value" : ""
           },
+          "isHero" : false,
           "isNonDestructive" : false,
           "styles" : { }
         }, {
@@ -415,8 +554,12 @@
           "elementLabel" : "Rich text 2",
           "propertyValues" : {
             "html" : {
-              "type" : "JSON_LITERAL",
-              "value" : "&lt;p&gt;&lt;strong&gt;&lt;span style=\"font-size: 18pt;\"&gt;Train Station 5&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;"
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "&lt;p&gt;&lt;strong&gt;&lt;span style=\"font-size: 18pt;\"&gt;Train Station 5&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;",
+                "comment" : ""
+              }
             }
           },
           "eventMappings" : [ ],
@@ -430,6 +573,7 @@
             "type" : "JSON_LITERAL",
             "value" : ""
           },
+          "isHero" : false,
           "isNonDestructive" : false,
           "styles" : {
             "padding-left" : "50px",
@@ -439,6 +583,7 @@
         "layout" : {
           "default" : {
             "children" : null,
+            "isInline" : null,
             "items" : [{"slotName":"Main","rules":{"flex":"2","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Sidebar 1","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
             "root" : null,
             "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
@@ -453,6 +598,7 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : {
         "width" : "100%"
@@ -462,8 +608,12 @@
       "elementLabel" : "Rich text 3",
       "propertyValues" : {
         "html" : {
-          "type" : "JSON_LITERAL",
-          "value" : "&lt;p&gt;&lt;strong&gt;&lt;span style=\"font-size: 36pt;\"&gt;Rome: AES Fulfilling the Vision&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;"
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "&lt;p&gt;&lt;strong&gt;&lt;span style=\"font-size: 36pt;\"&gt;Rome: AES Fulfilling the Vision&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;",
+            "comment" : ""
+          }
         }
       },
       "eventMappings" : [ ],
@@ -477,6 +627,7 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : {
         "padding-right" : "150px",
@@ -487,8 +638,12 @@
       "elementLabel" : "Rich text 4",
       "propertyValues" : {
         "html" : {
-          "type" : "JSON_LITERAL",
-          "value" : "&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;We make work, work better for people with modern digital workflows.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;Lorem ipsum dolor sit amet, oratio perpetua electram eu per, mel argumentum signiferumque eu, est error iuvaret adversarium at. Eos no reque choro, et cum quaeque tacimates dissentiunt. Cum prodesset accommodare ei, eos cu choro ignota, est ei ignota scripta incorrupte. Ea nec ferri feugait, id vix timeam scripta volumus.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;Mel id unum vocent deseruisse. Augue quaeque ea mei, singulis percipitur adversarium est ad, enim partem delicata vix an. Qui cu latine sanctus laoreet, doming delenit ceteros pro et.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;"
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;Welcome to the last train stop, Station App Engine Studio.&amp;nbsp; In early 2020, we came out with our no-code/citizen-developer builder interface and as you exit the train check out all the great features AES has to offer &amp;ndash; templates, guided tours, resources, etc..everything you need to create a scaleable, enterprise-grade workflow application complete with portal intake and mobile interfaces.&amp;nbsp; &lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;Phyllis would have had a fun time building out her solution years ago when Fred Luddy took the time to make her world of work, work better. &lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;After all, this experience was built entirely in App Engine Studio.&lt;/span&gt;&lt;/p&gt;",
+            "comment" : ""
+          }
         }
       },
       "eventMappings" : [ ],
@@ -502,6 +657,7 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : {
         "padding-right" : "150px",
@@ -512,8 +668,12 @@
       "elementLabel" : "Image 1",
       "propertyValues" : {
         "alt" : {
-          "type" : "JSON_LITERAL",
-          "value" : ""
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "",
+            "comment" : ""
+          }
         },
         "src" : {
           "type" : "JSON_LITERAL",
@@ -543,12 +703,14 @@
         "type" : "JSON_LITERAL",
         "value" : ""
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : { }
     } ],
     "layout" : {
       "default" : {
         "children" : null,
+        "isInline" : null,
         "items" : [{"slotName":"Sidebar 1","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Main","rules":{"flex":"2"},"styles":{"display":"flex","flex-direction":"column"}}],
         "root" : null,
         "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
@@ -563,6 +725,7 @@
     "type" : "JSON_LITERAL",
     "value" : ""
   },
+  "isHero" : false,
   "isNonDestructive" : false,
   "styles" : {
     "width" : "100%"
@@ -572,20 +735,36 @@
   "elementLabel" : "Confirm 1",
   "propertyValues" : {
     "headerLabel" : {
-      "type" : "JSON_LITERAL",
-      "value" : "Thank you for riding the Creator Workflows Train Experience!"
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Thank you for riding the Creator Workflows Train Experience!",
+        "comment" : ""
+      }
     },
     "content" : {
-      "type" : "JSON_LITERAL",
-      "value" : "Are you ready to end your trip? Don't worry, the railway will continue to expand with new and exciting destinations."
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Are you ready to end your trip? Don't worry, the railway will continue to expand with new and exciting destinations.",
+        "comment" : ""
+      }
     },
     "primaryButtonLabel" : {
-      "type" : "JSON_LITERAL",
-      "value" : "Yes"
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Yes",
+        "comment" : ""
+      }
     },
     "secondaryButtonLabel" : {
-      "type" : "JSON_LITERAL",
-      "value" : "Cancel"
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Cancel",
+        "comment" : ""
+      }
     },
     "size" : {
       "type" : "JSON_LITERAL",
@@ -621,6 +800,7 @@
       "clientScript" : {
         "sysId" : "a8ce5be81b03815093c1a685624bcb69"
       },
+      "conditional" : null,
       "declarativeAction" : null,
       "event" : null,
       "operation" : null,
@@ -631,6 +811,7 @@
       "clientScript" : {
         "sysId" : "e8ce5be81b03815093c1a685624bcb64"
       },
+      "conditional" : null,
       "declarativeAction" : null,
       "event" : null,
       "operation" : null,
@@ -639,6 +820,7 @@
     }, {
       "broker" : null,
       "clientScript" : null,
+      "conditional" : null,
       "declarativeAction" : null,
       "event" : {
         "apiName" : "x_snc_creatorcon_0.NAV_ITEM_SELECTED_RELAY_e4ce5be81b03815093c1a685624bcb1b",
@@ -707,6 +889,7 @@
     "type" : "JSON_LITERAL",
     "value" : ""
   },
+  "isHero" : false,
   "isNonDestructive" : false,
   "styles" : { }
 } ]</composition>
@@ -733,6 +916,7 @@
     "targets" : [ {
       "broker" : null,
       "clientScript" : null,
+      "conditional" : null,
       "declarativeAction" : null,
       "event" : {
         "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
@@ -852,6 +1036,7 @@
     "targets" : [ {
       "broker" : null,
       "clientScript" : null,
+      "conditional" : null,
       "declarativeAction" : null,
       "event" : {
         "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
@@ -979,6 +1164,7 @@
   "MACROPONENT_READY" : [ {
     "broker" : null,
     "clientScript" : null,
+    "conditional" : null,
     "declarativeAction" : null,
     "event" : {
       "apiName" : null,
@@ -996,6 +1182,7 @@
         <layout>{
   "default" : {
     "children" : null,
+    "isInline" : null,
     "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
     "root" : null,
     "rules" : {"flex-flow":"row nowrap","align-items":"stretch","min-height":"400px","height":"100%"},
@@ -1008,6 +1195,21 @@
         <name>Landing 5</name>
         <props>[ ]</props>
         <required_translations>[ {
+  "message" : "&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;Welcome to the last train stop, Station App Engine Studio.&amp;nbsp; In early 2020, we came out with our no-code/citizen-developer builder interface and as you exit the train check out all the great features AES has to offer &amp;ndash; templates, guided tours, resources, etc..everything you need to create a scaleable, enterprise-grade workflow application complete with portal intake and mobile interfaces.&amp;nbsp; &lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;Phyllis would have had a fun time building out her solution years ago when Fred Luddy took the time to make her world of work, work better. &lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;After all, this experience was built entirely in App Engine Studio.&lt;/span&gt;&lt;/p&gt;",
+  "comment" : ""
+}, {
+  "message" : "&lt;p&gt;&lt;strong&gt;&lt;span style=\"font-size: 18pt;\"&gt;Train Station 5&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;",
+  "comment" : ""
+}, {
+  "message" : "&lt;p&gt;&lt;strong&gt;&lt;span style=\"font-size: 36pt;\"&gt;Rome: AES Fulfilling the Vision&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;",
+  "comment" : ""
+}, {
+  "message" : "Are you ready to end your trip? Don't worry, the railway will continue to expand with new and exciting destinations.",
+  "comment" : ""
+}, {
+  "message" : "Cancel",
+  "comment" : ""
+}, {
   "message" : "Enter a label",
   "comment" : ""
 }, {
@@ -1030,6 +1232,12 @@
   "comment" : ""
 }, {
   "message" : "Station 5",
+  "comment" : ""
+}, {
+  "message" : "Thank you for riding the Creator Workflows Train Experience!",
+  "comment" : ""
+}, {
+  "message" : "Yes",
   "comment" : ""
 } ]</required_translations>
         <root_component/>
@@ -1074,13 +1282,13 @@
         <sys_created_by>roxana</sys_created_by>
         <sys_created_on>2022-04-21 04:21:38</sys_created_on>
         <sys_id>e4ce5be81b03815093c1a685624bcb1b</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>Landing 5</sys_name>
         <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
         <sys_policy/>
         <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
         <sys_update_name>sys_ux_macroponent_e4ce5be81b03815093c1a685624bcb1b</sys_update_name>
-        <sys_updated_by>roxana</sys_updated_by>
-        <sys_updated_on>2022-04-21 14:15:12</sys_updated_on>
+        <sys_updated_by>steve.mccluskey</sys_updated_by>
+        <sys_updated_on>2022-04-21 16:01:27</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

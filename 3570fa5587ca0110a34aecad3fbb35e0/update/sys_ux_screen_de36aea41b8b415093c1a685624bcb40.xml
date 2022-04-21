@@ -174,13 +174,38 @@
 } ]</event_mappings>
         <macroponent display_value="Landing 1">12362e641b8b415093c1a685624bcbb4</macroponent>
         <macroponent_config>{
-  "label" : "",
-  "bare" : true,
-  "scrollable" : "y",
-  "headerLevel" : "1",
-  "interceptNotifications" : false,
-  "propagateNotifications" : false,
-  "headingOnlyVisibleToScreenReaders" : false
+  "label" : {
+    "type" : "TRANSLATION_LITERAL",
+    "value" : {
+      "code" : null,
+      "message" : "",
+      "comment" : ""
+    }
+  },
+  "bare" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  },
+  "scrollable" : {
+    "type" : "JSON_LITERAL",
+    "value" : "y"
+  },
+  "headerLevel" : {
+    "type" : "JSON_LITERAL",
+    "value" : "1"
+  },
+  "headingOnlyVisibleToScreenReaders" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "interceptNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "propagateNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
 }</macroponent_config>
         <name>Station 1</name>
         <order>0</order>
@@ -195,7 +220,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>de36aea41b8b415093c1a685624bcb40</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Station 1</sys_name>
         <sys_overrides/>
         <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
@@ -203,7 +228,7 @@
         <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
         <sys_update_name>sys_ux_screen_de36aea41b8b415093c1a685624bcb40</sys_update_name>
         <sys_updated_by>steve.mccluskey</sys_updated_by>
-        <sys_updated_on>2022-04-21 04:28:50</sys_updated_on>
+        <sys_updated_on>2022-04-21 15:22:10</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=de36aea41b8b415093c1a685624bcb40"/>
 </record_update>
