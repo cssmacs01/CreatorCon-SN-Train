@@ -1069,7 +1069,7 @@
         <layout>{
   "default" : {
     "children" : null,
-    "items" : [{"slotName":"Column 1","rules":{"grid-area":"column1"},"styles":{"background-color":"rgb(var(--now-color_grouped--blue-1))","background-position":"80% 80%","background-repeat":"no-repeat","background-size":"100%","background-image":"url(Reg.jpg)"}},{"slotName":"Column 2","rules":{"grid-area":"column2"},"styles":{"padding-top":"9rem"}}],
+    "items" : [{"slotName":"Column 1","rules":{"grid-area":"column1"},"styles":{"background-color":"rgb(var(--now-color_grouped--blue-1))","background-position":"80% 80%","background-repeat":"no-repeat","background-image":"url(Reg.jpg)","background-size":"contain","display":"flex","align-items":"center","justify-content":"space-around"}},{"slotName":"Column 2","rules":{"grid-area":"column2"},"styles":{"padding-top":"9rem"}}],
     "root" : null,
     "rules" : {"grid-template-rows":"minmax(600px,auto)","grid-template-columns":"2fr 1fr","grid-template-areas":"\"column1 column2\"","grid-gap":"2rem","height":"100%"},
     "styles" : null,
@@ -1214,13 +1214,13 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-03-04 15:53:01</sys_created_on>
         <sys_id>2fa0729588ca011052d3ca7840770f9e</sys_id>
-        <sys_mod_count>63</sys_mod_count>
+        <sys_mod_count>64</sys_mod_count>
         <sys_name>Login</sys_name>
         <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
         <sys_policy/>
         <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
         <sys_update_name>sys_ux_macroponent_2fa0729588ca011052d3ca7840770f9e</sys_update_name>
-        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
-        <sys_updated_on>2022-04-14 10:58:49</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-20 03:00:33</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
