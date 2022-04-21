@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="The ServiceNow Express">2255c6f0878b4990a34aecad3fbb3503</macroponent>
+        <name>Train Stop 1</name>
+        <required_translations/>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    var mid_param = api.context.session.user.sys_id;
+    var train = '';
+
+    switch (mid_param) {
+        case "086029068736c550a34aecad3fbb35a7": //The Hague
+            mid_param = "train_mid2";
+            train = "Train 2"
+            break;
+        case "d85025468736c550a34aecad3fbb3549": // New York
+            mid_param = "train_mid1";
+            train = "Train 1"
+            break;
+        case "f620e9068736c550a34aecad3fbb35b1": // Las Vegas
+            mid_param = "train_mid1";
+            train = "Train 1"
+            break;
+        case "5810e9068736c550a34aecad3fbb351b": // Sydney
+            mid_param = "train_mid3";
+            train = "Train 3"
+            break;
+        default:
+            mid_param = "train_mid1";
+            train = "Train 1"
+    }
+
+    api.data.train_control_api_1.execute({
+        train: train, //this needs be dynamic based on roles of the walk-up user
+        stop: "2",
+        dir: "F",
+        speed: "50",
+        mid: mid_param
+    });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-21 16:29:31</sys_created_on>
+        <sys_id>e655ce74878b4990a34aecad3fbb35c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Train Stop 1</sys_name>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_update_name>sys_ux_client_script_e655ce74878b4990a34aecad3fbb35c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-21 16:29:31</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format/>
+        <height/>
+        <image>6b5e8a301b07c15093c1a685624bcb9a</image>
+        <name>traveler_2.svg</name>
+        <size_bytes>6701</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>roxana</sys_created_by>
+        <sys_created_on>2022-04-21 17:08:44</sys_created_on>
+        <sys_id>0e4e86701b07c15093c1a685624bcbc4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>traveler_2.svg</sys_name>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_update_name>db_image_0e4e86701b07c15093c1a685624bcbc4</sys_update_name>
+        <sys_updated_by>roxana</sys_updated_by>
+        <sys_updated_on>2022-04-21 17:08:54</sys_updated_on>
+        <thumbnail/>
+        <width/>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/svg+xml</content_type>
+        <encryption_context/>
+        <file_name>image</file_name>
+        <hash>6357b6660c2aabd4577a462bd7d34805cfb8e2ee0f5b6d7369524230d562c013</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>6701</size_bytes>
+        <size_compressed>2331</size_compressed>
+        <state>pending</state>
+        <sys_created_by>roxana</sys_created_by>
+        <sys_created_on>2022-04-21 17:08:54</sys_created_on>
+        <sys_id>6b5e8a301b07c15093c1a685624bcb9a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>roxana</sys_updated_by>
+        <sys_updated_on>2022-04-21 17:08:54</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>0e4e86701b07c15093c1a685624bcbc4</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="6b5e8a301b07c15093c1a685624bcb9a">6b5e8a301b07c15093c1a685624bcb9a</sys_attachment>
+        <sys_created_by>roxana</sys_created_by>
+        <sys_created_on>2022-04-21 17:08:54</sys_created_on>
+        <sys_id>ab5e8a301b07c15093c1a685624bcb9a</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>rVnLTiQ5Fv2VUM5mWnKY8NvuBqRqNr1gViP1ojajnCCpRIqCEqSg0Wj+fc65jogMqCShu0aA0+mw7/Pch4PTh8cvzc3V2epy/by5/5dZNVfr3bq9XX/djGsN1v74Otw+nK22u923n09Onp6e9JPTd/dfTmzXdScgsWoebzZPv979cbbqmq6xJWjXWJtX56dXm+uH89OH3fOwOdf98NCa/1zfDMPPf7u+vv7lv7Jix5XNZjOuuHHl6t/8GRf9uJg3Ibs4LoZxsXP2yttxMU474+Yq5XExTVzyJm6mnXk63hUTJpplkrBPKWPx9KSKf3pSlbnf9LumH9YPsIloBAudrVpTsk6r5hlTB9Wbp5ur3fZsFbpu1Ww3N1+2O3yJdnVyfvrtbnj+cne7JGJXzbe7m9sdvtqQdGiK1x42tDqO0y7p3JguYhznyejSWB+1WcxDY2zh/pnKGxzdgmOlUWmHrO3IMhb40YCZmeYHWY5Hyee1bZzYxjqrrZjGGK/jbBtPg022MR2evE3CBB78IRJ7KZzR7gel+Msk9lL4rM0PSvE+iT/h+SXCADw/omABiJfO/rbebV9hGKnkH8YYHVTBpscUtgFyDNq1yevyGx+lz4fOuno2R20VgGW3LuuwhqLeqjp2+DEq4TlEG7TRZh11l5QM9aFROl2aiOeqpMpsaLVttdl2lzmq5HAk80iuR7o2tEbngxK90EbA/jt12nYDQr01CayOkMRCcnWoqx5rdmgtPzTOK9MGFbS5DFY7iKvD7ybZY7ahJF4R/n7rg05rfodoMlYDRF1A3Q02gqbJujw6GPQ344IOjzDDoEOLFXeUjYuKB+I2eJBqbYK4Fi7puxZ+hD8LlZSPz+9nM5G6EakbkG6EdJ1JAjEAaprn894PpMnOMSN5B3QaogvzSFLwP2AcZB3zmXjx+9mYywj6mcr70SIkhDCPlZG5NZZzrIdpLqQnhuMsjCwOx7TJdqweJpRFfgObfUyzwLxNARnafJDCR9V8YUvYOE0qL9R/odxxlzlPasictkmBR2VarHggsFwx61SbeZavOt0fe5+FzyMp50fyhC6hMU4EAT4vJtz+tllTmXItwiHsyzrnc66FBu+bdRZtoTDMMMk5C7yU6Z0QyNSswC02dhMyg8STVH/Opzizye97BrCdC/hE4wPFopKopIHXMDHPbDi4Hqf5AZbz2SOFLY6mjnZRXN3e0PFYANgwl8V3zv8JNV9Yswjoq8oL9V+q9o7L/P7cPGvjzBDTOX+kOUuZfTDsCXwgkIVCFd7PsjvJgeKtOj3Azb3nqkz8/2VXoUKW/4OnFvotTCg5pFp4r/RxnezUwuNslYuG2DdWOemFbN4fzuTmOyqZlewtKlPSeFWG/ViGgTyncmad1wZlnkOt8uxH2Aloa+ogy61GzuhbtEu0hTQZ06fRKOloPdAJxdbhD+ZHYwTa2MJvadweDjYGYWoMkmLq2nZrqzs2GhikuVHsaiDggEQYW0QhNhjFv/oYQoJ72r7ZL8SFT+XKgyzC8sAQKZLDHK+UMCfSlmXyyh03zHtnsUXQDtooNuhr47RPqo7VeBk9jEFT1Ae2NRARD2G7oriIhizSui0tgm5HOdEjqKTYUHmYKHFjJGFjVR2r+UFYu4vaLnoh3HmKkWmbWaKjBu4K5ShoJNDfotVNa6dzVjJUSzqSQROaIYLOAb/jA51bgw4PHSaYtlP1eMUnjXwsCoXC1aGgLeZt0alQLjBRaPWhn/UKMQPIzPsOSj0BlbcRxTvnAN1LK4iF/rCXjEvM9mjbETxAHp7CPVa6+am3x8M8QIBA4wl0Y0+jAtiJB173+y37fTi0C3Woi7ii4Gsc6FO4q9cFpGApVaQrp194H0AXb1osrfHVyaIb4doaItYf1XnhKSdkXQ+1EO20HyROQ5B7R0voF4kOwI6QA6OAB/+cSagFsWPoQPaADTEa+FgRg57g8xMCJcygaBgSkgM6XAAkzbcSiUE4AD28Id5lAFooV1rEzyFU0hdomc0Dd/K+AWjwotFB96DQnSHtEJiJIDSMGGSU/WwAgBhYkMkTmSKdpcWDRFfi7SIwXbSo4EextrSBRIjrAX3aU+dq+cELqUS7tGQs8c6clyUu4kWB9Elya6IimUlyT/cg9zwhvWNs0/QWbQFAL2MFDSAH87aEKzOpI3pbcqCStDoCM1LpOE8A/0BhQ5h9ZBDd9hKCJJUg+QVCHCoE3qeNAkJwU8y83foBoGJwwqTolA+nlTjlbWaw6Gk0K+y9xH1HlxTi3yRVx6pKkZKRe+yUDEizqSDmk6AOA9xmqxoAPUgFXmAd4ABfOrmYB6tkqIqBELabC+OAXCpnnIRNZBmbxTtq+46YyfQwaxjcymt26gHqIL6WtCvlzV0aU/AtZERIRyR0k2YAKPgOGDz/+rYGqJPzFDEia1wiW6vAlwzcz9LmhK7tuYfAIc6pOssmE4DHDr9GcDglw/g2QjNMw1DLL2zXt5K9aTnPQGXJUC8QX7MzwUhoUTxLDOHc+MHXGahM6GYE/Uwske9JdGZM5jgDCQmFuY8O0BQICtf6TMVL76kveCfxKT8LJYVsMGxvaVzYLbNRmD4/8aIuiTLNdX0WVVTob+77YfMqhfRoiTwKT//MK3vHS+49L6X+8An31glbk9SbPKx0pDyD/utDPL4/YY8mQjRkUL8wWVsgGG2HYQSzgoWpCahocgPDI33/HN533DMwSmjK/N0OJnEn710Q3SDxCR0XS6HL44a9GAfjpVRhPaPbFNY7J0Wv+LVGKfd56hbZDA7okG0b4N0XDxWxZsdUal49Qgq59JTSFGD304uHe66fDzXIQRrkCGSOrzocq+6+/TfLF5jYvLtf3z5c391/PVvJdFjvNn9vcXkNUV725PJTc3+3k1UkkBJ+OmKR7CRfpYGQR1iHtY5YcpM9ENp8uUcPpVeNSe2h2TRY6WPsq+dS6dhNMbMgB6xRFqbKwN7yjfw8FrVCh/KfBwOCHK6GyXtWNCvNEkrsFpHLwEVJlzeh8+tQ9oPIuEjBgAPx5D7SYHcoYE1w7JthRgSYacCdL/o9F0xu4KHYTPtIkf/kOf8f02/6qi0aAAA=</data>
+        <length>3096</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="6b5e8a301b07c15093c1a685624bcb9a">6b5e8a301b07c15093c1a685624bcb9a</sys_attachment>
+        <sys_created_by>roxana</sys_created_by>
+        <sys_created_on>2022-04-21 17:08:54</sys_created_on>
+        <sys_id>2f5e8a301b07c15093c1a685624bcb9a</sys_id>
+    </sys_attachment_doc>
+</record_update>
