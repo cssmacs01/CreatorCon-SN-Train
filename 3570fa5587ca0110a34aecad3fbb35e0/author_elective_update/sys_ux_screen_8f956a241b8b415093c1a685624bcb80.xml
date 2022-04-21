@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="ServiceNow Express Config">57a0729587ca0110a34aecad3fbb3576</app_config>
+        <description/>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="Stop 1">c3956a241b8b415093c1a685624bcb7d</macroponent>
+        <macroponent_config>{
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config>
+        <name>Stop 1</name>
+        <order>100</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <screen_condition/>
+        <screen_type display_value="Landing 1">9279a7c587264110a34aecad3fbb358e</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>roxana</sys_created_by>
+        <sys_created_on>2022-04-21 00:11:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8f956a241b8b415093c1a685624bcb80</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Stop 1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_update_name>sys_ux_screen_8f956a241b8b415093c1a685624bcb80</sys_update_name>
+        <sys_updated_by>roxana</sys_updated_by>
+        <sys_updated_on>2022-04-21 01:38:41</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=8f956a241b8b415093c1a685624bcb80"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</application>
+        <file_path/>
+        <instance_id>6dbf685adbfe681007072f17d4961976</instance_id>
+        <instance_name>stevemccluskeydemoq</instance_name>
+        <name>sys_ux_screen_8f956a241b8b415093c1a685624bcb80</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="ServiceNow Express Config">57a0729587ca0110a34aecad3fbb3576</app_config><description/><event_mappings>[ ]</event_mappings><macroponent display_value="Stop 1">c3956a241b8b415093c1a685624bcb7d</macroponent><macroponent_config>{
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config><name>Stop 1</name><order>100</order><parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent><required_translations>[ ]</required_translations><screen_condition/><screen_type display_value="Landing 1">9279a7c587264110a34aecad3fbb358e</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>roxana</sys_created_by><sys_created_on>2022-04-21 00:11:58</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8f956a241b8b415093c1a685624bcb80</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Stop 1</sys_name><sys_overrides/><sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package><sys_policy/><sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope><sys_update_name>sys_ux_screen_8f956a241b8b415093c1a685624bcb80</sys_update_name><sys_updated_by>roxana</sys_updated_by><sys_updated_on>2022-04-21 01:38:41</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=8f956a241b8b415093c1a685624bcb80"/></record_update>]]></payload>
+        <payload_hash>2135020034</payload_hash>
+        <record_name>Stop 1</record_name>
+        <reverted_from/>
+        <source>a51ec62c1bc7415093c1a685624bcbf0</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>roxana</sys_created_by>
+        <sys_created_on>2022-04-21 01:38:41</sys_created_on>
+        <sys_id>117936681b0f415093c1a685624bcb66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18049c57d2b0000001</sys_recorded_at>
+        <sys_updated_by>roxana</sys_updated_by>
+        <sys_updated_on>2022-04-21 01:38:41</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>95793668920f4150f90a5eb2d2276465</update_guid>
+        <update_guid_history>95793668920f4150f90a5eb2d2276465:2135020034,cf956a24588b4150ace5fb017ca5f883:1022611404</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-21 15:10:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>132ea60f53df4773847b50f7238637f1</sys_id>
+        <sys_metadata>8f956a241b8b415093c1a685624bcb80</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Stop 1</sys_name>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_scope_delete display_value="">7a3de565527e4f7e88b00d50362e19e9</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_8f956a241b8b415093c1a685624bcb80</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_8f956a241b8b415093c1a685624bcb80">117936681b0f415093c1a685624bcb66</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-21 15:10:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

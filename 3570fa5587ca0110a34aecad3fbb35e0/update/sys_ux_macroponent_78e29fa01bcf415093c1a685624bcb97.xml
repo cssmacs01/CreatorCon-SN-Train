@@ -18,7 +18,7 @@
     "layout" : {
       "default" : {
         "children" : null,
-        "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column","justify-content":"space-around","align-items":"left"}}],
+        "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column","justify-content":"space-around","align-items":"center"}}],
         "root" : null,
         "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
         "styles" : null,
@@ -79,76 +79,147 @@
   },
   "overrides" : {
     "composition" : [ {
-      "elementId" : "container_5",
-      "elementLabel" : "Container 5",
-      "propertyValues" : { },
-      "eventMappings" : [ ],
-      "slot" : "Sidebar 1",
-      "definition" : {
-        "id" : "d356d14b6e293a3020a244b63d278d8f",
-        "type" : "MACROPONENT"
-      },
-      "overrides" : {
-        "composition" : [ {
-          "elementId" : "image_1",
-          "elementLabel" : "Image 1",
-          "propertyValues" : {
-            "alt" : {
-              "type" : "JSON_LITERAL",
-              "value" : ""
-            },
-            "src" : {
-              "type" : "JSON_LITERAL",
-              "value" : "/teammate_support.svg"
-            },
-            "fit" : {
-              "type" : "JSON_LITERAL",
-              "value" : "cover"
-            },
-            "position" : {
-              "type" : "JSON_LITERAL",
-              "value" : "bottom left"
-            },
-            "height" : {
-              "type" : "JSON_LITERAL",
-              "value" : null
+      "elementId" : "breadcrumbs_1",
+      "elementLabel" : "Breadcrumbs 1",
+      "propertyValues" : {
+        "items" : {
+          "type" : "LIST_CONTAINER",
+          "container" : [ {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "label" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "message" : "SN Express Home",
+                  "comment" : ""
+                }
+              },
+              "href" : {
+                "type" : "JSON_LITERAL",
+                "value" : "/now/servicenow-express/landing"
+              },
+              "icon" : {
+                "type" : "JSON_LITERAL",
+                "value" : "home-outline"
+              },
+              "hideLabel" : {
+                "type" : "JSON_LITERAL",
+                "value" : true
+              }
             }
-          },
-          "eventMappings" : [ ],
-          "slot" : "Main",
-          "definition" : {
-            "id" : "15fe506403f8a98575b6df59008ea8f1",
-            "type" : "MACROPONENT"
-          },
-          "overrides" : null,
-          "isHidden" : {
-            "type" : "JSON_LITERAL",
-            "value" : ""
-          },
-          "isNonDestructive" : false,
-          "styles" : { }
-        } ],
-        "layout" : {
-          "default" : {
-            "children" : null,
-            "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
-            "root" : null,
-            "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
-            "styles" : null,
-            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
-            "type" : "flex"
+          }, {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "label" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "message" : "Station 1",
+                  "comment" : ""
+                }
+              },
+              "icon" : {
+                "type" : "JSON_LITERAL",
+                "value" : "default-cart-icon.svg"
+              },
+              "href" : {
+                "type" : "JSON_LITERAL",
+                "value" : "/now/servicenow-express/landing-1"
+              }
+            }
+          }, {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "label" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "message" : "Station 2",
+                  "comment" : ""
+                }
+              },
+              "icon" : {
+                "type" : "JSON_LITERAL",
+                "value" : "default-cart-icon.svg"
+              },
+              "href" : {
+                "type" : "JSON_LITERAL",
+                "value" : "/now/servicenow-express/landing-2"
+              }
+            }
+          }, {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "label" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "message" : "Station 3",
+                  "comment" : ""
+                }
+              },
+              "icon" : {
+                "type" : "JSON_LITERAL",
+                "value" : "default-cart-icon.svg"
+              },
+              "href" : {
+                "type" : "JSON_LITERAL",
+                "value" : "/now/servicenow-express/landing-3"
+              }
+            }
+          }, {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "label" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "message" : "Station 4",
+                  "comment" : ""
+                }
+              },
+              "icon" : {
+                "type" : "JSON_LITERAL",
+                "value" : "default-cart-icon.svg"
+              },
+              "href" : {
+                "type" : "JSON_LITERAL",
+                "value" : "/now/servicenow-express/landing-4"
+              }
+            }
+          } ]
+        },
+        "delimiter" : {
+          "type" : "JSON_LITERAL",
+          "value" : "chevron"
+        },
+        "overflow" : {
+          "type" : "JSON_LITERAL",
+          "value" : "wrap"
+        },
+        "activeRoute" : {
+          "type" : "JSON_LITERAL",
+          "value" : {
+            "0" : "[",
+            "routeType" : ""
           }
         }
       },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "9c2e48402c6c25d281faeb20637f6106",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
       "isHidden" : {
         "type" : "JSON_LITERAL",
         "value" : ""
       },
       "isNonDestructive" : false,
-      "styles" : { }
+      "styles" : {
+        "color" : "#009156",
+        "padding-left" : "50px"
+      }
     }, {
-      "elementId" : "container_8",
-      "elementLabel" : "Container 8",
+      "elementId" : "container_6",
+      "elementLabel" : "Container 6",
       "propertyValues" : { },
       "eventMappings" : [ ],
       "slot" : "Main",
@@ -157,89 +228,7 @@
         "type" : "MACROPONENT"
       },
       "overrides" : {
-        "composition" : [ {
-          "elementId" : "breadcrumbs_1",
-          "elementLabel" : "Breadcrumbs 1",
-          "propertyValues" : {
-            "items" : {
-              "type" : "LIST_CONTAINER",
-              "container" : [ {
-                "type" : "MAP_CONTAINER",
-                "container" : {
-                  "label" : {
-                    "type" : "TRANSLATION_LITERAL",
-                    "value" : {
-                      "message" : "SN Express Home",
-                      "comment" : ""
-                    }
-                  },
-                  "href" : {
-                    "type" : "JSON_LITERAL",
-                    "value" : "/now/servicenow-express/landing"
-                  },
-                  "icon" : {
-                    "type" : "JSON_LITERAL",
-                    "value" : "home-outline"
-                  },
-                  "hideLabel" : {
-                    "type" : "JSON_LITERAL",
-                    "value" : true
-                  }
-                }
-              }, {
-                "type" : "MAP_CONTAINER",
-                "container" : {
-                  "label" : {
-                    "type" : "TRANSLATION_LITERAL",
-                    "value" : {
-                      "message" : "Station 1",
-                      "comment" : ""
-                    }
-                  },
-                  "icon" : {
-                    "type" : "JSON_LITERAL",
-                    "value" : "default-cart-icon.svg"
-                  },
-                  "href" : {
-                    "type" : "JSON_LITERAL",
-                    "value" : "/now/servicenow-express/landing-1"
-                  }
-                }
-              } ]
-            },
-            "delimiter" : {
-              "type" : "JSON_LITERAL",
-              "value" : "chevron"
-            },
-            "overflow" : {
-              "type" : "JSON_LITERAL",
-              "value" : "wrap"
-            },
-            "activeRoute" : {
-              "type" : "JSON_LITERAL",
-              "value" : {
-                "0" : "[",
-                "routeType" : ""
-              }
-            }
-          },
-          "eventMappings" : [ ],
-          "slot" : "Main",
-          "definition" : {
-            "id" : "9c2e48402c6c25d281faeb20637f6106",
-            "type" : "MACROPONENT"
-          },
-          "overrides" : null,
-          "isHidden" : {
-            "type" : "JSON_LITERAL",
-            "value" : ""
-          },
-          "isNonDestructive" : false,
-          "styles" : {
-            "color" : "#009156",
-            "padding-left" : "50px"
-          }
-        } ],
+        "composition" : [ ],
         "layout" : {
           "default" : {
             "children" : null,
@@ -261,8 +250,8 @@
         "width" : "100%"
       }
     }, {
-      "elementId" : "container_6",
-      "elementLabel" : "Container 6",
+      "elementId" : "container_5",
+      "elementLabel" : "Container 5",
       "propertyValues" : { },
       "eventMappings" : [ ],
       "slot" : "Main",
@@ -324,7 +313,7 @@
             }
           },
           "eventMappings" : [ {
-            "eventMappingId" : "clbbdrffbbeaaaaffccddeiijjeiljhhbvm",
+            "eventMappingId" : "clbbgpqcchhaaaaaaccpddeiijjhhxntlffchh",
             "isConfiguration" : false,
             "offRowStorageId" : null,
             "sourceEventApiName" : "sn_button.NOW_BUTTON_ICONIC#CLICKED",
@@ -338,23 +327,23 @@
             "targets" : [ {
               "broker" : null,
               "clientScript" : {
-                "sysId" : "1636aea41b8b415093c1a685624bcb48"
+                "sysId" : "30e293a41bcf415093c1a685624bcb53"
               },
               "declarativeAction" : null,
               "event" : null,
               "operation" : null,
-              "targetId" : "clccffjjeeynaaaacceddfhhzaegmyhddr",
+              "targetId" : "clccffjjhzhzaaaaeemddfhhzpiieerhcffa",
               "type" : "CLIENT_SCRIPT"
             }, {
               "broker" : null,
               "clientScript" : null,
               "declarativeAction" : null,
               "event" : {
-                "apiName" : "x_snc_creatorcon_0.NAV_ITEM_SELECTED_RELAY_12362e641b8b415093c1a685624bcbb4",
+                "apiName" : "x_snc_creatorcon_0.NAV_ITEM_SELECTED_RELAY_78e29fa01bcf415093c1a685624bcb97",
                 "payload" : {
                   "type" : "JSON_LITERAL",
                   "value" : {
-                    "route" : "landing-2",
+                    "route" : "landing-5",
                     "fields" : null,
                     "params" : null,
                     "redirect" : null,
@@ -365,10 +354,10 @@
                     "external" : null
                   }
                 },
-                "sysId" : "0eaa6aac1b8b415093c1a685624bcbe5"
+                "sysId" : "f0e857ec1bcf415093c1a685624bcbbd"
               },
               "operation" : null,
-              "targetId" : "clccffjjetkggaaaaccfddfhhznhhyjxvhhu",
+              "targetId" : "clccffjjieehhhaaaaeenddfhhzighhjjtjjcq",
               "type" : "EVENT"
             } ]
           } ],
@@ -385,12 +374,12 @@
           "isNonDestructive" : false,
           "styles" : { }
         }, {
-          "elementId" : "rich_text_2",
-          "elementLabel" : "Rich text 2",
+          "elementId" : "rich_text_4",
+          "elementLabel" : "Rich text 4",
           "propertyValues" : {
             "html" : {
               "type" : "JSON_LITERAL",
-              "value" : "&lt;p&gt;&lt;span style=\"font-size: 18pt; font-family: sourcesanspro, 'helvetica neue', helvetica, arial, sans-serif;\"&gt;&lt;strong&gt;Train Station 1&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;"
+              "value" : "&lt;p&gt;&lt;strong&gt;&lt;span style=\"font-size: 18pt;\"&gt;Train Station 4&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;"
             }
           },
           "eventMappings" : [ ],
@@ -406,8 +395,8 @@
           },
           "isNonDestructive" : false,
           "styles" : {
-            "color" : "#009156",
-            "padding-left" : "50px"
+            "padding-left" : "50px",
+            "color" : "#009156"
           }
         } ],
         "layout" : {
@@ -432,87 +421,93 @@
         "width" : "100%"
       }
     }, {
-      "elementId" : "container_7",
-      "elementLabel" : "Container 7",
-      "propertyValues" : { },
+      "elementId" : "rich_text_2",
+      "elementLabel" : "Rich text 2",
+      "propertyValues" : {
+        "html" : {
+          "type" : "JSON_LITERAL",
+          "value" : "&lt;p&gt;&lt;strong style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 36pt;\"&gt;London: Integration HUB (Automation Engine)&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;"
+        }
+      },
       "eventMappings" : [ ],
       "slot" : "Main",
       "definition" : {
-        "id" : "d356d14b6e293a3020a244b63d278d8f",
+        "id" : "2d56f06d55f46bbd4e79b5e624beb940",
         "type" : "MACROPONENT"
       },
-      "overrides" : {
-        "composition" : [ {
-          "elementId" : "rich_text_3",
-          "elementLabel" : "Rich text 3",
-          "propertyValues" : {
-            "html" : {
-              "type" : "JSON_LITERAL",
-              "value" : "&lt;p&gt;&lt;strong&gt;&lt;span style=\"font-size: 36pt;\"&gt;1970s: Fred's Vision&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;"
-            }
-          },
-          "eventMappings" : [ ],
-          "slot" : "Main",
-          "definition" : {
-            "id" : "2d56f06d55f46bbd4e79b5e624beb940",
-            "type" : "MACROPONENT"
-          },
-          "overrides" : null,
-          "isHidden" : {
-            "type" : "JSON_LITERAL",
-            "value" : ""
-          },
-          "isNonDestructive" : false,
-          "styles" : {
-            "padding-right" : "150px",
-            "padding-left" : "50px"
-          }
-        }, {
-          "elementId" : "rich_text_1",
-          "elementLabel" : "Rich text 1",
-          "propertyValues" : {
-            "html" : {
-              "type" : "JSON_LITERAL",
-              "value" : "&lt;p style=\"color: #161b1c; font-family: 'Source Sans Pro', 'Helvetica Neue', Arial; font-size: 13px;\"&gt;&lt;span style=\"color: #161b1c; font-family: Source Sans Pro, Helvetica Neue, Arial;\"&gt;&lt;span style=\"font-size: 24px;\"&gt;A young Fred Luddy experiences the joy of developing software to improve work for others when his coworker, Phyilis, explains that her daily activities include inputting customer orders into a computer system and, despite 80% of the content being the same for each entry, she has to start the form over for each order she enters.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"color: #161b1c; font-family: 'Source Sans Pro', 'Helvetica Neue', Arial; font-size: 13px;\"&gt;&lt;span style=\"color: #161b1c; font-family: Source Sans Pro, Helvetica Neue, Arial;\"&gt;&lt;span style=\"font-size: 24px;\"&gt;That night Fred builds a simple &amp;ldquo;copy previous order&amp;rdquo; button for Phyilis. Not only does that button save Phylis hours of work, but she cries from the improvement in her work life.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"color: #161b1c; font-family: 'Source Sans Pro', 'Helvetica Neue', Arial; font-size: 13px;\"&gt;&lt;span style=\"color: #161b1c; font-family: Source Sans Pro, Helvetica Neue, Arial;\"&gt;&lt;span style=\"font-size: 24px;\"&gt;This experience gave way to Fred's vision that the world needs a platform which everyday people can use to get work moving and to build enterprise applications quickly.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;"
-            }
-          },
-          "eventMappings" : [ ],
-          "slot" : "Main",
-          "definition" : {
-            "id" : "2d56f06d55f46bbd4e79b5e624beb940",
-            "type" : "MACROPONENT"
-          },
-          "overrides" : null,
-          "isHidden" : {
-            "type" : "JSON_LITERAL",
-            "value" : ""
-          },
-          "isNonDestructive" : false,
-          "styles" : {
-            "padding-right" : "150px",
-            "padding-left" : "50px"
-          }
-        } ],
-        "layout" : {
-          "default" : {
-            "children" : null,
-            "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
-            "root" : null,
-            "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
-            "styles" : null,
-            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
-            "type" : "flex"
-          }
-        }
-      },
+      "overrides" : null,
       "isHidden" : {
         "type" : "JSON_LITERAL",
         "value" : ""
       },
       "isNonDestructive" : false,
       "styles" : {
-        "width" : "100%"
+        "padding-right" : "150px",
+        "padding-left" : "50px"
       }
+    }, {
+      "elementId" : "rich_text_3",
+      "elementLabel" : "Rich text 3",
+      "propertyValues" : {
+        "html" : {
+          "type" : "JSON_LITERAL",
+          "value" : "&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;There&amp;rsquo;s a spoke for that&amp;hellip; After moving to Flow Designer, the need for easy to use integrations was met with the launch of Integration Hub.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;The control of credentials and connections stays with the pro-coders giving more actions within flow designer to extend workflows to other systems easily and dynamically.&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;With over 300 spokes available from devops to communications to documents, Integration Hub enables automation to go across the business to whomever is building the the flow.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;Can&amp;rsquo;t find a spoke? No problem &amp;ndash; use your REST, Powershell or other coding skills to create your own reuseable spokes. &lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;&lt;strong&gt;Quiz:&lt;/strong&gt; What automation spoke was added in San Diego that extends to non-API systems?&lt;/span&gt;&lt;/p&gt;"
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "padding-right" : "150px",
+        "padding-left" : "50px"
+      }
+    }, {
+      "elementId" : "image_1",
+      "elementLabel" : "Image 1",
+      "propertyValues" : {
+        "alt" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "src" : {
+          "type" : "JSON_LITERAL",
+          "value" : "/efficiency.svg"
+        },
+        "fit" : {
+          "type" : "JSON_LITERAL",
+          "value" : "cover"
+        },
+        "position" : {
+          "type" : "JSON_LITERAL",
+          "value" : "center center"
+        },
+        "height" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Sidebar 1",
+      "definition" : {
+        "id" : "15fe506403f8a98575b6df59008ea8f1",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
     } ],
     "layout" : {
       "default" : {
@@ -535,36 +530,6 @@
   "styles" : {
     "width" : "100%"
   }
-}, {
-  "elementId" : "container_4",
-  "elementLabel" : "Container 4",
-  "propertyValues" : { },
-  "eventMappings" : [ ],
-  "slot" : "Main",
-  "definition" : {
-    "id" : "d356d14b6e293a3020a244b63d278d8f",
-    "type" : "MACROPONENT"
-  },
-  "overrides" : {
-    "composition" : [ ],
-    "layout" : {
-      "default" : {
-        "children" : null,
-        "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
-        "root" : null,
-        "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
-        "styles" : null,
-        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
-        "type" : "flex"
-      }
-    }
-  },
-  "isHidden" : {
-    "type" : "JSON_LITERAL",
-    "value" : ""
-  },
-  "isNonDestructive" : false,
-  "styles" : { }
 } ]</composition>
         <da_relay_models/>
         <data>[ {
@@ -578,7 +543,7 @@
   "inputValues" : { },
   "readEvaluationMode" : "EXPLICIT"
 } ]</data>
-        <dispatched_events>0eaa6aac1b8b415093c1a685624bcbe5,6b3b2c7587ee0510a34aecad3fbb35b7</dispatched_events>
+        <dispatched_events>f0e857ec1bcf415093c1a685624bcbbd,db1613d2872a4910a34aecad3fbb3587</dispatched_events>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
@@ -596,7 +561,7 @@
   }
 }</layout>
         <macroponent_dependencies/>
-        <name>Landing 1</name>
+        <name>Landing 4</name>
         <props>[ ]</props>
         <required_translations>[ {
   "message" : "Enter a label",
@@ -610,6 +575,15 @@
 }, {
   "message" : "Station 1",
   "comment" : ""
+}, {
+  "message" : "Station 2",
+  "comment" : ""
+}, {
+  "message" : "Station 3",
+  "comment" : ""
+}, {
+  "message" : "Station 4",
+  "comment" : ""
 } ]</required_translations>
         <root_component/>
         <root_component_config>{ }</root_component_config>
@@ -618,15 +592,15 @@
         <state_properties>[ ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>roxana</sys_created_by>
-        <sys_created_on>2022-04-21 00:14:38</sys_created_on>
-        <sys_id>12362e641b8b415093c1a685624bcbb4</sys_id>
-        <sys_mod_count>42</sys_mod_count>
-        <sys_name>Landing 1</sys_name>
+        <sys_created_on>2022-04-21 03:29:47</sys_created_on>
+        <sys_id>78e29fa01bcf415093c1a685624bcb97</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Landing 4</sys_name>
         <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
         <sys_policy/>
         <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
-        <sys_update_name>sys_ux_macroponent_12362e641b8b415093c1a685624bcbb4</sys_update_name>
+        <sys_update_name>sys_ux_macroponent_78e29fa01bcf415093c1a685624bcb97</sys_update_name>
         <sys_updated_by>roxana</sys_updated_by>
-        <sys_updated_on>2022-04-21 14:16:12</sys_updated_on>
+        <sys_updated_on>2022-04-21 14:24:47</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
