@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format/>
+        <height/>
+        <image>0dacb26c1b0f415093c1a685624bcbea</image>
+        <name>teammate_support.svg</name>
+        <size_bytes>5296</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>roxana</sys_created_by>
+        <sys_created_on>2022-04-21 01:52:00</sys_created_on>
+        <sys_id>1d2cfee41b0f415093c1a685624bcb08</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>teammate_support.svg</sys_name>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_update_name>db_image_1d2cfee41b0f415093c1a685624bcb08</sys_update_name>
+        <sys_updated_by>roxana</sys_updated_by>
+        <sys_updated_on>2022-04-21 01:52:35</sys_updated_on>
+        <thumbnail/>
+        <width/>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/svg+xml</content_type>
+        <encryption_context/>
+        <file_name>image</file_name>
+        <hash>428db76e19084d8f5971fe271f962de59e95788cefe48a29952ed9ea66623fdd</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>5296</size_bytes>
+        <size_compressed>2460</size_compressed>
+        <state>available</state>
+        <sys_created_by>roxana</sys_created_by>
+        <sys_created_on>2022-04-21 01:52:35</sys_created_on>
+        <sys_id>0dacb26c1b0f415093c1a685624bcbea</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-04-21 01:52:35</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>1d2cfee41b0f415093c1a685624bcb08</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="0dacb26c1b0f415093c1a685624bcbea">0dacb26c1b0f415093c1a685624bcbea</sys_attachment>
+        <sys_created_by>roxana</sys_created_by>
+        <sys_created_on>2022-04-21 01:52:35</sys_created_on>
+        <sys_id>4dacb26c1b0f415093c1a685624bcbea</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>3268</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="0dacb26c1b0f415093c1a685624bcbea">0dacb26c1b0f415093c1a685624bcbea</sys_attachment>
+        <sys_created_by>roxana</sys_created_by>
+        <sys_created_on>2022-04-21 01:52:35</sys_created_on>
+        <sys_id>cdacb26c1b0f415093c1a685624bcbea</sys_id>
+    </sys_attachment_doc>
+</record_update>

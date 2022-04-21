@@ -62,6 +62,25 @@
                 "value" : "/now/servicenow-express/landing-1"
               }
             }
+          }, {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "label" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "message" : "Landing 2",
+                  "comment" : ""
+                }
+              },
+              "icon" : {
+                "type" : "JSON_LITERAL",
+                "value" : "default-cart-icon.svg"
+              },
+              "href" : {
+                "type" : "JSON_LITERAL",
+                "value" : "/now/servicenow-express/landing-2"
+              }
+            }
           } ]
         },
         "delimiter" : {
@@ -158,28 +177,6 @@
   },
   "overrides" : {
     "composition" : [ {
-      "elementId" : "rich_text_1",
-      "elementLabel" : "Rich text 1",
-      "propertyValues" : {
-        "html" : {
-          "type" : "JSON_LITERAL",
-          "value" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;Train Stop 1: San Diego - \"Fred's vision\"&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&amp;nbsp;&lt;/p&gt;\n&lt;div data-pm-slice=\"1 1 []\" data-en-clipboard=\"true\"&gt;\n&lt;p class=\"MsoNormal\" style=\"margin: 0in; font-size: 12pt; font-family: Calibri, sans-serif;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;1970s &amp;ndash; A young Fred Luddy experiences the joy of developing software to improve work for others when his coworker, Phyilis, explains that her daily activities include inputting customer orders into a computer system and, despite 80% of the content being the same for each entry, she has to start the form over for each order she enters.&lt;/span&gt;&lt;/p&gt;\n&lt;p class=\"MsoNormal\" style=\"margin: 0in; font-size: 12pt; font-family: Calibri, sans-serif;\"&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p class=\"MsoNormal\" style=\"margin: 0in; font-size: 12pt; font-family: Calibri, sans-serif;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt; That night Fred builds a simple &amp;ldquo;copy previous order&amp;rdquo; button for Phyilis. Not only does that button save Phylis hours of work but she cries from the improvement in her work life.&lt;/span&gt;&lt;/p&gt;\n&lt;p class=\"MsoNormal\" style=\"margin: 0in; font-size: 12pt; font-family: Calibri, sans-serif;\"&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p class=\"MsoNormal\" style=\"margin: 0in; font-size: 12pt; font-family: Calibri, sans-serif;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;This experience gave way to Fred's vision that the world needs a platform which everyday people can use to get work moving and to build enterprise applications quickly.&lt;/span&gt;&lt;/p&gt;\n&lt;/div&gt;"
-        }
-      },
-      "eventMappings" : [ ],
-      "slot" : "Column 2",
-      "definition" : {
-        "id" : "2d56f06d55f46bbd4e79b5e624beb940",
-        "type" : "MACROPONENT"
-      },
-      "overrides" : null,
-      "isHidden" : {
-        "type" : "JSON_LITERAL",
-        "value" : ""
-      },
-      "isNonDestructive" : false,
-      "styles" : { }
-    }, {
       "elementId" : "button_iconic_1",
       "elementLabel" : "Button iconic 1",
       "propertyValues" : {
@@ -197,7 +194,7 @@
         },
         "bare" : {
           "type" : "JSON_LITERAL",
-          "value" : false
+          "value" : true
         },
         "disabled" : {
           "type" : "JSON_LITERAL",
@@ -232,7 +229,7 @@
         }
       },
       "eventMappings" : [ {
-        "eventMappingId" : "clbbdrffbbeaaaaffccddeiijjeiljhhbvm",
+        "eventMappingId" : "clccffjjgaaffpaaaaddjjddfhhzzylthhelr",
         "isConfiguration" : false,
         "offRowStorageId" : null,
         "sourceEventApiName" : "sn_button.NOW_BUTTON_ICONIC#CLICKED",
@@ -246,23 +243,23 @@
         "targets" : [ {
           "broker" : null,
           "clientScript" : {
-            "sysId" : "3dc3b7b7873ec190a34aecad3fbb35f9"
+            "sysId" : "87298b241b8f415093c1a685624bcb2f"
           },
           "declarativeAction" : null,
           "event" : null,
           "operation" : null,
-          "targetId" : "clccffjjeeynaaaacceddfhhzaegmyhddr",
+          "targetId" : "clccffjjgaaffpaaaaddaddfhhzcfrqaggljj",
           "type" : "CLIENT_SCRIPT"
         }, {
           "broker" : null,
           "clientScript" : null,
           "declarativeAction" : null,
           "event" : {
-            "apiName" : "x_snc_creatorcon_0.NAV_ITEM_SELECTED_RELAY_12792fc587264110a34aecad3fbb35a6",
+            "apiName" : "x_snc_creatorcon_0.NAV_ITEM_SELECTED_RELAY_bfadd3111bae811093c1a685624bcb80",
             "payload" : {
               "type" : "JSON_LITERAL",
               "value" : {
-                "route" : "landing-2",
+                "route" : "landing-3",
                 "fields" : null,
                 "params" : null,
                 "redirect" : null,
@@ -273,10 +270,10 @@
                 "external" : null
               }
             },
-            "sysId" : "6b3b2c7587ee0510a34aecad3fbb35b7"
+            "sysId" : "e3651792872a4910a34aecad3fbb3547"
           },
           "operation" : null,
-          "targetId" : "clccffjjetkggaaaaccfddfhhznhhyjxvhhu",
+          "targetId" : "clccffjjgddffxaaaaddbddfhhzyafuiibbop",
           "type" : "EVENT"
         } ]
       } ],
@@ -293,43 +290,30 @@
       "isNonDestructive" : false,
       "styles" : { }
     }, {
-      "elementId" : "container_4",
-      "elementLabel" : "Container 4",
-      "propertyValues" : { },
-      "eventMappings" : [ ],
-      "slot" : "Column 1",
-      "definition" : {
-        "id" : "d356d14b6e293a3020a244b63d278d8f",
-        "type" : "MACROPONENT"
-      },
-      "overrides" : {
-        "composition" : [ ],
-        "layout" : {
-          "default" : {
-            "children" : null,
-            "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
-            "root" : null,
-            "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
-            "styles" : null,
-            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
-            "type" : "flex"
-          }
+      "elementId" : "rich_text_1",
+      "elementLabel" : "Rich text 1",
+      "propertyValues" : {
+        "html" : {
+          "type" : "JSON_LITERAL",
+          "value" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;Train Stop 2: Santa Clara -&amp;nbsp;ServiceNow Studio was introduced&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&amp;nbsp;&lt;/p&gt;\n&lt;div data-pm-slice=\"1 1 []\" data-en-clipboard=\"true\"&gt;\n&lt;div style=\"text-align: left;\" data-pm-slice=\"1 1 []\" data-en-clipboard=\"true\"&gt;&lt;span style=\"color: #000000; font-size: 24pt;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;Up until this point, putting together an app was more of a lesson in learning where all the pieces of the logic were located.&amp;nbsp; From tables, to business rules, to workflow editor.&amp;nbsp; We needed a way to put it all in one spot and eventually pull in code from a code repository or delegate development to certain users or roles.&amp;nbsp; This was the beginning of true citizen development and it was all located in the ServiceNow Studio. Have you used ServiceNow Studio?&amp;nbsp; It&amp;rsquo;s still alive and offers some great functionality just go to System Applications &amp;gt; Studio.&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;\n&lt;/div&gt;"
         }
       },
+      "eventMappings" : [ ],
+      "slot" : "Column 2",
+      "definition" : {
+        "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
       "isHidden" : {
         "type" : "JSON_LITERAL",
         "value" : ""
       },
       "isNonDestructive" : false,
-      "styles" : {
-        "height" : "300px",
-        "background-repeat" : "no-repeat",
-        "background-image" : "url(fl.png)",
-        "background-size" : "90%"
-      }
+      "styles" : { }
     }, {
-      "elementId" : "container_5",
-      "elementLabel" : "Container 5",
+      "elementId" : "container_4",
+      "elementLabel" : "Container 4",
       "propertyValues" : { },
       "eventMappings" : [ ],
       "slot" : "Column 3",
@@ -360,7 +344,43 @@
         "height" : "550px",
         "padding-top" : "80px",
         "background-repeat" : "no-repeat",
-        "background-image" : "url(aes_resources_developer_community.svg)",
+        "background-image" : "url(acme_knowledge.jpg)",
+        "background-size" : "95%"
+      }
+    }, {
+      "elementId" : "container_5",
+      "elementLabel" : "Container 5",
+      "propertyValues" : { },
+      "eventMappings" : [ ],
+      "slot" : "Column 1",
+      "definition" : {
+        "id" : "d356d14b6e293a3020a244b63d278d8f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ ],
+        "layout" : {
+          "default" : {
+            "children" : null,
+            "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
+            "root" : null,
+            "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
+            "styles" : null,
+            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+            "type" : "flex"
+          }
+        }
+      },
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "height" : "550px",
+        "padding-top" : "80px",
+        "background-repeat" : "no-repeat",
+        "background-image" : "url(aes_resources_create_an_application.svg)",
         "background-size" : "95%"
       }
     } ],
@@ -398,7 +418,7 @@
   "inputValues" : { },
   "readEvaluationMode" : "EXPLICIT"
 } ]</data>
-        <dispatched_events>6b3b2c7587ee0510a34aecad3fbb35b7</dispatched_events>
+        <dispatched_events>e3651792872a4910a34aecad3fbb3547</dispatched_events>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
@@ -416,13 +436,16 @@
   }
 }</layout>
         <macroponent_dependencies/>
-        <name>Landing 1</name>
+        <name>Landing 2</name>
         <props>[ ]</props>
         <required_translations>[ {
   "message" : "Enter a label",
   "comment" : ""
 }, {
   "message" : "Landing 1",
+  "comment" : ""
+}, {
+  "message" : "Landing 2",
   "comment" : ""
 }, {
   "message" : "SN Express Home",
@@ -437,16 +460,16 @@
         <schema_version>1.0.0</schema_version>
         <state_properties>[ ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-03-28 21:54:01</sys_created_on>
-        <sys_id>12792fc587264110a34aecad3fbb35a6</sys_id>
-        <sys_mod_count>41</sys_mod_count>
-        <sys_name>Landing 1</sys_name>
+        <sys_created_by>roxana</sys_created_by>
+        <sys_created_on>2022-04-21 02:47:20</sys_created_on>
+        <sys_id>cb29c7241b8f415093c1a685624bcb5f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Landing 2</sys_name>
         <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
         <sys_policy/>
         <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
-        <sys_update_name>sys_ux_macroponent_12792fc587264110a34aecad3fbb35a6</sys_update_name>
+        <sys_update_name>sys_ux_macroponent_cb29c7241b8f415093c1a685624bcb5f</sys_update_name>
         <sys_updated_by>roxana</sys_updated_by>
-        <sys_updated_on>2022-04-21 00:08:16</sys_updated_on>
+        <sys_updated_on>2022-04-21 02:47:20</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_snc_creatorcon_0.ny" name="x_snc_creatorcon_0.ny">98ff59428736c550a34aecad3fbb35ed</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 00:42:57</sys_created_on>
+        <sys_id>8fff91068736c550a34aecad3fbb35bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>98ff59428736c550a34aecad3fbb35ed</sys_name>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_update_name>sys_embedded_help_role_8fff91068736c550a34aecad3fbb35bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 00:42:57</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

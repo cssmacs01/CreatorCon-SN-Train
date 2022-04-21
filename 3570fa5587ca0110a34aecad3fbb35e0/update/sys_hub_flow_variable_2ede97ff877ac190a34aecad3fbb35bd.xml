@@ -1,12 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" extends="user_activation_request" table="u_user_acti_req_484190">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_variable">
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=6af408de-196b-4431-99ad-ee4a5b4a1d34</attributes>
         <audit>false</audit>
-        <calculation/>
-        <choice>0</choice>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label/>
@@ -22,16 +27,23 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element/>
+        <element>first_token</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Collection">collection</internal_type>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>first token</label>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
-        <name>u_user_acti_req_484190</name>
+        <max_length>8000</max_length>
+        <model display_value="Train Setup Subflow">c2de17ff877ac190a34aecad3fbb35ee</model>
+        <model_id>c2de17ff877ac190a34aecad3fbb35ee</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_c2de17ff877ac190a34aecad3fbb35ee</name>
         <next_element/>
+        <order>0</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -42,21 +54,21 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass>0</sizeclass>
+        <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
-        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-03-30 16:03:40</sys_created_on>
-        <sys_id>e57c603987ee0510a34aecad3fbb3551</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>u_user_acti_req_484190</sys_name>
+        <sys_created_on>2022-04-18 20:26:37</sys_created_on>
+        <sys_id>2ede97ff877ac190a34aecad3fbb35bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>first token</sys_name>
         <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
         <sys_policy/>
         <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
-        <sys_update_name>sys_dictionary_u_user_acti_req_484190_null</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-04-13 10:19:01</sys_updated_on>
+        <sys_update_name>sys_hub_flow_variable_2ede97ff877ac190a34aecad3fbb35bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-18 20:26:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -67,5 +79,5 @@
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
-    </sys_dictionary>
+    </sys_hub_flow_variable>
 </record_update>

@@ -77,7 +77,7 @@
         <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
         <required_translations>[ ]</required_translations>
         <screen_condition/>
-        <screen_type display_value="Train Control">0e2a203587ee0510a34aecad3fbb35d2</screen_type>
+        <screen_type/>
         <sys_class_name>sys_ux_screen</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-30 15:53:36</sys_created_on>
