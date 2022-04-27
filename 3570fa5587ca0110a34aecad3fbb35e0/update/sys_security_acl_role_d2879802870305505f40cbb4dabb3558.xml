@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>steve.mccluskey</sys_created_by>
+        <sys_created_on>2022-04-25 05:42:06</sys_created_on>
+        <sys_id>d2879802870305505f40cbb4dabb3558</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>now.servicenow-express.x_snc_creatorcon_0.ny</sys_name>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_security_acl display_value="now.servicenow-express">c2871802870305505f40cbb4dabb354a</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_d2879802870305505f40cbb4dabb3558</sys_update_name>
+        <sys_updated_by>steve.mccluskey</sys_updated_by>
+        <sys_updated_on>2022-04-25 05:42:06</sys_updated_on>
+        <sys_user_role display_value="x_snc_creatorcon_0.ny" name="x_snc_creatorcon_0.ny">98ff59428736c550a34aecad3fbb35ed</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

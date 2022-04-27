@@ -332,7 +332,8 @@
       "isHero" : false,
       "isNonDestructive" : false,
       "styles" : {
-        "width" : "100%"
+        "width" : "100%",
+        "padding-top" : "20px"
       }
     }, {
       "elementId" : "container_4",
@@ -580,7 +581,7 @@
           "type" : "TRANSLATION_LITERAL",
           "value" : {
             "code" : null,
-            "message" : "&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;Are you still using Workflow Editor?&amp;nbsp; Way back in Kingston the shift to Flow Designer started &amp;ndash; opening the door to better integrations, faster development, and more intuitive for no code developers.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;Flow Designer is now the default workflow editor, utilizing reusable components, and drag-and-drop &amp;lsquo;pills&amp;rsquo; from previous steps. And in San Diego, we now have the ability to view flows in diagram mode &amp;ndash; Woohoo!&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;Did you know Flow Designer can use decision tables for more complex decisions?&amp;nbsp; Works great if you want to eliminate multiple tree branches.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;",
+            "message" : "&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;Are you still using Workflow Editor?&amp;nbsp; Way back in Kingston the shift to Flow Designer started &amp;ndash; opening the door to better integrations, faster development, and a more intuitive experience for no code developers.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;Flow Designer is now the default workflow editor, utilizing reusable components, and drag-and-drop &amp;lsquo;pills&amp;rsquo; from previous steps. And in San Diego, we now have the ability to view flows in diagram mode &amp;ndash; Woohoo!&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;Did you know Flow Designer can use decision tables for more complex decisions?&amp;nbsp; This works great if you want to eliminate multiple tree branches.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;",
             "comment" : ""
           }
         }
@@ -616,7 +617,7 @@
         },
         "src" : {
           "type" : "JSON_LITERAL",
-          "value" : "/our_team_3.svg"
+          "value" : "/teambrain_2.svg"
         },
         "fit" : {
           "type" : "JSON_LITERAL",
@@ -624,7 +625,7 @@
         },
         "position" : {
           "type" : "JSON_LITERAL",
-          "value" : "center center"
+          "value" : "bottom left"
         },
         "height" : {
           "type" : "JSON_LITERAL",
@@ -707,7 +708,7 @@
   "message" : "&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;&lt;strong&gt;Train Station 3&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;",
   "comment" : ""
 }, {
-  "message" : "&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;Are you still using Workflow Editor?&amp;nbsp; Way back in Kingston the shift to Flow Designer started &amp;ndash; opening the door to better integrations, faster development, and more intuitive for no code developers.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;Flow Designer is now the default workflow editor, utilizing reusable components, and drag-and-drop &amp;lsquo;pills&amp;rsquo; from previous steps. And in San Diego, we now have the ability to view flows in diagram mode &amp;ndash; Woohoo!&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;Did you know Flow Designer can use decision tables for more complex decisions?&amp;nbsp; Works great if you want to eliminate multiple tree branches.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;",
+  "message" : "&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;Are you still using Workflow Editor?&amp;nbsp; Way back in Kingston the shift to Flow Designer started &amp;ndash; opening the door to better integrations, faster development, and a more intuitive experience for no code developers.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;Flow Designer is now the default workflow editor, utilizing reusable components, and drag-and-drop &amp;lsquo;pills&amp;rsquo; from previous steps. And in San Diego, we now have the ability to view flows in diagram mode &amp;ndash; Woohoo!&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;Did you know Flow Designer can use decision tables for more complex decisions?&amp;nbsp; This works great if you want to eliminate multiple tree branches.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;",
   "comment" : ""
 }, {
   "message" : "&lt;p&gt;&lt;strong&gt;&lt;span style=\"font-size: 36pt;\"&gt;Kingston: &lt;/span&gt;&lt;/strong&gt;&lt;strong style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 36pt;\"&gt;Flow Designer Introduced&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;",
@@ -740,13 +741,13 @@
         <sys_created_by>roxana</sys_created_by>
         <sys_created_on>2022-04-21 03:27:12</sys_created_on>
         <sys_id>b64253641bcf415093c1a685624bcb65</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>Landing 3</sys_name>
         <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
         <sys_policy/>
         <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
         <sys_update_name>sys_ux_macroponent_b64253641bcf415093c1a685624bcb65</sys_update_name>
         <sys_updated_by>steve.mccluskey</sys_updated_by>
-        <sys_updated_on>2022-04-21 15:22:49</sys_updated_on>
+        <sys_updated_on>2022-04-24 04:10:46</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

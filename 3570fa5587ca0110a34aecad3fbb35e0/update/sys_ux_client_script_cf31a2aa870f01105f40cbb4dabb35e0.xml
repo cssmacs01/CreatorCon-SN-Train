@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Landing 5">6531a2aa870f01105f40cbb4dabb351d</macroponent>
+        <name>console</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    console.log("User Title: " + api.context.session.user.title);
+    console.log("User FullName: " + api.context.session.user.fullName);
+    console.log(api.data.look_up_queue_records_1.output);
+    console.log("Name of first queue record: " + api.data.look_up_queue_records_1.output.nowServingName);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>steve.mccluskey</sys_created_by>
+        <sys_created_on>2022-04-27 05:00:42</sys_created_on>
+        <sys_id>cf31a2aa870f01105f40cbb4dabb35e0</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>console</sys_name>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_update_name>sys_ux_client_script_cf31a2aa870f01105f40cbb4dabb35e0</sys_update_name>
+        <sys_updated_by>steve.mccluskey</sys_updated_by>
+        <sys_updated_on>2022-04-27 06:02:50</sys_updated_on>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

@@ -372,7 +372,8 @@
       "isHero" : false,
       "isNonDestructive" : false,
       "styles" : {
-        "width" : "100%"
+        "width" : "100%",
+        "padding-top" : "20px"
       }
     }, {
       "elementId" : "container_5",
@@ -465,7 +466,7 @@
             }
           },
           "eventMappings" : [ {
-            "eventMappingId" : "clbbwtiikiijjaaaaccuddehhyjvqffpuccp",
+            "eventMappingId" : "clccewaabbrkaaaapeddgggzaareeprce",
             "isConfiguration" : false,
             "offRowStorageId" : null,
             "sourceEventApiName" : "sn_button.NOW_BUTTON_ICONIC#CLICKED",
@@ -498,42 +499,19 @@
                 "sysId" : "f7506be81b03815093c1a685624bcbba"
               },
               "operation" : null,
-              "targetId" : "clbbwtiikiijjaaaaccvddehhyvboteejjw",
+              "targetId" : "clccewaaqveaaaapjddgggzffggjjjffwbs",
               "type" : "EVENT"
             }, {
               "broker" : null,
-              "clientScript" : null,
+              "clientScript" : {
+                "sysId" : "12014c0e878fc1505f40cbb4dabb356f"
+              },
               "conditional" : null,
               "declarativeAction" : null,
               "event" : null,
-              "operation" : {
-                "dataBrokerId" : "b997a84053021010cbc2ddeeff7b1228",
-                "operationName" : "REFRESH",
-                "parentResourceId" : "look_up_records_1",
-                "payload" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : { }
-                }
-              },
-              "targetId" : "clbbyizzybbaaaadduddfiiafqrddacczs",
-              "type" : "DATABROKER_OP"
-            }, {
-              "broker" : null,
-              "clientScript" : null,
-              "conditional" : null,
-              "declarativeAction" : null,
-              "event" : null,
-              "operation" : {
-                "dataBrokerId" : "b997a84053021010cbc2ddeeff7b1228",
-                "operationName" : "REFRESH",
-                "parentResourceId" : "look_up_records_2",
-                "payload" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : { }
-                }
-              },
-              "targetId" : "clbbyjaaaabbaaaaddvddfiiaunvxwbbbbk",
-              "type" : "DATABROKER_OP"
+              "operation" : null,
+              "targetId" : "clccezyrdeeaaaalmddgggzzdwaiurc",
+              "type" : "CLIENT_SCRIPT"
             } ]
           } ],
           "slot" : "Sidebar 1",
@@ -641,7 +619,7 @@
           "type" : "TRANSLATION_LITERAL",
           "value" : {
             "code" : null,
-            "message" : "&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;Welcome to the last train stop, Station App Engine Studio.&amp;nbsp; In early 2020, we came out with our no-code/citizen-developer builder interface and as you exit the train check out all the great features AES has to offer &amp;ndash; templates, guided tours, resources, etc..everything you need to create a scaleable, enterprise-grade workflow application complete with portal intake and mobile interfaces.&amp;nbsp; &lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;Phyllis would have had a fun time building out her solution years ago when Fred Luddy took the time to make her world of work, work better. &lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;After all, this experience was built entirely in App Engine Studio.&lt;/span&gt;&lt;/p&gt;",
+            "message" : "&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;Welcome to the last train stop, Station AES - for App Engine Studio.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt; In early 2020, we came out with our no-code citizen-developer builder interface. As you exit the train, check out all the great features AES has to offer &amp;ndash; templates, guided tours, resources, etc. Everything you need to create a scaleable, enterprise-grade workflow application complete with portal intake and mobile interfaces.&amp;nbsp; &lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;Phyllis would have had a fun time building out her own solution, years ago when Fred Luddy took the time to make her world of work, work better. &lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;After all, this train experience was built entirely in App Engine Studio.&lt;/span&gt;&lt;/p&gt;",
             "comment" : ""
           }
         }
@@ -677,7 +655,7 @@
         },
         "src" : {
           "type" : "JSON_LITERAL",
-          "value" : "/system_config.svg"
+          "value" : "/teamwork.svg"
         },
         "fit" : {
           "type" : "JSON_LITERAL",
@@ -839,9 +817,9 @@
               "type" : "MAP_CONTAINER",
               "container" : {
                 "name" : {
-                  "type" : "DATA_OUTPUT_BINDING",
+                  "type" : "STATE_BINDING",
                   "binding" : {
-                    "address" : [ "look_up_records_2", "results", "0", "opened_for", "displayValue" ]
+                    "address" : [ "first_in_queue" ]
                   }
                 }
               }
@@ -896,13 +874,33 @@
         <da_relay_models/>
         <data>[ {
   "definition" : {
+    "id" : "1c3ebd1687f24950a34aecad3fbb35a4",
+    "type" : "TRANSFORM"
+  },
+  "elementId" : "advance_queue",
+  "elementLabel" : "Advance Queue",
+  "eventMappings" : [ ],
+  "inputValues" : { },
+  "readEvaluationMode" : "EXPLICIT"
+}, {
+  "definition" : {
+    "id" : "7197685187ea4110a34aecad3fbb35c2",
+    "type" : "TRANSFORM"
+  },
+  "elementId" : "train_control_api_1",
+  "elementLabel" : "Train Control API 1",
+  "eventMappings" : [ ],
+  "inputValues" : { },
+  "readEvaluationMode" : "EXPLICIT"
+}, {
+  "definition" : {
     "id" : "b997a84053021010cbc2ddeeff7b1228",
     "type" : "COMPOSITE"
   },
   "elementId" : "look_up_records_1",
-  "elementLabel" : "Look Up Now Serving Record",
+  "elementLabel" : "Now Serving Queue (1)",
   "eventMappings" : [ {
-    "eventMappingId" : "clbbyjjbqkaaaaabblddeiijjrsydcxccv",
+    "eventMappingId" : "clccejjvoeehaabbggfddgggzcuhnddlmv",
     "isConfiguration" : false,
     "offRowStorageId" : null,
     "sourceEventApiName" : "sn_uxf.DATA_FETCH_SUCCEEDED",
@@ -930,7 +928,7 @@
             "value" : {
               "type" : "DATA_OUTPUT_BINDING",
               "binding" : {
-                "address" : [ "look_up_records_1", "results", "0", "sys_id" ]
+                "address" : [ "look_up_records_1", "results", "0", "opened_for", "displayValue" ]
               }
             }
           }
@@ -938,7 +936,7 @@
         "sysId" : "32408b42ff7a10109046e490703bf176"
       },
       "operation" : null,
-      "targetId" : "clbbyjjbqkaaaaabbmddeiijjzyqzboggl",
+      "targetId" : "clccejjvoeehaabbgggddgggzffddbberjjku",
       "type" : "EVENT"
     } ]
   } ],
@@ -954,31 +952,16 @@
           "type" : "LIST_CONTAINER",
           "container" : [ {
             "type" : "JSON_LITERAL",
-            "value" : "state="
+            "value" : "location="
+          }, {
+            "type" : "CONTEXT_BINDING",
+            "binding" : {
+              "address" : [ "user", "title" ],
+              "category" : "session"
+            }
           }, {
             "type" : "JSON_LITERAL",
-            "value" : "work_in_progress"
-          }, {
-            "type" : "JSON_LITERAL",
-            "value" : "^location="
-          }, {
-            "type" : "JSON_LITERAL",
-            "value" : "b55752901b0b6c10bd3ccaa5604bcb70"
-          }, {
-            "type" : "JSON_LITERAL",
-            "value" : "^type="
-          }, {
-            "type" : "JSON_LITERAL",
-            "value" : "walkup"
-          }, {
-            "type" : "JSON_LITERAL",
-            "value" : "^short_description="
-          }, {
-            "type" : "JSON_LITERAL",
-            "value" : "Creator Workflows Train Experience"
-          }, {
-            "type" : "JSON_LITERAL",
-            "value" : ""
+            "value" : "^active=true^short_description=Creator Workflows Train Experience^type=walkup^state=work_in_progress"
           } ]
         },
         "operator" : "CONCAT"
@@ -986,11 +969,11 @@
     },
     "returnFields" : {
       "type" : "JSON_LITERAL",
-      "value" : "number,state,sys_id,opened_for,location,wait_time"
+      "value" : "opened_for,location,sys_id"
     },
     "orderBy" : {
       "type" : "JSON_LITERAL",
-      "value" : null
+      "value" : ""
     },
     "sortType" : {
       "type" : "JSON_LITERAL",
@@ -998,7 +981,7 @@
     },
     "limit" : {
       "type" : "JSON_LITERAL",
-      "value" : "1"
+      "value" : "1000"
     },
     "offset" : {
       "type" : "JSON_LITERAL",
@@ -1020,9 +1003,9 @@
     "type" : "COMPOSITE"
   },
   "elementId" : "look_up_records_2",
-  "elementLabel" : "Look Up 1st in Queue",
+  "elementLabel" : "1st in Queue (2)",
   "eventMappings" : [ {
-    "eventMappingId" : "clbbyjjeerccaaaabbnddeiijjrdddhhedfc",
+    "eventMappingId" : "clccejjxmmuaabbjjnddgggzggbbbsaapddu",
     "isConfiguration" : false,
     "offRowStorageId" : null,
     "sourceEventApiName" : "sn_uxf.DATA_FETCH_SUCCEEDED",
@@ -1050,7 +1033,7 @@
             "value" : {
               "type" : "DATA_OUTPUT_BINDING",
               "binding" : {
-                "address" : [ "look_up_records_2", "results", "0", "sys_id", "displayValue" ]
+                "address" : [ "look_up_records_2", "results", "0", "opened_for", "displayValue" ]
               }
             }
           }
@@ -1058,7 +1041,7 @@
         "sysId" : "32408b42ff7a10109046e490703bf176"
       },
       "operation" : null,
-      "targetId" : "clbbyjjeerccaaaabboddeiijjirggjjzdnee",
+      "targetId" : "clccejjxmmvaabbjjoddgggzptkddgjjccz",
       "type" : "EVENT"
     } ]
   } ],
@@ -1074,31 +1057,16 @@
           "type" : "LIST_CONTAINER",
           "container" : [ {
             "type" : "JSON_LITERAL",
-            "value" : "short_description="
+            "value" : "location="
+          }, {
+            "type" : "CONTEXT_BINDING",
+            "binding" : {
+              "address" : [ "user", "title" ],
+              "category" : "session"
+            }
           }, {
             "type" : "JSON_LITERAL",
-            "value" : "Creator Workflows Train Experience"
-          }, {
-            "type" : "JSON_LITERAL",
-            "value" : "^state="
-          }, {
-            "type" : "JSON_LITERAL",
-            "value" : "new"
-          }, {
-            "type" : "JSON_LITERAL",
-            "value" : "^type="
-          }, {
-            "type" : "JSON_LITERAL",
-            "value" : "walkup"
-          }, {
-            "type" : "JSON_LITERAL",
-            "value" : "^location="
-          }, {
-            "type" : "JSON_LITERAL",
-            "value" : "b55752901b0b6c10bd3ccaa5604bcb70"
-          }, {
-            "type" : "JSON_LITERAL",
-            "value" : "^ORDERBYsys_created_on"
+            "value" : "^active=true^type=walkup^state=new^short_description=Creator Workflows Train Experience"
           } ]
         },
         "operator" : "CONCAT"
@@ -1106,11 +1074,11 @@
     },
     "returnFields" : {
       "type" : "JSON_LITERAL",
-      "value" : "wait_time,number,state,opened_for,sys_created_on,short_description,location,sys_id"
+      "value" : "opened_for,location,sys_id"
     },
     "orderBy" : {
       "type" : "JSON_LITERAL",
-      "value" : null
+      "value" : "sys_created_on"
     },
     "sortType" : {
       "type" : "JSON_LITERAL",
@@ -1136,24 +1104,22 @@
   "readEvaluationMode" : "EAGER"
 }, {
   "definition" : {
-    "id" : "1c3ebd1687f24950a34aecad3fbb35a4",
+    "id" : "86c13642870b05505f40cbb4dabb35ac",
     "type" : "TRANSFORM"
   },
-  "elementId" : "advance_queue",
-  "elementLabel" : "Advance Queue",
+  "elementId" : "look_up_queue_records_1",
+  "elementLabel" : "Look Up Queue Records 1",
   "eventMappings" : [ ],
-  "inputValues" : { },
-  "readEvaluationMode" : "EXPLICIT"
-}, {
-  "definition" : {
-    "id" : "7197685187ea4110a34aecad3fbb35c2",
-    "type" : "TRANSFORM"
+  "inputValues" : {
+    "location" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "user", "title" ],
+        "category" : "session"
+      }
+    }
   },
-  "elementId" : "train_control_api_1",
-  "elementLabel" : "Train Control API 1",
-  "eventMappings" : [ ],
-  "inputValues" : { },
-  "readEvaluationMode" : "EXPLICIT"
+  "readEvaluationMode" : "EAGER"
 } ]</data>
         <dispatched_events>8460e76c1b03815093c1a685624bcbea,f7506be81b03815093c1a685624bcbba,21e6d98287f2c550a34aecad3fbb355c,54561bd2872a4910a34aecad3fbb35f9</dispatched_events>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
@@ -1175,7 +1141,7 @@
       "sysId" : null
     },
     "operation" : null,
-    "targetId" : "clbbyiuzzjjaaaaccqddfiiamnnjgyob",
+    "targetId" : "clccevzjbbwaaaaoiiddgggzsnlvygvn",
     "type" : "EVENT"
   } ]
 }</internal_event_mappings>
@@ -1195,7 +1161,7 @@
         <name>Landing 5</name>
         <props>[ ]</props>
         <required_translations>[ {
-  "message" : "&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;Welcome to the last train stop, Station App Engine Studio.&amp;nbsp; In early 2020, we came out with our no-code/citizen-developer builder interface and as you exit the train check out all the great features AES has to offer &amp;ndash; templates, guided tours, resources, etc..everything you need to create a scaleable, enterprise-grade workflow application complete with portal intake and mobile interfaces.&amp;nbsp; &lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;Phyllis would have had a fun time building out her solution years ago when Fred Luddy took the time to make her world of work, work better. &lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;After all, this experience was built entirely in App Engine Studio.&lt;/span&gt;&lt;/p&gt;",
+  "message" : "&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;Welcome to the last train stop, Station AES - for App Engine Studio.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt; In early 2020, we came out with our no-code citizen-developer builder interface. As you exit the train, check out all the great features AES has to offer &amp;ndash; templates, guided tours, resources, etc. Everything you need to create a scaleable, enterprise-grade workflow application complete with portal intake and mobile interfaces.&amp;nbsp; &lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;Phyllis would have had a fun time building out her own solution, years ago when Fred Luddy took the time to make her world of work, work better. &lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;After all, this train experience was built entirely in App Engine Studio.&lt;/span&gt;&lt;/p&gt;",
   "comment" : ""
 }, {
   "message" : "&lt;p&gt;&lt;strong&gt;&lt;span style=\"font-size: 18pt;\"&gt;Train Station 5&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;",
@@ -1253,7 +1219,7 @@
   "description" : "",
   "initialValue" : {
     "type" : "JSON_LITERAL",
-    "value" : "New York, NY"
+    "value" : null
   }
 }, {
   "name" : "first_in_queue",
@@ -1264,7 +1230,7 @@
   "description" : "",
   "initialValue" : {
     "type" : "JSON_LITERAL",
-    "value" : "''"
+    "value" : null
   }
 }, {
   "name" : "now_serving",
@@ -1275,20 +1241,31 @@
   "description" : "",
   "initialValue" : {
     "type" : "JSON_LITERAL",
-    "value" : "''"
+    "value" : null
+  }
+}, {
+  "name" : "name",
+  "label" : "name",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
   }
 } ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>roxana</sys_created_by>
         <sys_created_on>2022-04-21 04:21:38</sys_created_on>
         <sys_id>e4ce5be81b03815093c1a685624bcb1b</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>95</sys_mod_count>
         <sys_name>Landing 5</sys_name>
         <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
         <sys_policy/>
         <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
         <sys_update_name>sys_ux_macroponent_e4ce5be81b03815093c1a685624bcb1b</sys_update_name>
         <sys_updated_by>steve.mccluskey</sys_updated_by>
-        <sys_updated_on>2022-04-21 16:01:27</sys_updated_on>
+        <sys_updated_on>2022-04-27 03:31:28</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

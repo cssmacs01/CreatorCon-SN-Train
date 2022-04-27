@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Landing 5">6531a2aa870f01105f40cbb4dabb351d</macroponent>
+        <name>Advance walk-up</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    var now_serving = api.data.look_up_queue_records_1.output.nowServing;
+    var first_serving = api.data.look_up_queue_records_1.output.firstQueue;
+
+    // First run with a Queue and no users
+    if (!now_serving && first_serving) {
+        console.log("in first if statement");
+        api.data.advance_queue.execute({
+            "first_queue": api.data.look_up_queue_records_1.output.firstQueue
+        });
+    }
+    // If there are people in queue and someone on the train
+    if (now_serving && first_serving) {
+        api.data.advance_queue.execute({
+            "now_serving": api.data.look_up_queue_records_1.output.nowServing,
+            "first_queue": api.data.look_up_queue_records_1.output.firstQueue
+        });
+    }
+    // If nobody in queue and someone on train
+    if (now_serving && !first_serving) {
+        api.data.advance_queue.execute({
+            "now_serving": api.data.look_up_queue_records_1.output.nowServing
+        });
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>steve.mccluskey</sys_created_by>
+        <sys_created_on>2022-04-27 05:00:40</sys_created_on>
+        <sys_id>fa31a2aa870f01105f40cbb4dabb35cf</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Advance walk-up</sys_name>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_update_name>sys_ux_client_script_fa31a2aa870f01105f40cbb4dabb35cf</sys_update_name>
+        <sys_updated_by>steve.mccluskey</sys_updated_by>
+        <sys_updated_on>2022-04-27 05:49:13</sys_updated_on>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

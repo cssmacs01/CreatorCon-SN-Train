@@ -25,11 +25,11 @@ function handler({
             mid_param = "train_mid2";
             train = "Train 2"
             break;
-        case "d85025468736c550a34aecad3fbb3549": // New York
+        case "d85025468736c550a34aecad3fbb3549": // Las Vegas
             mid_param = "train_mid1";
             train = "Train 1"
             break;
-        case "f620e9068736c550a34aecad3fbb35b1": // Las Vegas
+        case "f620e9068736c550a34aecad3fbb35b1": // New York
             mid_param = "train_mid1";
             train = "Train 1"
             break;
@@ -41,7 +41,7 @@ function handler({
             mid_param = "train_mid1";
             train = "Train 1"
     }
-
+    
     api.data.train_control_api_1.execute({
         train: train, //this needs be dynamic based on roles of the walk-up user
         stop: "3",
@@ -55,14 +55,14 @@ function handler({
         <sys_created_by>roxana</sys_created_by>
         <sys_created_on>2022-04-21 00:14:39</sys_created_on>
         <sys_id>1636aea41b8b415093c1a685624bcb48</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Train Stop 2</sys_name>
         <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
         <sys_policy/>
         <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
         <sys_update_name>sys_ux_client_script_1636aea41b8b415093c1a685624bcb48</sys_update_name>
         <sys_updated_by>steve.mccluskey</sys_updated_by>
-        <sys_updated_on>2022-04-21 15:22:09</sys_updated_on>
+        <sys_updated_on>2022-04-25 16:02:39</sys_updated_on>
         <type/>
     </sys_ux_client_script>
 </record_update>

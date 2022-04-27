@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="canvas_user" name="canvas_user">8536f54bc713330072b211d4d8c26080</contains>
+        <role display_value="x_snc_creatorcon_0.sydney" name="x_snc_creatorcon_0.sydney">98ef91068736c550a34aecad3fbb35a4</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>steve.mccluskey</sys_created_by>
+        <sys_created_on>2022-04-25 05:42:17</sys_created_on>
+        <sys_id>4d979802870305505f40cbb4dabb35eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>canvas_user.x_snc_creatorcon_0.sydney</sys_name>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_update_name>sys_user_role_contains_4d979802870305505f40cbb4dabb35eb</sys_update_name>
+        <sys_updated_by>steve.mccluskey</sys_updated_by>
+        <sys_updated_on>2022-04-25 05:42:17</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

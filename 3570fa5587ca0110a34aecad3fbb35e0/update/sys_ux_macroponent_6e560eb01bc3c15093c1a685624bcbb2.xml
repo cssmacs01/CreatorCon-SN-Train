@@ -6,7 +6,32 @@
         <composition>[ {
   "elementId" : "container_1",
   "elementLabel" : "Container 1",
-  "propertyValues" : { },
+  "propertyValues" : {
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
   "eventMappings" : [ ],
   "slot" : "Main",
   "definition" : {
@@ -18,6 +43,7 @@
     "layout" : {
       "default" : {
         "children" : null,
+        "isInline" : null,
         "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
         "root" : null,
         "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
@@ -31,14 +57,40 @@
     "type" : "JSON_LITERAL",
     "value" : ""
   },
+  "isHero" : false,
   "isNonDestructive" : false,
   "styles" : {
     "width" : "100%"
   }
 }, {
-  "elementId" : "container_2",
-  "elementLabel" : "Container 2",
-  "propertyValues" : { },
+  "elementId" : "container_7",
+  "elementLabel" : "Container 7",
+  "propertyValues" : {
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
   "eventMappings" : [ ],
   "slot" : "Main",
   "definition" : {
@@ -50,29 +102,55 @@
     "layout" : {
       "default" : {
         "children" : null,
-        "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
+        "isInline" : null,
+        "items" : [{"slotName":"default-slot","styles":{"flex-direction":"column"}}],
         "root" : null,
-        "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
-        "styles" : null,
+        "rules" : null,
+        "styles" : {"flex-direction":"column"},
         "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
         "type" : "flex"
-      }
+      },
+      "version" : "2.0.0"
     }
   },
   "isHidden" : {
     "type" : "JSON_LITERAL",
-    "value" : ""
+    "value" : null
   },
+  "isHero" : false,
   "isNonDestructive" : false,
   "styles" : {
-    "width" : "100%",
-    "padding-bottom" : "20px",
-    "padding-left" : "50px"
+    "width" : "100%"
   }
 }, {
-  "elementId" : "container_3",
-  "elementLabel" : "Container 3",
-  "propertyValues" : { },
+  "elementId" : "container_8",
+  "elementLabel" : "Container 8",
+  "propertyValues" : {
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
   "eventMappings" : [ ],
   "slot" : "Main",
   "definition" : {
@@ -81,9 +159,34 @@
   },
   "overrides" : {
     "composition" : [ {
-      "elementId" : "container_4",
-      "elementLabel" : "Container 4",
-      "propertyValues" : { },
+      "elementId" : "container_9",
+      "elementLabel" : "Container 9",
+      "propertyValues" : {
+        "ariaRegionName" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "",
+            "comment" : ""
+          }
+        },
+        "includeAriaHeading" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "ariaRegionHeadingLevel" : {
+          "type" : "JSON_LITERAL",
+          "value" : "1"
+        },
+        "type" : {
+          "type" : "JSON_LITERAL",
+          "value" : "section"
+        },
+        "ariaRole" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        }
+      },
       "eventMappings" : [ ],
       "slot" : "Main",
       "definition" : {
@@ -92,9 +195,152 @@
       },
       "overrides" : {
         "composition" : [ {
-          "elementId" : "container_7",
-          "elementLabel" : "Container 7",
-          "propertyValues" : { },
+          "elementId" : "button_iconic_1",
+          "elementLabel" : "Button iconic 1",
+          "propertyValues" : {
+            "icon" : {
+              "type" : "JSON_LITERAL",
+              "value" : "circle-next-fill"
+            },
+            "variant" : {
+              "type" : "JSON_LITERAL",
+              "value" : "primary"
+            },
+            "size" : {
+              "type" : "JSON_LITERAL",
+              "value" : "lg"
+            },
+            "bare" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "disabled" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "hidePadding" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "highContrast" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "tooltipContent" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "Enter a label",
+                "comment" : ""
+              }
+            },
+            "configAria" : {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "aria-label" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "code" : null,
+                    "message" : "Search",
+                    "comment" : ""
+                  }
+                }
+              }
+            }
+          },
+          "eventMappings" : [ {
+            "eventMappingId" : "clccjjbtexjaaaaccdddgiiaymjakjjak",
+            "isConfiguration" : false,
+            "offRowStorageId" : null,
+            "sourceEventApiName" : "sn_button.NOW_BUTTON_ICONIC#CLICKED",
+            "sourceEventCorrelationId" : null,
+            "sourceEventDefinition" : {
+              "apiName" : "sn_button.NOW_BUTTON_ICONIC#CLICKED",
+              "id" : null,
+              "type" : "UXEVENT"
+            },
+            "sourceEventSysId" : null,
+            "targets" : [ {
+              "broker" : null,
+              "clientScript" : {
+                "sysId" : "fd01363887c701505f40cbb4dabb3502"
+              },
+              "conditional" : null,
+              "declarativeAction" : null,
+              "event" : null,
+              "operation" : null,
+              "targetId" : "clccjjetjebbaaaahhkddgggzuggwgffceea",
+              "type" : "CLIENT_SCRIPT"
+            }, {
+              "broker" : null,
+              "clientScript" : null,
+              "conditional" : null,
+              "declarativeAction" : null,
+              "event" : {
+                "apiName" : "x_snc_creatorcon_0.NAV_ITEM_SELECTED_RELAY_6e560eb01bc3c15093c1a685624bcbb2",
+                "payload" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "route" : "landing-1",
+                    "fields" : null,
+                    "params" : null,
+                    "redirect" : null,
+                    "passiveNavigation" : null,
+                    "title" : null,
+                    "multiInstField" : null,
+                    "targetRoute" : null,
+                    "external" : null
+                  }
+                },
+                "sysId" : "e82e1630874f4990a34aecad3fbb3552"
+              },
+              "operation" : null,
+              "targetId" : "clccjjetrupaaaahhyddgggzriiibbbbffno",
+              "type" : "EVENT"
+            } ]
+          } ],
+          "slot" : "Sidebar 1",
+          "definition" : {
+            "id" : "844d56291d91b330f2269558e3f47701",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isHero" : false,
+          "isNonDestructive" : false,
+          "styles" : { }
+        }, {
+          "elementId" : "container_4",
+          "elementLabel" : "Container 4",
+          "propertyValues" : {
+            "ariaRegionName" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "",
+                "comment" : ""
+              }
+            },
+            "includeAriaHeading" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "ariaRegionHeadingLevel" : {
+              "type" : "JSON_LITERAL",
+              "value" : "1"
+            },
+            "type" : {
+              "type" : "JSON_LITERAL",
+              "value" : "section"
+            },
+            "ariaRole" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            }
+          },
           "eventMappings" : [ ],
           "slot" : "Main",
           "definition" : {
@@ -103,23 +349,53 @@
           },
           "overrides" : {
             "composition" : [ {
-              "elementId" : "stylized_text_1",
-              "elementLabel" : "Stylized text 1",
+              "elementId" : "rich_text_2",
+              "elementLabel" : "Rich text 2",
+              "propertyValues" : {
+                "html" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "code" : null,
+                    "message" : "&lt;p&gt;&lt;span style=\"font-size: 24pt;\"&gt;CURRENT PASSENGER:&lt;/span&gt;&lt;/p&gt;",
+                    "comment" : ""
+                  }
+                }
+              },
+              "eventMappings" : [ ],
+              "slot" : "Main",
+              "definition" : {
+                "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+                "type" : "MACROPONENT"
+              },
+              "overrides" : null,
+              "isHidden" : {
+                "type" : "JSON_LITERAL",
+                "value" : ""
+              },
+              "isHero" : false,
+              "isNonDestructive" : false,
+              "styles" : {
+                "padding-right" : "20px"
+              }
+            }, {
+              "elementId" : "stylized_text_2",
+              "elementLabel" : "Stylized text 2",
               "propertyValues" : {
                 "text" : {
                   "type" : "CLIENT_TRANSFORM_SCRIPT",
                   "script" : {
-                    "apiVersion" : "1.0.0",
-                    "inlineScript" : "/**\n  * @param {params} params\n  * @param {api} params.api\n  * @param {any} params.imports\n  */\nfunction evaluateProperty({api}) {\n\t\tvar msg = \"Current experience tailored for: \";\n  var name = api.context.props.name;\n\n  if (name == null){\n    name = \"Nobody is being served\";\n  }\n\n  return(msg + name);\n}"
+                    "apiVersion" : "2.0.0",
+                    "inlineScript" : null,
+                    "scriptSysId" : "80657ef887c701505f40cbb4dabb3500"
                   }
                 },
                 "tag" : {
                   "type" : "JSON_LITERAL",
-                  "value" : "h2"
+                  "value" : "h3"
                 },
                 "css" : {
                   "type" : "JSON_LITERAL",
-                  "value" : "* {\n \n    font-weight: normal;\n\n    \n}"
+                  "value" : "* {\n    font-weight: normal;\n    color: #009156;\n}"
                 }
               },
               "eventMappings" : [ ],
@@ -131,213 +407,89 @@
               "overrides" : null,
               "isHidden" : {
                 "type" : "JSON_LITERAL",
-                "value" : ""
+                "value" : null
               },
-              "isNonDestructive" : false,
-              "styles" : { }
-            }, {
-              "elementId" : "button_iconic_1",
-              "elementLabel" : "Button iconic 1",
-              "propertyValues" : {
-                "icon" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "circle-next-fill"
-                },
-                "variant" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "primary"
-                },
-                "size" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "lg"
-                },
-                "bare" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : false
-                },
-                "disabled" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : false
-                },
-                "hidePadding" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : false
-                },
-                "highContrast" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : false
-                },
-                "tooltipContent" : {
-                  "type" : "TRANSLATION_LITERAL",
-                  "value" : {
-                    "message" : "Enter a label",
-                    "comment" : ""
-                  }
-                },
-                "configAria" : {
-                  "type" : "MAP_CONTAINER",
-                  "container" : {
-                    "aria-label" : {
-                      "type" : "TRANSLATION_LITERAL",
-                      "value" : {
-                        "message" : "Search",
-                        "comment" : ""
-                      }
-                    }
-                  }
-                }
-              },
-              "eventMappings" : [ {
-                "eventMappingId" : "clccjjbtexjaaaaccdddgiiaymjakjjak",
-                "isConfiguration" : false,
-                "offRowStorageId" : null,
-                "sourceEventApiName" : "sn_button.NOW_BUTTON_ICONIC#CLICKED",
-                "sourceEventCorrelationId" : null,
-                "sourceEventDefinition" : {
-                  "apiName" : "sn_button.NOW_BUTTON_ICONIC#CLICKED",
-                  "id" : null,
-                  "type" : "UXEVENT"
-                },
-                "sourceEventSysId" : null,
-                "targets" : [ {
-                  "broker" : null,
-                  "clientScript" : null,
-                  "declarativeAction" : null,
-                  "event" : {
-                    "apiName" : "x_snc_creatorcon_0.NAV_ITEM_SELECTED_RELAY_6e560eb01bc3c15093c1a685624bcbb2",
-                    "payload" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : {
-                        "route" : "landing-1",
-                        "fields" : null,
-                        "params" : null,
-                        "redirect" : null,
-                        "passiveNavigation" : null,
-                        "title" : null,
-                        "multiInstField" : null,
-                        "targetRoute" : null,
-                        "external" : null
-                      }
-                    },
-                    "sysId" : "e82e1630874f4990a34aecad3fbb3552"
-                  },
-                  "operation" : null,
-                  "targetId" : "clccjjbtexjaaaacceddgiiajjxnddlhdn",
-                  "type" : "EVENT"
-                } ]
-              } ],
-              "slot" : "Sidebar 1",
-              "definition" : {
-                "id" : "844d56291d91b330f2269558e3f47701",
-                "type" : "MACROPONENT"
-              },
-              "overrides" : null,
-              "isHidden" : {
-                "type" : "JSON_LITERAL",
-                "value" : ""
-              },
+              "isHero" : false,
               "isNonDestructive" : false,
               "styles" : { }
             } ],
             "layout" : {
               "default" : {
                 "children" : null,
-                "items" : [{"slotName":"Main","rules":{"flex":"2","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Sidebar 1","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
+                "isInline" : null,
+                "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"row"}}],
                 "root" : null,
                 "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
                 "styles" : null,
-                "templateId" : "1199b58153071010e6bcddeeff7b1286",
+                "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
                 "type" : "flex"
-              },
-              "version" : "2.0.0"
+              }
             }
           },
           "isHidden" : {
             "type" : "JSON_LITERAL",
             "value" : ""
           },
+          "isHero" : false,
           "isNonDestructive" : false,
           "styles" : {
-            "width" : "100%",
-            "padding-bottom" : "10px",
-            "padding-left" : "50px"
-          }
-        }, {
-          "elementId" : "rich_text_3",
-          "elementLabel" : "Rich text 3",
-          "propertyValues" : {
-            "html" : {
-              "type" : "JSON_LITERAL",
-              "value" : "&lt;p&gt;&lt;span style=\"font-size: 36pt;\"&gt;&lt;strong&gt;The Creator Workflow Train Experience&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;"
-            }
-          },
-          "eventMappings" : [ ],
-          "slot" : "Main",
-          "definition" : {
-            "id" : "2d56f06d55f46bbd4e79b5e624beb940",
-            "type" : "MACROPONENT"
-          },
-          "overrides" : null,
-          "isHidden" : {
-            "type" : "JSON_LITERAL",
-            "value" : ""
-          },
-          "isNonDestructive" : false,
-          "styles" : {
-            "padding-right" : "150px",
-            "padding-left" : "50px",
-            "color" : "#009156"
-          }
-        }, {
-          "elementId" : "rich_text_2",
-          "elementLabel" : "Rich text 2",
-          "propertyValues" : {
-            "html" : {
-              "type" : "JSON_LITERAL",
-              "value" : "&lt;p&gt;&lt;span style=\"font-size: 24pt;\"&gt;&lt;strong&gt;Welcome Passengers!&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;"
-            }
-          },
-          "eventMappings" : [ ],
-          "slot" : "Main",
-          "definition" : {
-            "id" : "2d56f06d55f46bbd4e79b5e624beb940",
-            "type" : "MACROPONENT"
-          },
-          "overrides" : null,
-          "isHidden" : {
-            "type" : "JSON_LITERAL",
-            "value" : ""
-          },
-          "isNonDestructive" : false,
-          "styles" : {
-            "padding-right" : "50px",
-            "padding-left" : "50px"
+            "width" : "100%"
           }
         } ],
         "layout" : {
           "default" : {
             "children" : null,
-            "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
+            "isInline" : null,
+            "items" : [{"slotName":"Main","rules":{"flex":"2","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Sidebar 1","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
             "root" : null,
             "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
             "styles" : null,
-            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+            "templateId" : "1199b58153071010e6bcddeeff7b1286",
             "type" : "flex"
-          }
+          },
+          "version" : "2.0.0"
         }
       },
       "isHidden" : {
         "type" : "JSON_LITERAL",
-        "value" : ""
+        "value" : null
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : {
-        "width" : "100%"
+        "width" : "100%",
+        "padding-bottom" : "10px",
+        "padding-left" : "50px"
       }
     }, {
-      "elementId" : "container_6",
-      "elementLabel" : "Container 6",
-      "propertyValues" : { },
+      "elementId" : "container_10",
+      "elementLabel" : "Container 10",
+      "propertyValues" : {
+        "ariaRegionName" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "",
+            "comment" : ""
+          }
+        },
+        "includeAriaHeading" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "ariaRegionHeadingLevel" : {
+          "type" : "JSON_LITERAL",
+          "value" : "1"
+        },
+        "type" : {
+          "type" : "JSON_LITERAL",
+          "value" : "section"
+        },
+        "ariaRole" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        }
+      },
       "eventMappings" : [ ],
       "slot" : "Main",
       "definition" : {
@@ -346,16 +498,20 @@
       },
       "overrides" : {
         "composition" : [ {
-          "elementId" : "rich_text_1",
-          "elementLabel" : "Rich text 1",
+          "elementId" : "rich_text_5",
+          "elementLabel" : "Rich text 5",
           "propertyValues" : {
             "html" : {
-              "type" : "JSON_LITERAL",
-              "value" : "&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;You are about to embarque on a&amp;nbsp;&lt;/span&gt;&lt;span style=\"font-size: 24px;\"&gt;journey that takes you through our Founder Fred Luddy's vision for the company. This all starts in the 1970s and ends with present day capabilities that are carrying out that original vision. Enjoy!&lt;/span&gt;&lt;/p&gt;"
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "&lt;p&gt;&lt;span style=\"font-size: 36pt;\"&gt;&lt;strong&gt;The Creator Workflow Train Experience&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;",
+                "comment" : ""
+              }
             }
           },
           "eventMappings" : [ ],
-          "slot" : "Main",
+          "slot" : "default-slot",
           "definition" : {
             "id" : "2d56f06d55f46bbd4e79b5e624beb940",
             "type" : "MACROPONENT"
@@ -363,41 +519,110 @@
           "overrides" : null,
           "isHidden" : {
             "type" : "JSON_LITERAL",
-            "value" : ""
+            "value" : null
           },
+          "isHero" : false,
           "isNonDestructive" : false,
           "styles" : {
             "padding-right" : "150px",
+            "padding-left" : "50px",
+            "color" : "#009156"
+          }
+        }, {
+          "elementId" : "rich_text_6",
+          "elementLabel" : "Rich text 6",
+          "propertyValues" : {
+            "html" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;&lt;strong&gt;Welcome Passengers!&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;",
+                "comment" : ""
+              }
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : "default-slot",
+          "definition" : {
+            "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "isHero" : false,
+          "isNonDestructive" : false,
+          "styles" : {
+            "padding-right" : "50px",
+            "padding-left" : "50px"
+          }
+        }, {
+          "elementId" : "rich_text_7",
+          "elementLabel" : "Rich text 7",
+          "propertyValues" : {
+            "html" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;You are about to embarque on a&amp;nbsp;&lt;/span&gt;&lt;span style=\"font-size: 24px;\"&gt;journey that takes you through our Founder Fred Luddy's vision for the company. This all starts in the 1970s and ends with present day capabilities that are carrying out that original vision. Enjoy!&lt;/span&gt;&lt;/p&gt;",
+                "comment" : ""
+              }
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : "default-slot",
+          "definition" : {
+            "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "isHero" : false,
+          "isNonDestructive" : false,
+          "styles" : {
+            "padding-right" : "200px",
             "padding-left" : "50px"
           }
         } ],
         "layout" : {
           "default" : {
             "children" : null,
-            "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
+            "isInline" : null,
+            "items" : [{"slotName":"default-slot","styles":{"flex-direction":"column","display":"flex"}}],
             "root" : null,
-            "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
-            "styles" : null,
+            "rules" : null,
+            "styles" : {"flex-direction":"column"},
             "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
             "type" : "flex"
-          }
+          },
+          "version" : "2.0.0"
         }
       },
       "isHidden" : {
         "type" : "JSON_LITERAL",
-        "value" : ""
+        "value" : null
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : {
         "width" : "100%"
       }
     }, {
-      "elementId" : "image_2",
-      "elementLabel" : "Image 2",
+      "elementId" : "image_1",
+      "elementLabel" : "Image 1",
       "propertyValues" : {
         "alt" : {
-          "type" : "JSON_LITERAL",
-          "value" : ""
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "",
+            "comment" : ""
+          }
         },
         "src" : {
           "type" : "JSON_LITERAL",
@@ -425,14 +650,16 @@
       "overrides" : null,
       "isHidden" : {
         "type" : "JSON_LITERAL",
-        "value" : ""
+        "value" : null
       },
+      "isHero" : false,
       "isNonDestructive" : false,
       "styles" : { }
     } ],
     "layout" : {
       "default" : {
         "children" : null,
+        "isInline" : null,
         "items" : [{"slotName":"Sidebar 1","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Main","rules":{"flex":"2"},"styles":{"display":"flex","flex-direction":"column"}}],
         "root" : null,
         "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
@@ -445,17 +672,43 @@
   },
   "isHidden" : {
     "type" : "JSON_LITERAL",
-    "value" : ""
+    "value" : null
   },
+  "isHero" : false,
   "isNonDestructive" : false,
   "styles" : {
     "width" : "100%",
-    "padding-right" : "50px"
+    "padding-right" : "150px"
   }
 }, {
-  "elementId" : "container_8",
-  "elementLabel" : "Container 8",
-  "propertyValues" : { },
+  "elementId" : "container_2",
+  "elementLabel" : "Container 2",
+  "propertyValues" : {
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
   "eventMappings" : [ ],
   "slot" : "Main",
   "definition" : {
@@ -464,12 +717,16 @@
   },
   "overrides" : {
     "composition" : [ {
-      "elementId" : "rich_text_4",
-      "elementLabel" : "Rich text 4",
+      "elementId" : "rich_text_8",
+      "elementLabel" : "Rich text 8",
       "propertyValues" : {
         "html" : {
-          "type" : "JSON_LITERAL",
-          "value" : "&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;strong&gt;&lt;span style=\"font-size: 18pt;\"&gt;Logistics for using the application&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;1. This is an interactive story; when you move to the next station the train in front of you will move as well. Each stop will be a station in the story.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;2. We used App Engine Studio (no/low code) to build this.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;3. After you registered, you were placed in a Walk-up Experience queue which is a part of the platform.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;4. This app has the capability and intelligence to alert when something is wrong, and continue to still operate safely.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;5. When you are ready to go, click the green Next button upper-right to start the story.&lt;/span&gt;&lt;/p&gt;"
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;strong&gt;&lt;span style=\"font-size: 18pt;\"&gt;Logistics for using the application&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;1. This is an interactive story; when you move to the next station, the train in front of you moveS as well. Each stop is a station in the story.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;2. We used App Engine Studio (no/low code) to build this.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;3. After you registered, you were placed in a Walk-up Experience queue which is a part of the platform.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;4. This app has the capability and intelligence to alert when something is wrong, and continue to still operate safely.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;5. When you are ready to go, click the green Next button upper-right to start the story.&lt;/span&gt;&lt;/p&gt;",
+            "comment" : ""
+          }
         }
       },
       "eventMappings" : [ ],
@@ -481,36 +738,36 @@
       "overrides" : null,
       "isHidden" : {
         "type" : "JSON_LITERAL",
-        "value" : ""
+        "value" : null
       },
+      "isHero" : false,
       "isNonDestructive" : false,
-      "styles" : {
-        "padding-right" : "150px"
-      }
+      "styles" : { }
     } ],
     "layout" : {
       "default" : {
         "children" : null,
+        "isInline" : null,
         "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
         "root" : null,
         "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
         "styles" : null,
         "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
         "type" : "flex"
-      },
-      "version" : "2.0.0"
+      }
     }
   },
   "isHidden" : {
     "type" : "JSON_LITERAL",
     "value" : ""
   },
+  "isHero" : false,
   "isNonDestructive" : false,
   "styles" : {
     "width" : "100%",
     "padding-right" : "350px",
     "padding-left" : "60px",
-    "padding-top" : "30px"
+    "padding-top" : "10px"
   }
 } ]</composition>
         <da_relay_models/>
@@ -530,10 +787,24 @@
         <handled_events/>
         <interactions/>
         <interfaces/>
-        <internal_event_mappings>{ }</internal_event_mappings>
+        <internal_event_mappings>{
+  "MACROPONENT_READY" : [ {
+    "broker" : null,
+    "clientScript" : {
+      "sysId" : "92eb3e70870b01505f40cbb4dabb35d7"
+    },
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : null,
+    "targetId" : "clccjjghpggiiaaaahddddgggzdcccmtggiiz",
+    "type" : "CLIENT_SCRIPT"
+  } ]
+}</internal_event_mappings>
         <layout>{
   "default" : {
     "children" : null,
+    "isInline" : null,
     "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
     "root" : null,
     "rules" : {"flex-flow":"row nowrap","align-items":"stretch","min-height":"400px","height":"100%"},
@@ -554,9 +825,25 @@
   "defaultValue" : null,
   "description" : null,
   "readOnly" : false,
-  "selectable" : false
+  "selectable" : false,
+  "disabled" : false
 } ]</props>
         <required_translations>[ {
+  "message" : "&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;strong&gt;&lt;span style=\"font-size: 18pt;\"&gt;Logistics for using the application&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;1. This is an interactive story; when you move to the next station, the train in front of you moveS as well. Each stop is a station in the story.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;2. We used App Engine Studio (no/low code) to build this.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;3. After you registered, you were placed in a Walk-up Experience queue which is a part of the platform.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;4. This app has the capability and intelligence to alert when something is wrong, and continue to still operate safely.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;5. When you are ready to go, click the green Next button upper-right to start the story.&lt;/span&gt;&lt;/p&gt;",
+  "comment" : ""
+}, {
+  "message" : "&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;&lt;strong&gt;Welcome Passengers!&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;",
+  "comment" : ""
+}, {
+  "message" : "&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;You are about to embarque on a&amp;nbsp;&lt;/span&gt;&lt;span style=\"font-size: 24px;\"&gt;journey that takes you through our Founder Fred Luddy's vision for the company. This all starts in the 1970s and ends with present day capabilities that are carrying out that original vision. Enjoy!&lt;/span&gt;&lt;/p&gt;",
+  "comment" : ""
+}, {
+  "message" : "&lt;p&gt;&lt;span style=\"font-size: 24pt;\"&gt;CURRENT PASSENGER:&lt;/span&gt;&lt;/p&gt;",
+  "comment" : ""
+}, {
+  "message" : "&lt;p&gt;&lt;span style=\"font-size: 36pt;\"&gt;&lt;strong&gt;The Creator Workflow Train Experience&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;",
+  "comment" : ""
+}, {
   "message" : "Enter a label",
   "comment" : ""
 }, {
@@ -567,18 +854,32 @@
         <root_component_config>{ }</root_component_config>
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
-        <state_properties>[ ]</state_properties>
+        <state_properties>[ {
+  "name" : "name",
+  "label" : "name",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "CONTEXT_BINDING",
+    "binding" : {
+      "address" : [ "name" ],
+      "category" : "props"
+    }
+  }
+} ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>roxana</sys_created_by>
         <sys_created_on>2022-04-21 16:33:52</sys_created_on>
         <sys_id>6e560eb01bc3c15093c1a685624bcbb2</sys_id>
-        <sys_mod_count>59</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
         <sys_policy/>
         <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
         <sys_update_name>sys_ux_macroponent_6e560eb01bc3c15093c1a685624bcbb2</sys_update_name>
-        <sys_updated_by>roxana</sys_updated_by>
-        <sys_updated_on>2022-04-22 13:59:57</sys_updated_on>
+        <sys_updated_by>steve.mccluskey</sys_updated_by>
+        <sys_updated_on>2022-04-24 04:22:08</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

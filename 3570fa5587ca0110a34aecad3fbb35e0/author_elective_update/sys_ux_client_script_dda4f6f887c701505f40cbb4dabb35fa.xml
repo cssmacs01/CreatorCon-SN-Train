@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Home">6e560eb01bc3c15093c1a685624bcbb2</macroponent>
+        <name>stylized_text_1_text</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.imports
+ */
+function evaluateProperty({
+    api
+}) {
+    var msg = "Current experience tailored for: ";
+    var name = api.context.props.name;
+
+    if (name == null) {
+        name = "Nobody is being served";
+    }
+
+    return (msg + name);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>steve.mccluskey</sys_created_by>
+        <sys_created_on>2022-04-21 19:56:07</sys_created_on>
+        <sys_id>dda4f6f887c701505f40cbb4dabb35fa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>stylized_text_1_text</sys_name>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_update_name>sys_ux_client_script_dda4f6f887c701505f40cbb4dabb35fa</sys_update_name>
+        <sys_updated_by>steve.mccluskey</sys_updated_by>
+        <sys_updated_on>2022-04-21 19:57:13</sys_updated_on>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</application>
+        <file_path/>
+        <instance_id>cf0198e7dbea41100ae3ac44d4961931</instance_id>
+        <instance_name>cctrain</instance_name>
+        <name>sys_ux_client_script_dda4f6f887c701505f40cbb4dabb35fa</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Home"&gt;6e560eb01bc3c15093c1a685624bcbb2&lt;/macroponent&gt;&lt;name&gt;stylized_text_1_text&lt;/name&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.imports
+ */
+function evaluateProperty({
+    api
+}) {
+    var msg = "Current experience tailored for: ";
+    var name = api.context.props.name;
+
+    if (name == null) {
+        name = "Nobody is being served";
+    }
+
+    return (msg + name);
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;steve.mccluskey&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-04-21 19:56:07&lt;/sys_created_on&gt;&lt;sys_id&gt;dda4f6f887c701505f40cbb4dabb35fa&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;stylized_text_1_text&lt;/sys_name&gt;&lt;sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0"&gt;3570fa5587ca0110a34aecad3fbb35e0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CreatorCon 22 - SN Train"&gt;3570fa5587ca0110a34aecad3fbb35e0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_dda4f6f887c701505f40cbb4dabb35fa&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;steve.mccluskey&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-04-21 19:57:13&lt;/sys_updated_on&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-427860929</payload_hash>
+        <record_name>stylized_text_1_text</record_name>
+        <reverted_from/>
+        <source>0d475b20870fcd105f40cbb4dabb359d</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>steve.mccluskey</sys_created_by>
+        <sys_created_on>2022-04-21 19:57:13</sys_created_on>
+        <sys_id>d9e4367887c701505f40cbb4dabb351b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1804db33ba60000001</sys_recorded_at>
+        <sys_updated_by>steve.mccluskey</sys_updated_by>
+        <sys_updated_on>2022-04-21 19:57:13</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>91e4367815c701506a85c3f500319a1b</update_guid>
+        <update_guid_history>91e4367815c701506a85c3f500319a1b:-427860929,15a4f6f8bac70150051d9bc9960944fd:-1452877095</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>steve.mccluskey</sys_created_by>
+        <sys_created_on>2022-04-21 20:22:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>0c0eaaf1b8b946e68237d0bcc86506d1</sys_id>
+        <sys_metadata>dda4f6f887c701505f40cbb4dabb35fa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>stylized_text_1_text</sys_name>
+        <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
+        <sys_scope_delete display_value="">7a3de565527e4f7e88b00d50362e19e9</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_dda4f6f887c701505f40cbb4dabb35fa</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_dda4f6f887c701505f40cbb4dabb35fa">d9e4367887c701505f40cbb4dabb351b</sys_update_version>
+        <sys_updated_by>steve.mccluskey</sys_updated_by>
+        <sys_updated_on>2022-04-21 20:22:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
