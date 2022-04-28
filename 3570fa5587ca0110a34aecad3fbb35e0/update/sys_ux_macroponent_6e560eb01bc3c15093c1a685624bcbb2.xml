@@ -724,7 +724,7 @@
           "type" : "TRANSLATION_LITERAL",
           "value" : {
             "code" : null,
-            "message" : "&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;strong&gt;&lt;span style=\"font-size: 18pt;\"&gt;Logistics for using the application&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;1. This is an interactive story; when you move to the next station, the train in front of you moveS as well. Each stop is a station in the story.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;2. We used App Engine Studio (no/low code) to build this.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;3. After you registered, you were placed in a Walk-up Experience queue which is a part of the platform.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;4. This app has the capability and intelligence to alert when something is wrong, and continue to still operate safely.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;5. When you are ready to go, click the green Next button upper-right to start the story.&lt;/span&gt;&lt;/p&gt;",
+            "message" : "&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;strong&gt;&lt;span style=\"font-size: 18pt;\"&gt;Logistics for using the application&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;1. This is an interactive story; when you move to the next station, the train in front of you moves as well. Each stop is a station in the story.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;2. We used App Engine Studio (no/low code) to build this.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;3. After you registered, you were placed in a Walk-up Experience queue which is a part of the platform.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;4. This app has the capability and intelligence to alert when something is wrong, and continue to still operate safely.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;5. When you are ready to go, click the green Next button upper-right to start the story.&lt;/span&gt;&lt;/p&gt;",
             "comment" : ""
           }
         }
@@ -829,7 +829,7 @@
   "disabled" : false
 } ]</props>
         <required_translations>[ {
-  "message" : "&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;strong&gt;&lt;span style=\"font-size: 18pt;\"&gt;Logistics for using the application&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;1. This is an interactive story; when you move to the next station, the train in front of you moveS as well. Each stop is a station in the story.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;2. We used App Engine Studio (no/low code) to build this.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;3. After you registered, you were placed in a Walk-up Experience queue which is a part of the platform.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;4. This app has the capability and intelligence to alert when something is wrong, and continue to still operate safely.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;5. When you are ready to go, click the green Next button upper-right to start the story.&lt;/span&gt;&lt;/p&gt;",
+  "message" : "&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;strong&gt;&lt;span style=\"font-size: 18pt;\"&gt;Logistics for using the application&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;1. This is an interactive story; when you move to the next station, the train in front of you moves as well. Each stop is a station in the story.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;2. We used App Engine Studio (no/low code) to build this.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;3. After you registered, you were placed in a Walk-up Experience queue which is a part of the platform.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;4. This app has the capability and intelligence to alert when something is wrong, and continue to still operate safely.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;5. When you are ready to go, click the green Next button upper-right to start the story.&lt;/span&gt;&lt;/p&gt;",
   "comment" : ""
 }, {
   "message" : "&lt;p&gt;&lt;span style=\"font-size: 18pt;\"&gt;&lt;strong&gt;Welcome Passengers!&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;",
@@ -862,24 +862,21 @@
   "shape" : "",
   "description" : "",
   "initialValue" : {
-    "type" : "CONTEXT_BINDING",
-    "binding" : {
-      "address" : [ "name" ],
-      "category" : "props"
-    }
+    "type" : "JSON_LITERAL",
+    "value" : "Nobody is being served"
   }
 } ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>roxana</sys_created_by>
         <sys_created_on>2022-04-21 16:33:52</sys_created_on>
         <sys_id>6e560eb01bc3c15093c1a685624bcbb2</sys_id>
-        <sys_mod_count>46</sys_mod_count>
+        <sys_mod_count>48</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="CreatorCon 22 - SN Train" source="x_snc_creatorcon_0">3570fa5587ca0110a34aecad3fbb35e0</sys_package>
         <sys_policy/>
         <sys_scope display_value="CreatorCon 22 - SN Train">3570fa5587ca0110a34aecad3fbb35e0</sys_scope>
         <sys_update_name>sys_ux_macroponent_6e560eb01bc3c15093c1a685624bcbb2</sys_update_name>
         <sys_updated_by>steve.mccluskey</sys_updated_by>
-        <sys_updated_on>2022-04-24 04:22:08</sys_updated_on>
+        <sys_updated_on>2022-04-27 20:24:25</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
